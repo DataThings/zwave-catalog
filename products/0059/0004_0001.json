@@ -1,0 +1,1 @@
+{"commandClasses":[{"id":"67","base":"1"}],"parameters":[{"parameterItems":[],"instance":1,"min":0,"max":0,"genre":"user","index":1,"label":"Heating 1","units":"C","type":"decimal","value":"0.0"},{"parameterItems":[],"instance":1,"min":0,"max":0,"genre":"user","index":13,"label":"Away Temperature","units":"C","type":"decimal","value":"0.0"}],"groups":{}}

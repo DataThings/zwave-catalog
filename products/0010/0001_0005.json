@@ -1,0 +1,1 @@
+{"commandClasses":[{"name":"COMMAND_CLASS_ASSOCIATION","create_vars":"true","id":"133","version":"1","request_flags":"4"},{"name":"COMMAND_CLASS_THERMOSTAT_SETPOINT","id":"67","base":"0"},{"id":"112"}],"parameters":[{"parameterItems":[],"genre":"config","index":23,"label":"Autosend enable","type":"short"}],"groups":{}}

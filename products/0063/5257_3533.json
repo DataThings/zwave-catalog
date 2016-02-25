@@ -1,0 +1,1 @@
+{"commandClasses":[{"id":"112"}],"parameters":[{"parameterItems":[{"label":"No","value":"0"},{"label":"Yes","value":"1"}],"size":1,"genre":"config","index":3,"label":"Night Light","type":"list","value":"0"},{"parameterItems":[{"label":"No","value":"0"},{"label":"Yes","value":"1"}],"size":1,"genre":"config","index":4,"label":"Invert Switch","type":"list","value":"0"}],"groups":{}}

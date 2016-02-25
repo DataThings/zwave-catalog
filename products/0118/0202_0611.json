@@ -1,0 +1,1 @@
+{"commandClasses":[{"id":"112"}],"parameters":[{"parameterItems":[{"label":"Blue Indicator Off","value":"0"},{"label":"Blue Indicator On","value":"1"}],"instance":1,"size":1,"genre":"config","index":1,"label":"LED-Behaviour","type":"list","value":"0"}],"groups":{}}

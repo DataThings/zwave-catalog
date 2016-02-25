@@ -1,0 +1,1 @@
+{"commandClasses":[{"id":"112"},{"id":"32","setasreport":"true"},{"mapping":"endpoints","id":"96"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"Disabled","value":"0"},{"label":"Enabled","value":"1"}],"instance":1,"size":1,"genre":"config","index":1,"label":"Saving state before power failure","type":"list","value":"1"}],"groups":{}}

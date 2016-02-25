@@ -1,0 +1,1 @@
+{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"Disabled","value":"0"},{"label":"Switch off only","value":"1"},{"label":"Switch on only","value":"2"},{"label":"Fully enabled (Default)","value":"255"}],"instance":1,"min":0,"size":1,"max":255,"genre":"config","index":1,"label":"Switch All","type":"list","value":"255"}],"groups":{}}

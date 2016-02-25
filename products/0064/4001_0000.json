@@ -1,0 +1,1 @@
+{"commandClasses":[{"id":"112"}],"parameters":[{"parameterItems":[],"genre":"config","index":0,"label":"Running time","type":"short"},{"parameterItems":[{"label":"Disabled","value":"0"},{"label":"Enabled (default)","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":1,"label":"Stop-functionality","type":"list","value":"1"}],"groups":{}}

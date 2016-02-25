@@ -1,0 +1,1 @@
+{"commandClasses":[{"action":"add","scenecount":"16","id":"91"},{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[],"instance":1,"genre":"config","index":1,"label":"Set to Default","type":"byte","value":"-1"},{"parameterItems":[],"instance":1,"genre":"config","index":16,"label":"Double press time","type":"byte","value":"20"}],"groups":{}}
