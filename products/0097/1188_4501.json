@@ -1,1 +1,82 @@
-{"commandClasses":[{"id":"112"}],"parameters":[{"parameterItems":[{"label":"Keep current config","value":"0"},{"label":"Reset to factory Default","value":"1"}],"instance":1,"size":1,"genre":"config","index":1,"label":"1. Reset to factory Default","type":"list","value":"0"},{"parameterItems":[{"label":"Alarm Report Type 2(default)","value":"0"},{"label":"Basic On or Basic OFF","value":"1"}],"instance":1,"size":1,"genre":"config","index":2,"label":"2. Commands sent on external dry contact","type":"list","value":"0"},{"parameterItems":[{"label":"Normal Wakeup (default)","value":"0"},{"label":"Always awake","value":"3"}],"instance":1,"size":1,"genre":"config","index":5,"label":"5. Operating Mode","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":6,"label":"6. Temperature Offset","type":"short","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Keep current config",
+          "value": "0"
+        },
+        {
+          "label": "Reset to factory Default",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 1,
+      "label": "1. Reset to factory Default",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Alarm Report Type 2(default)",
+          "value": "0"
+        },
+        {
+          "label": "Basic On or Basic OFF",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 2,
+      "label": "2. Commands sent on external dry contact",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Normal Wakeup (default)",
+          "value": "0"
+        },
+        {
+          "label": "Always awake",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 5,
+      "label": "5. Operating Mode",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 6,
+      "label": "6. Temperature Offset",
+      "type": "short",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

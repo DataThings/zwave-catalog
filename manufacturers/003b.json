@@ -1,1 +1,14 @@
-[{"name":"FE599GR Wireless Door Lock","id":"504c","type":"634b","pictureUrl":"pictures/003b/634b_504c.png"},{"name":"BE469NXCEN Touchscreen DeadBolt","id":"5044","type":"6341","pictureUrl":"pictures/003b/6341_5044.png"}]
+[
+  {
+    "name": "FE599GR Wireless Door Lock",
+    "id": "504c",
+    "type": "634b",
+    "pictureUrl": "pictures/003b/634b_504c.png"
+  },
+  {
+    "name": "BE469NXCEN Touchscreen DeadBolt",
+    "id": "5044",
+    "type": "6341",
+    "pictureUrl": "pictures/003b/6341_5044.png"
+  }
+]

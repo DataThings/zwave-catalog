@@ -1,1 +1,8 @@
-[{"name":"ES 861 Temperature Sensor","id":"035D","type":"0002","pictureUrl":"pictures/0071/0002_035D.png"}]
+[
+  {
+    "name": "ES 861 Temperature Sensor",
+    "id": "035D",
+    "type": "0002",
+    "pictureUrl": "pictures/0071/0002_035D.png"
+  }
+]

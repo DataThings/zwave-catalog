@@ -1,1 +1,20 @@
-[{"name":"Model TZEMT400AB32MAA","id":"5431","type":"5452","pictureUrl":"pictures/008b/5452_5431.png"},{"name":"Model TZEMT400BB32MAA","id":"5433","type":"5452","pictureUrl":"pictures/008b/5452_5433.png"},{"name":"Model TZEMT400BB32MAA","id":"5436","type":"5452","pictureUrl":"pictures/008b/5452_5436.png"}]
+[
+  {
+    "name": "Model TZEMT400AB32MAA",
+    "id": "5431",
+    "type": "5452",
+    "pictureUrl": "pictures/008b/5452_5431.png"
+  },
+  {
+    "name": "Model TZEMT400BB32MAA",
+    "id": "5433",
+    "type": "5452",
+    "pictureUrl": "pictures/008b/5452_5433.png"
+  },
+  {
+    "name": "Model TZEMT400BB32MAA",
+    "id": "5436",
+    "type": "5452",
+    "pictureUrl": "pictures/008b/5452_5436.png"
+  }
+]

@@ -1,1 +1,32 @@
-[{"name":"CT30 Thermostat","id":"015c","type":"1e12","pictureUrl":"pictures/0098/1e12_015c.png"},{"name":"CT30 Thermostat","id":"015e","type":"1e12","pictureUrl":"pictures/0098/1e12_015e.png"},{"name":"CT100 Thermostat","id":"0105","type":"6401","pictureUrl":"pictures/0098/6401_0105.png"},{"name":"CT100 Thermostat USA","id":"0107","type":"6401","pictureUrl":"pictures/0098/6401_0107.png"},{"name":"CT101 Thermostat (Iris)","id":"000c","type":"6501","pictureUrl":"pictures/0098/6501_000c.png"}]
+[
+  {
+    "name": "CT30 Thermostat",
+    "id": "015c",
+    "type": "1e12",
+    "pictureUrl": "pictures/0098/1e12_015c.png"
+  },
+  {
+    "name": "CT30 Thermostat",
+    "id": "015e",
+    "type": "1e12",
+    "pictureUrl": "pictures/0098/1e12_015e.png"
+  },
+  {
+    "name": "CT100 Thermostat",
+    "id": "0105",
+    "type": "6401",
+    "pictureUrl": "pictures/0098/6401_0105.png"
+  },
+  {
+    "name": "CT100 Thermostat USA",
+    "id": "0107",
+    "type": "6401",
+    "pictureUrl": "pictures/0098/6401_0107.png"
+  },
+  {
+    "name": "CT101 Thermostat (Iris)",
+    "id": "000c",
+    "type": "6501",
+    "pictureUrl": "pictures/0098/6501_000c.png"
+  }
+]

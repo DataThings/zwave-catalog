@@ -1,1 +1,94 @@
-{"commandClasses":[{"id":"112"},{"id":"32","setasreport":"true"},{"id":"133"}],"parameters":[{"parameterItems":[],"min":0,"max":99,"genre":"config","index":1,"label":"Basic Set Level","type":"byte","value":"99"},{"parameterItems":[],"min":0,"max":3,"genre":"config","index":2,"label":"Enable/Disable Detecting","type":"bool","value":"1"},{"parameterItems":[],"min":1,"max":10,"genre":"config","index":3,"label":"Sensitivity Level","type":"byte","value":"6"},{"parameterItems":[],"min":5,"max":3600,"genre":"config","index":4,"label":"Re-trigger Interval Setting","units":"Seconds","type":"byte","value":"180"},{"parameterItems":[],"min":1,"max":100,"genre":"config","index":5,"label":"Lux Level","units":"%","type":"byte","value":"10"},{"parameterItems":[],"min":5,"max":3600,"genre":"config","index":6,"label":"On-Off Duration","units":"Seconds","type":"byte","value":"15"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "32",
+      "setasreport": "true"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 99,
+      "genre": "config",
+      "index": 1,
+      "label": "Basic Set Level",
+      "type": "byte",
+      "value": "99"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 3,
+      "genre": "config",
+      "index": 2,
+      "label": "Enable/Disable Detecting",
+      "type": "bool",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 1,
+      "max": 10,
+      "genre": "config",
+      "index": 3,
+      "label": "Sensitivity Level",
+      "type": "byte",
+      "value": "6"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 5,
+      "max": 3600,
+      "genre": "config",
+      "index": 4,
+      "label": "Re-trigger Interval Setting",
+      "units": "Seconds",
+      "type": "byte",
+      "value": "180"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 1,
+      "max": 100,
+      "genre": "config",
+      "index": 5,
+      "label": "Lux Level",
+      "units": "%",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 5,
+      "max": 3600,
+      "genre": "config",
+      "index": 6,
+      "label": "On-Off Duration",
+      "units": "Seconds",
+      "type": "byte",
+      "value": "15"
+    }
+  ],
+  "groups": {
+    
+  }
+}

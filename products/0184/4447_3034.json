@@ -1,1 +1,52 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[],"min":0,"max":1,"genre":"config","index":4,"label":"Orientation","type":"byte","value":"0"},{"parameterItems":[],"min":1,"max":99,"genre":"config","index":9,"label":"Levels","type":"byte","value":"1"},{"parameterItems":[],"min":1,"max":255,"genre":"config","index":10,"label":"duration","units":"10 ms","type":"byte","value":"3"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 1,
+      "genre": "config",
+      "index": 4,
+      "label": "Orientation",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 1,
+      "max": 99,
+      "genre": "config",
+      "index": 9,
+      "label": "Levels",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 10,
+      "label": "duration",
+      "units": "10 ms",
+      "type": "byte",
+      "value": "3"
+    }
+  ],
+  "groups": {
+    
+  }
+}

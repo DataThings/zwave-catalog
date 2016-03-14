@@ -1,1 +1,569 @@
-{"commandClasses":[{"id":"112"},{"id":"32","setasreport":"true"},{"id":"133"}],"parameters":[{"parameterItems":[],"instance":1,"min":0,"max":255,"genre":"config","index":1,"label":"Motion sensor's sensitivity","type":"byte","value":"10"},{"parameterItems":[],"instance":1,"min":0,"max":15,"genre":"config","index":2,"label":"Motion sensor's blind time (insensitivity)","type":"byte","value":"15"},{"parameterItems":[{"label":"1 pulse","value":"0"},{"label":"2 pulses","value":"1"},{"label":"3 pulses","value":"2"},{"label":"4 pulses","value":"3"}],"instance":1,"min":0,"size":1,"max":3,"genre":"config","index":3,"label":"PIR sensor's pulse counter","type":"list","value":"1"},{"parameterItems":[{"label":"4 seconds","value":"0"},{"label":"8 seconds","value":"1"},{"label":"12 seconds","value":"2"},{"label":"16 seconds","value":"3"}],"instance":1,"min":0,"size":1,"max":3,"genre":"config","index":4,"label":"PIR sensor's window time","type":"list","value":"2"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":6,"label":"Motion alarm cancellation delay","type":"short","value":"30"},{"parameterItems":[{"label":"PIR sensor always active","value":"0"},{"label":"PIR sensor active during the day only","value":"1"},{"label":"PIR sensor active during the night only","value":"2"}],"instance":1,"min":0,"size":1,"max":2,"genre":"config","index":8,"label":"PIR sensor operating mode","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":9,"label":"Night / day","type":"short","value":"200"},{"parameterItems":[{"label":"BASIC ON and BASIC OFF command frames sent in Basic Command Class.","value":"0"},{"label":"only the BASIC ON command frame sent in Basic Command Class.","value":"1"},{"label":"only the BASIC OFF command frame sent in Basic Command Class.","value":"2"}],"instance":1,"min":0,"size":1,"max":2,"genre":"config","index":12,"label":"Basic command class frames configuration","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":0,"max":255,"genre":"config","index":14,"label":"BASIC ON command frame value","type":"byte","value":"255"},{"parameterItems":[],"instance":1,"min":0,"max":255,"genre":"config","index":16,"label":"BASIC OFF command frame value","type":"byte","value":"0"},{"parameterItems":[],"instance":1,"min":0,"max":122,"genre":"config","index":20,"label":"Tamper sensitivity","type":"byte","value":"15"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":22,"label":"Tamper alarm cancellation delay","type":"short","value":"30"},{"parameterItems":[{"label":"Tamper","value":"0"},{"label":"Tamper + Cancellation","value":"1"},{"label":"Tamper + Orientation","value":"2"},{"label":"Tamper + Cancellation + Orientation","value":"3"},{"label":"Vibration","value":"4"}],"instance":1,"min":0,"size":1,"max":4,"genre":"config","index":24,"label":"Tamper operating modes","type":"list","value":"0"},{"parameterItems":[{"label":"Tamper alarm is not sent in broadcast mode.","value":"0"},{"label":"Tamper alarm sent in broadcast mode.","value":"1"}],"instance":1,"min":0,"max":1,"genre":"config","index":26,"label":"Tamper alarm broadcast mode","type":"byte","value":"0"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":40,"label":"Illumination report threshold","type":"short","value":"200"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":42,"label":"Illumination reports interval","type":"short","value":"0"},{"parameterItems":[],"instance":1,"min":0,"max":255,"genre":"config","index":60,"label":"Temperature report threshold","type":"byte","value":"10"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":62,"label":"Interval of temperature measuring","type":"short","value":"900"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":64,"label":"Temperature reports interval","type":"short","value":"0"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":66,"label":"Temperature offset","type":"short","value":"0"},{"parameterItems":[{"label":"LED inactive.","value":"0"},{"label":"1 long blink, LED colour depends on the temperature. Set by parameters 86 and 87.","value":"1"},{"label":"Flashlight mode - LED glows in white for 10 seconds.","value":"2"},{"label":"Long blink White.","value":"3"},{"label":"Long blink Red.","value":"4"},{"label":"Long blink Green.","value":"5"},{"label":"Long blink Blue.","value":"6"},{"label":"Long blink Yellow.","value":"7"},{"label":"Long blink Cyan.","value":"8"},{"label":"Long blink Magenta.","value":"9"},{"label":"Long blink, then short blink, LED colour depends on the temperature. Set by parameters 86 and 87.","value":"10"},{"label":"Flashlight mode - LED glows in white through 10 seconds.  Each next detected motion extends the glowing by next 10 seconds.","value":"11"},{"label":"Long blink, then short blinks White.","value":"12"},{"label":"Long blink, then short blinks Red.","value":"13"},{"label":"Long blink, then short blinks Green.","value":"14"},{"label":"Long blink, then short blinks Blue.","value":"15"},{"label":"Long blink, then short blinks Yellow.","value":"16"},{"label":"Long blink, then short blinks Cyan","value":"17"},{"label":"Long blink, then short blinks Magenta","value":"18"},{"label":"Long blink, then 2 short blinks, LED colour depends on the temperature. Set by parameters 86 and 87.","value":"19"},{"label":"Long blink, then 2 short blinks White","value":"20"},{"label":"Long blink, then 2 short blinks Red","value":"21"},{"label":"Long blink, then 2 short blinks Green","value":"22"},{"label":"Long blink, then 2 short blinks Blue","value":"23"},{"label":"Long blink, then 2 short blinks Yellow","value":"24"},{"label":"Long blink, then 2 short blinks Cyan","value":"25"},{"label":"Long blink, then 2 short blinks Magenta","value":"26"}],"instance":1,"min":0,"size":1,"max":26,"genre":"config","index":80,"label":"LED signaling mode","type":"list","value":"10"},{"parameterItems":[],"instance":1,"min":0,"max":100,"genre":"config","index":81,"label":"LED brightness","type":"byte","value":"50"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":82,"label":"Ambient illumination level below which LED brightness is set to 1%","type":"short","value":"100"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":83,"label":"Ambient illumination level above which LED brightness is set to 100%","type":"short","value":"1000"},{"parameterItems":[],"instance":1,"min":0,"max":255,"genre":"config","index":86,"label":"Minimum temperature resulting in blue LED illumination","type":"byte","value":"18"},{"parameterItems":[],"instance":1,"min":0,"max":255,"genre":"config","index":87,"label":"Maximum temperature resulting in red LED illumination","type":"byte","value":"28"},{"parameterItems":[{"label":"LED does not indicate tamper alarm.","value":"0"},{"label":"LED indicates tamper alarm.","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":89,"label":"LED indicating tamper alarm","type":"list","value":"1"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "32",
+      "setasreport": "true"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 1,
+      "label": "Motion sensor's sensitivity",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 15,
+      "genre": "config",
+      "index": 2,
+      "label": "Motion sensor's blind time (insensitivity)",
+      "type": "byte",
+      "value": "15"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "1 pulse",
+          "value": "0"
+        },
+        {
+          "label": "2 pulses",
+          "value": "1"
+        },
+        {
+          "label": "3 pulses",
+          "value": "2"
+        },
+        {
+          "label": "4 pulses",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 3,
+      "genre": "config",
+      "index": 3,
+      "label": "PIR sensor's pulse counter",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "4 seconds",
+          "value": "0"
+        },
+        {
+          "label": "8 seconds",
+          "value": "1"
+        },
+        {
+          "label": "12 seconds",
+          "value": "2"
+        },
+        {
+          "label": "16 seconds",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 3,
+      "genre": "config",
+      "index": 4,
+      "label": "PIR sensor's window time",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 6,
+      "label": "Motion alarm cancellation delay",
+      "type": "short",
+      "value": "30"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "PIR sensor always active",
+          "value": "0"
+        },
+        {
+          "label": "PIR sensor active during the day only",
+          "value": "1"
+        },
+        {
+          "label": "PIR sensor active during the night only",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 2,
+      "genre": "config",
+      "index": 8,
+      "label": "PIR sensor operating mode",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 9,
+      "label": "Night / day",
+      "type": "short",
+      "value": "200"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "BASIC ON and BASIC OFF command frames sent in Basic Command Class.",
+          "value": "0"
+        },
+        {
+          "label": "only the BASIC ON command frame sent in Basic Command Class.",
+          "value": "1"
+        },
+        {
+          "label": "only the BASIC OFF command frame sent in Basic Command Class.",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 2,
+      "genre": "config",
+      "index": 12,
+      "label": "Basic command class frames configuration",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 14,
+      "label": "BASIC ON command frame value",
+      "type": "byte",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 16,
+      "label": "BASIC OFF command frame value",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 122,
+      "genre": "config",
+      "index": 20,
+      "label": "Tamper sensitivity",
+      "type": "byte",
+      "value": "15"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 22,
+      "label": "Tamper alarm cancellation delay",
+      "type": "short",
+      "value": "30"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Tamper",
+          "value": "0"
+        },
+        {
+          "label": "Tamper + Cancellation",
+          "value": "1"
+        },
+        {
+          "label": "Tamper + Orientation",
+          "value": "2"
+        },
+        {
+          "label": "Tamper + Cancellation + Orientation",
+          "value": "3"
+        },
+        {
+          "label": "Vibration",
+          "value": "4"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 24,
+      "label": "Tamper operating modes",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Tamper alarm is not sent in broadcast mode.",
+          "value": "0"
+        },
+        {
+          "label": "Tamper alarm sent in broadcast mode.",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 1,
+      "genre": "config",
+      "index": 26,
+      "label": "Tamper alarm broadcast mode",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 40,
+      "label": "Illumination report threshold",
+      "type": "short",
+      "value": "200"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 42,
+      "label": "Illumination reports interval",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 60,
+      "label": "Temperature report threshold",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 62,
+      "label": "Interval of temperature measuring",
+      "type": "short",
+      "value": "900"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 64,
+      "label": "Temperature reports interval",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 66,
+      "label": "Temperature offset",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "LED inactive.",
+          "value": "0"
+        },
+        {
+          "label": "1 long blink, LED colour depends on the temperature. Set by parameters 86 and 87.",
+          "value": "1"
+        },
+        {
+          "label": "Flashlight mode - LED glows in white for 10 seconds.",
+          "value": "2"
+        },
+        {
+          "label": "Long blink White.",
+          "value": "3"
+        },
+        {
+          "label": "Long blink Red.",
+          "value": "4"
+        },
+        {
+          "label": "Long blink Green.",
+          "value": "5"
+        },
+        {
+          "label": "Long blink Blue.",
+          "value": "6"
+        },
+        {
+          "label": "Long blink Yellow.",
+          "value": "7"
+        },
+        {
+          "label": "Long blink Cyan.",
+          "value": "8"
+        },
+        {
+          "label": "Long blink Magenta.",
+          "value": "9"
+        },
+        {
+          "label": "Long blink, then short blink, LED colour depends on the temperature. Set by parameters 86 and 87.",
+          "value": "10"
+        },
+        {
+          "label": "Flashlight mode - LED glows in white through 10 seconds.  Each next detected motion extends the glowing by next 10 seconds.",
+          "value": "11"
+        },
+        {
+          "label": "Long blink, then short blinks White.",
+          "value": "12"
+        },
+        {
+          "label": "Long blink, then short blinks Red.",
+          "value": "13"
+        },
+        {
+          "label": "Long blink, then short blinks Green.",
+          "value": "14"
+        },
+        {
+          "label": "Long blink, then short blinks Blue.",
+          "value": "15"
+        },
+        {
+          "label": "Long blink, then short blinks Yellow.",
+          "value": "16"
+        },
+        {
+          "label": "Long blink, then short blinks Cyan",
+          "value": "17"
+        },
+        {
+          "label": "Long blink, then short blinks Magenta",
+          "value": "18"
+        },
+        {
+          "label": "Long blink, then 2 short blinks, LED colour depends on the temperature. Set by parameters 86 and 87.",
+          "value": "19"
+        },
+        {
+          "label": "Long blink, then 2 short blinks White",
+          "value": "20"
+        },
+        {
+          "label": "Long blink, then 2 short blinks Red",
+          "value": "21"
+        },
+        {
+          "label": "Long blink, then 2 short blinks Green",
+          "value": "22"
+        },
+        {
+          "label": "Long blink, then 2 short blinks Blue",
+          "value": "23"
+        },
+        {
+          "label": "Long blink, then 2 short blinks Yellow",
+          "value": "24"
+        },
+        {
+          "label": "Long blink, then 2 short blinks Cyan",
+          "value": "25"
+        },
+        {
+          "label": "Long blink, then 2 short blinks Magenta",
+          "value": "26"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 26,
+      "genre": "config",
+      "index": 80,
+      "label": "LED signaling mode",
+      "type": "list",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 100,
+      "genre": "config",
+      "index": 81,
+      "label": "LED brightness",
+      "type": "byte",
+      "value": "50"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 82,
+      "label": "Ambient illumination level below which LED brightness is set to 1%",
+      "type": "short",
+      "value": "100"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 83,
+      "label": "Ambient illumination level above which LED brightness is set to 100%",
+      "type": "short",
+      "value": "1000"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 86,
+      "label": "Minimum temperature resulting in blue LED illumination",
+      "type": "byte",
+      "value": "18"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 87,
+      "label": "Maximum temperature resulting in red LED illumination",
+      "type": "byte",
+      "value": "28"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "LED does not indicate tamper alarm.",
+          "value": "0"
+        },
+        {
+          "label": "LED indicates tamper alarm.",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 89,
+      "label": "LED indicating tamper alarm",
+      "type": "list",
+      "value": "1"
+    }
+  ],
+  "groups": {
+    
+  }
+}

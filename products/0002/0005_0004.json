@@ -1,1 +1,19 @@
-{"commandClasses":[{"action":"remove","id":"32"},{"override_precision":"2","id":"67","base":"0"}],"parameters":[],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "action": "remove",
+      "id": "32"
+    },
+    {
+      "override_precision": "2",
+      "id": "67",
+      "base": "0"
+    }
+  ],
+  "parameters": [
+    
+  ],
+  "groups": {
+    
+  }
+}

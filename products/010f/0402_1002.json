@@ -1,1 +1,295 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"ALL ON disabled/ ALL OFF disabled","value":"0"},{"label":"ALL ON disabled/ ALL OFF active","value":"1"},{"label":"ALL ON active / ALL OFF disabled","value":"2"},{"label":"ALL ON active / ALL OFF active","value":"255"}],"instance":1,"size":1,"genre":"config","index":1,"label":"Enable/Disable ALL ON/OFF","type":"list","value":"255"},{"parameterItems":[{"label":"Manual override disabled","value":"0"},{"label":"Manual override enabled","value":"1"}],"instance":1,"size":1,"genre":"config","index":3,"label":"Auto off relay after specified time","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":4,"label":"Auto off","type":"short","value":"0"},{"parameterItems":[{"label":"Map status to all devices in group 1 (default)","value":"0"},{"label":"Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to prev.value","value":"1"},{"label":"Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to 100%","value":"2"}],"instance":1,"size":1,"genre":"config","index":6,"label":"Separation of association sending (key 1)","type":"list","value":"0"},{"parameterItems":[{"label":"Toggle","value":"0"},{"label":"Follow switch contact (closed=ON, open=OFF)","value":"1"}],"instance":1,"size":1,"genre":"config","index":13,"label":"Inputs behaviour","type":"list","value":"0"},{"parameterItems":[{"label":"Mono-stable input (button)","value":"0"},{"label":"Bi-stable input (switch)","value":"1"}],"instance":1,"size":1,"genre":"config","index":14,"label":"Inputs Button/Switch configuration","type":"list","value":"1"},{"parameterItems":[{"label":"Disable Dimmer/Roller shutter control","value":"0"},{"label":"Enable Dimmer/Roller shutter control","value":"1"}],"instance":1,"size":1,"genre":"config","index":15,"label":"Dimmer/Roller shutter control","type":"list","value":"0"},{"parameterItems":[{"label":"State NOT saved at power failure, all outputs are set to OFF upon power restore","value":"0"},{"label":"State saved at power failure, all outputs are set to previous state upon power restore","value":"1"}],"instance":1,"size":1,"genre":"config","index":16,"label":"Saving state before power faillure","type":"list","value":"1"},{"parameterItems":[{"label":"DEACTIVATION - no response to alarm frames","value":"0"},{"label":"ALARM RELAY ON - relay will turn ON upon receipt of alarm frame","value":"1"},{"label":"ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame","value":"2"},{"label":"ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)","value":"3"}],"instance":1,"size":1,"genre":"config","index":30,"label":"Relay: Response to General Alarm","type":"list","value":"3"},{"parameterItems":[{"label":"DEACTIVATION - no response to alarm frames","value":"0"},{"label":"ALARM RELAY ON - relay will turn ON upon receipt of alarm frame","value":"1"},{"label":"ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame","value":"2"},{"label":"ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)","value":"3"}],"instance":1,"size":1,"genre":"config","index":31,"label":"Relay: Response to Water Flood Alarm","type":"list","value":"2"},{"parameterItems":[{"label":"DEACTIVATION - no response to alarm frames","value":"0"},{"label":"ALARM RELAY ON - relay will turn ON upon receipt of alarm frame","value":"1"},{"label":"ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame","value":"2"},{"label":"ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)","value":"3"}],"instance":1,"size":1,"genre":"config","index":32,"label":"Relay: Response to Smoke, CO, CO2 Alarm","type":"list","value":"3"},{"parameterItems":[{"label":"DEACTIVATION - no response to alarm frames","value":"0"},{"label":"ALARM RELAY ON - relay will turn ON upon receipt of alarm frame","value":"1"},{"label":"ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame","value":"2"},{"label":"ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)","value":"3"}],"instance":1,"size":1,"genre":"config","index":33,"label":"Relay: Response to Temperature Alarm","type":"list","value":"1"},{"parameterItems":[],"instance":1,"min":1,"size":2,"max":20000,"genre":"config","index":39,"label":"Active flashing alarm time","type":"short","value":"600"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "ALL ON disabled/ ALL OFF disabled",
+          "value": "0"
+        },
+        {
+          "label": "ALL ON disabled/ ALL OFF active",
+          "value": "1"
+        },
+        {
+          "label": "ALL ON active / ALL OFF disabled",
+          "value": "2"
+        },
+        {
+          "label": "ALL ON active / ALL OFF active",
+          "value": "255"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 1,
+      "label": "Enable/Disable ALL ON/OFF",
+      "type": "list",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Manual override disabled",
+          "value": "0"
+        },
+        {
+          "label": "Manual override enabled",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 3,
+      "label": "Auto off relay after specified time",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 4,
+      "label": "Auto off",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Map status to all devices in group 1 (default)",
+          "value": "0"
+        },
+        {
+          "label": "Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to prev.value",
+          "value": "1"
+        },
+        {
+          "label": "Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to 100%",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 6,
+      "label": "Separation of association sending (key 1)",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "0"
+        },
+        {
+          "label": "Follow switch contact (closed=ON, open=OFF)",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 13,
+      "label": "Inputs behaviour",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Mono-stable input (button)",
+          "value": "0"
+        },
+        {
+          "label": "Bi-stable input (switch)",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 14,
+      "label": "Inputs Button/Switch configuration",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Disable Dimmer/Roller shutter control",
+          "value": "0"
+        },
+        {
+          "label": "Enable Dimmer/Roller shutter control",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 15,
+      "label": "Dimmer/Roller shutter control",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore",
+          "value": "0"
+        },
+        {
+          "label": "State saved at power failure, all outputs are set to previous state upon power restore",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 16,
+      "label": "Saving state before power faillure",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "DEACTIVATION - no response to alarm frames",
+          "value": "0"
+        },
+        {
+          "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
+          "value": "1"
+        },
+        {
+          "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
+          "value": "2"
+        },
+        {
+          "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 30,
+      "label": "Relay: Response to General Alarm",
+      "type": "list",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "DEACTIVATION - no response to alarm frames",
+          "value": "0"
+        },
+        {
+          "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
+          "value": "1"
+        },
+        {
+          "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
+          "value": "2"
+        },
+        {
+          "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 31,
+      "label": "Relay: Response to Water Flood Alarm",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "DEACTIVATION - no response to alarm frames",
+          "value": "0"
+        },
+        {
+          "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
+          "value": "1"
+        },
+        {
+          "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
+          "value": "2"
+        },
+        {
+          "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 32,
+      "label": "Relay: Response to Smoke, CO, CO2 Alarm",
+      "type": "list",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "DEACTIVATION - no response to alarm frames",
+          "value": "0"
+        },
+        {
+          "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
+          "value": "1"
+        },
+        {
+          "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
+          "value": "2"
+        },
+        {
+          "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 33,
+      "label": "Relay: Response to Temperature Alarm",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "size": 2,
+      "max": 20000,
+      "genre": "config",
+      "index": 39,
+      "label": "Active flashing alarm time",
+      "type": "short",
+      "value": "600"
+    }
+  ],
+  "groups": {
+    
+  }
+}

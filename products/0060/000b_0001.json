@@ -1,1 +1,32 @@
-{"commandClasses":[{"id":"112"},{"id":"133"},{"mapping":"endpoints","id":"96"}],"parameters":[{"parameterItems":[],"min":0,"max":99,"genre":"config","index":1,"label":"Basic Set Level","units":"%","type":"byte","value":"99"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    },
+    {
+      "mapping": "endpoints",
+      "id": "96"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 99,
+      "genre": "config",
+      "index": 1,
+      "label": "Basic Set Level",
+      "units": "%",
+      "type": "byte",
+      "value": "99"
+    }
+  ],
+  "groups": {
+    
+  }
+}

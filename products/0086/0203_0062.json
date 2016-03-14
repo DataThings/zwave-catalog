@@ -1,1 +1,200 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"Disable","value":"0"},{"label":"Hail CC","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":32,"label":"Send out a report when the color is changed","type":"list","value":"0"},{"parameterItems":[{"label":"Disable","value":"0"},{"label":"Enable","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":34,"label":"Use External Switch to turn on/off the bulb","type":"list","value":"0"},{"parameterItems":[{"label":"Disable","value":"0"},{"label":"Enable","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":35,"label":"Use External Switch to changes the bulb color","type":"list","value":"1"},{"parameterItems":[{"label":"Un-reboot Colorful mode","value":"0"},{"label":"Reboot Colorful mode","value":"1"},{"label":"Exit Colorful mode","value":"2"},{"label":"Save the current Colorful mode value and then to be exited","value":"3"}],"min":0,"size":1,"max":3,"genre":"config","index":36,"label":"Colorful mode","type":"list","value":"0"},{"parameterItems":[],"min":0,"size":4,"max":4294967295,"genre":"config","index":37,"label":"Colorful mode configuration","type":"int","value":"3840"},{"parameterItems":[],"min":0,"size":4,"max":4294967295,"genre":"config","index":38,"label":"Color index configuration when the bulb is in Multi color mode","type":"int","value":"2271560481"},{"parameterItems":[{"label":"Nothing","value":"0"},{"label":"Hail","value":"1"},{"label":"Basic","value":"2"}],"min":0,"size":1,"max":2,"genre":"config","index":80,"label":"Send notifications to associated devices (Lifeline)","type":"list","value":"2"},{"parameterItems":[{"label":"Aeon Labs Standard Product","value":"0"}],"min":0,"size":1,"max":1,"genre":"config","index":200,"label":"Partner ID","type":"list","value":"0"},{"parameterItems":[{"label":"Unlock","value":"0"},{"label":"Lock","value":"1"}],"min":0,"max":1,"genre":"config","index":252,"label":"Lock/Unlock Configuration","type":"list","value":"0"},{"parameterItems":[],"genre":"config","index":255,"affects":"all","label":"Reset default configuration","type":"int","value":"0","write_only":"true"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Disable",
+          "value": "0"
+        },
+        {
+          "label": "Hail CC",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 32,
+      "label": "Send out a report when the color is changed",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Disable",
+          "value": "0"
+        },
+        {
+          "label": "Enable",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 34,
+      "label": "Use External Switch to turn on/off the bulb",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Disable",
+          "value": "0"
+        },
+        {
+          "label": "Enable",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 35,
+      "label": "Use External Switch to changes the bulb color",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Un-reboot Colorful mode",
+          "value": "0"
+        },
+        {
+          "label": "Reboot Colorful mode",
+          "value": "1"
+        },
+        {
+          "label": "Exit Colorful mode",
+          "value": "2"
+        },
+        {
+          "label": "Save the current Colorful mode value and then to be exited",
+          "value": "3"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 3,
+      "genre": "config",
+      "index": 36,
+      "label": "Colorful mode",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 4,
+      "max": 4294967295,
+      "genre": "config",
+      "index": 37,
+      "label": "Colorful mode configuration",
+      "type": "int",
+      "value": "3840"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 4,
+      "max": 4294967295,
+      "genre": "config",
+      "index": 38,
+      "label": "Color index configuration when the bulb is in Multi color mode",
+      "type": "int",
+      "value": "2271560481"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Nothing",
+          "value": "0"
+        },
+        {
+          "label": "Hail",
+          "value": "1"
+        },
+        {
+          "label": "Basic",
+          "value": "2"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 2,
+      "genre": "config",
+      "index": 80,
+      "label": "Send notifications to associated devices (Lifeline)",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Aeon Labs Standard Product",
+          "value": "0"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 200,
+      "label": "Partner ID",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Unlock",
+          "value": "0"
+        },
+        {
+          "label": "Lock",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "max": 1,
+      "genre": "config",
+      "index": 252,
+      "label": "Lock/Unlock Configuration",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 255,
+      "affects": "all",
+      "label": "Reset default configuration",
+      "type": "int",
+      "value": "0",
+      "write_only": "true"
+    }
+  ],
+  "groups": {
+    
+  }
+}

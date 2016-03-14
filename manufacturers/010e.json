@@ -1,1 +1,50 @@
-[{"name":"Danalock Keypad","id":"0001","type":"0002","associations":{"groups":[{"index":1,"max_associations":1,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/010e/0002_0001.png"},{"name":"Danalock Circle/Square","id":"0002","type":"0003","associations":{"groups":[{"index":1,"max_associations":1,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/010e/0003_0002.png"},{"name":"Polylock","id":"0001","type":"0001","associations":{"groups":[{"index":1,"max_associations":1,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/010e/0001_0001.png"}]
+[
+  {
+    "name": "Danalock Keypad",
+    "id": "0001",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/010e/0002_0001.png"
+  },
+  {
+    "name": "Danalock Circle/Square",
+    "id": "0002",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/010e/0003_0002.png"
+  },
+  {
+    "name": "Polylock",
+    "id": "0001",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/010e/0001_0001.png"
+  }
+]

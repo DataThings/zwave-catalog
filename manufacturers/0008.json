@@ -1,1 +1,8 @@
-[{"name":"WDTC-20 Thermostat","id":"0020","type":"0007","pictureUrl":"pictures/0008/0007_0020.png"}]
+[
+  {
+    "name": "WDTC-20 Thermostat",
+    "id": "0020",
+    "type": "0007",
+    "pictureUrl": "pictures/0008/0007_0020.png"
+  }
+]

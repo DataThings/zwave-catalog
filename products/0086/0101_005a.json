@@ -1,1 +1,145 @@
-{"commandClasses":[{"id":"112"}],"parameters":[{"parameterItems":[{"label":"Disable","value":"0"},{"label":"Enable","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":81,"label":"LED indicator light configuration","type":"list","value":"1"},{"parameterItems":[{"label":"1","value":"1"},{"label":"2","value":"2"},{"label":"3","value":"3"},{"label":"4","value":"4"},{"label":"5","value":"5"},{"label":"6","value":"6"},{"label":"7","value":"7"},{"label":"8","value":"8"},{"label":"9","value":"9"},{"label":"10","value":"10"}],"min":1,"size":1,"max":10,"genre":"config","index":220,"label":"Configuration of the RF power level","type":"list","value":"10"},{"parameterItems":[{"label":"Disable","value":"0"},{"label":"Enable","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":242,"label":"Security network enabled","type":"list","value":"0"},{"parameterItems":[],"size":16,"genre":"config","index":243,"label":"Security network key","type":"int"},{"parameterItems":[{"label":"Unlock","value":"0"},{"label":"Lock","value":"1"}],"min":0,"max":1,"genre":"config","index":252,"label":"Lock/Unlock Configuration","type":"list","value":"0"},{"parameterItems":[],"genre":"config","index":255,"affects":"all","label":"Reset default configuration","type":"int","value":"0","write_only":"true"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Disable",
+          "value": "0"
+        },
+        {
+          "label": "Enable",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 81,
+      "label": "LED indicator light configuration",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "1",
+          "value": "1"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "label": "3",
+          "value": "3"
+        },
+        {
+          "label": "4",
+          "value": "4"
+        },
+        {
+          "label": "5",
+          "value": "5"
+        },
+        {
+          "label": "6",
+          "value": "6"
+        },
+        {
+          "label": "7",
+          "value": "7"
+        },
+        {
+          "label": "8",
+          "value": "8"
+        },
+        {
+          "label": "9",
+          "value": "9"
+        },
+        {
+          "label": "10",
+          "value": "10"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 10,
+      "genre": "config",
+      "index": 220,
+      "label": "Configuration of the RF power level",
+      "type": "list",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Disable",
+          "value": "0"
+        },
+        {
+          "label": "Enable",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 242,
+      "label": "Security network enabled",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "size": 16,
+      "genre": "config",
+      "index": 243,
+      "label": "Security network key",
+      "type": "int"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Unlock",
+          "value": "0"
+        },
+        {
+          "label": "Lock",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "max": 1,
+      "genre": "config",
+      "index": 252,
+      "label": "Lock/Unlock Configuration",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 255,
+      "affects": "all",
+      "label": "Reset default configuration",
+      "type": "int",
+      "value": "0",
+      "write_only": "true"
+    }
+  ],
+  "groups": {
+    
+  }
+}

@@ -1,1 +1,47 @@
-{"commandClasses":[{"id":"112"},{"id":"32","setasreport":"true"},{"action":"add","id":"113"},{"id":"133"}],"parameters":[{"parameterItems":[],"min":0,"max":127,"genre":"config","index":1,"label":"ON Phase Level","type":"byte","value":"0"},{"parameterItems":[],"min":0,"max":127,"genre":"config","index":3,"label":"Power Saving","type":"byte","value":"1"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "32",
+      "setasreport": "true"
+    },
+    {
+      "action": "add",
+      "id": "113"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 127,
+      "genre": "config",
+      "index": 1,
+      "label": "ON Phase Level",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 127,
+      "genre": "config",
+      "index": 3,
+      "label": "Power Saving",
+      "type": "byte",
+      "value": "1"
+    }
+  ],
+  "groups": {
+    
+  }
+}

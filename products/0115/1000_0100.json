@@ -1,1 +1,322 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"Disabled","value":"0"},{"label":"Show switch state (Default)","value":"1"},{"label":"Night mode (inverted switch state)","value":"2"}],"min":1,"size":1,"max":99,"genre":"config","index":1,"label":"Set LED indication mode","type":"list","value":"1"},{"parameterItems":[],"min":0,"max":65535,"genre":"config","index":2,"label":"Automatically switch first channel off after","units":"seconds","type":"int","value":"0"},{"parameterItems":[],"min":0,"max":65535,"genre":"config","index":22,"label":"Automatically switch second channel off after","units":"seconds","type":"int","value":"0"},{"parameterItems":[{"label":"Switch off (default)","value":"0"},{"label":"Ignore","value":"1"},{"label":"Switch on","value":"2"},{"label":"Switch on if load is off else switch off","value":"3"}],"size":1,"genre":"config","index":3,"label":"What to do on RF first channel off command","type":"list","value":"0"},{"parameterItems":[{"label":"Switch off (default)","value":"0"},{"label":"Ignore","value":"1"},{"label":"Switch on","value":"2"},{"label":"Switch on if load is off else switch off","value":"3"}],"size":1,"genre":"config","index":23,"label":"What to do on RF second channel off command","type":"list","value":"0"},{"parameterItems":[{"label":"Switch off (Default)","value":"0"},{"label":"Switch On if load is Off, else switch Off","value":"1"},{"label":"Switch on","value":"2"}],"size":1,"genre":"config","index":16,"label":"What to do on button Down press (for both channels)","type":"list","value":"0"},{"parameterItems":[{"label":"No","value":"0"},{"label":"Yes (default)","value":"1"}],"size":1,"genre":"config","index":4,"label":"Ignore Start Level","type":"list","value":"1"},{"parameterItems":[{"label":"No, turn OFF","value":"0"},{"label":"Yes (only for the first channel)","value":"1"},{"label":"Yes (only for the second channel)","value":"2"},{"label":"Yes (for both channels) (Default)","value":"3"}],"genre":"config","index":5,"label":"Restore switch state after power cycle","type":"list","value":"3"},{"parameterItems":[{"label":"No (Default)","value":"0"},{"label":"Yes","value":"1"}],"size":1,"genre":"config","index":11,"label":"Invert buttons","type":"list","value":"0"},{"parameterItems":[{"label":"No","value":"0"},{"label":"By single press and hold (default)","value":"1"},{"label":"By double press and hold","value":"2"}],"size":1,"genre":"config","index":12,"label":"Switch by buttons (first channel)","type":"list","value":"1"},{"parameterItems":[{"label":"No","value":"0"},{"label":"By single press and hold","value":"1"},{"label":"By double press and hold (Default)","value":"2"}],"size":1,"genre":"config","index":32,"label":"Switch by buttons (second channel)","type":"list","value":"2"},{"parameterItems":[{"label":"Disabled","value":"0"},{"label":"Switch On/Off and Dim (send Basic Set and Switch Multilevel) (Default)","value":"2"},{"label":"Switch On/Off only (send Basic Set)","value":"1"},{"label":"Send Scenes","value":"3"}],"size":1,"genre":"config","index":13,"label":"Action on button single press or hold","type":"list","value":"2"},{"parameterItems":[{"label":"Disabled (don't wait for double click)","value":"0"},{"label":"Switch On/Off and Dim (send Basic Set and Switch Multilevel, default)","value":"2"},{"label":"Switch On, Off only (send Basic Set)","value":"1"},{"label":"Send Scenes","value":"3"}],"size":1,"genre":"config","index":14,"label":"Action on button double press or hold","type":"list","value":"2"},{"parameterItems":[],"min":0,"max":708,"genre":"config","index":20,"label":"Energy consumption for first channel","units":"watts","type":"int","value":"0"},{"parameterItems":[],"min":0,"max":708,"genre":"config","index":40,"label":"Energy consumption for second channel","units":"watts","type":"int","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Disabled",
+          "value": "0"
+        },
+        {
+          "label": "Show switch state (Default)",
+          "value": "1"
+        },
+        {
+          "label": "Night mode (inverted switch state)",
+          "value": "2"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 99,
+      "genre": "config",
+      "index": 1,
+      "label": "Set LED indication mode",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 2,
+      "label": "Automatically switch first channel off after",
+      "units": "seconds",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 22,
+      "label": "Automatically switch second channel off after",
+      "units": "seconds",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Switch off (default)",
+          "value": "0"
+        },
+        {
+          "label": "Ignore",
+          "value": "1"
+        },
+        {
+          "label": "Switch on",
+          "value": "2"
+        },
+        {
+          "label": "Switch on if load is off else switch off",
+          "value": "3"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 3,
+      "label": "What to do on RF first channel off command",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Switch off (default)",
+          "value": "0"
+        },
+        {
+          "label": "Ignore",
+          "value": "1"
+        },
+        {
+          "label": "Switch on",
+          "value": "2"
+        },
+        {
+          "label": "Switch on if load is off else switch off",
+          "value": "3"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 23,
+      "label": "What to do on RF second channel off command",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Switch off (Default)",
+          "value": "0"
+        },
+        {
+          "label": "Switch On if load is Off, else switch Off",
+          "value": "1"
+        },
+        {
+          "label": "Switch on",
+          "value": "2"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 16,
+      "label": "What to do on button Down press (for both channels)",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No",
+          "value": "0"
+        },
+        {
+          "label": "Yes (default)",
+          "value": "1"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 4,
+      "label": "Ignore Start Level",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No, turn OFF",
+          "value": "0"
+        },
+        {
+          "label": "Yes (only for the first channel)",
+          "value": "1"
+        },
+        {
+          "label": "Yes (only for the second channel)",
+          "value": "2"
+        },
+        {
+          "label": "Yes (for both channels) (Default)",
+          "value": "3"
+        }
+      ],
+      "genre": "config",
+      "index": 5,
+      "label": "Restore switch state after power cycle",
+      "type": "list",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No (Default)",
+          "value": "0"
+        },
+        {
+          "label": "Yes",
+          "value": "1"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 11,
+      "label": "Invert buttons",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No",
+          "value": "0"
+        },
+        {
+          "label": "By single press and hold (default)",
+          "value": "1"
+        },
+        {
+          "label": "By double press and hold",
+          "value": "2"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 12,
+      "label": "Switch by buttons (first channel)",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No",
+          "value": "0"
+        },
+        {
+          "label": "By single press and hold",
+          "value": "1"
+        },
+        {
+          "label": "By double press and hold (Default)",
+          "value": "2"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 32,
+      "label": "Switch by buttons (second channel)",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Disabled",
+          "value": "0"
+        },
+        {
+          "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (Default)",
+          "value": "2"
+        },
+        {
+          "label": "Switch On/Off only (send Basic Set)",
+          "value": "1"
+        },
+        {
+          "label": "Send Scenes",
+          "value": "3"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 13,
+      "label": "Action on button single press or hold",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Disabled (don't wait for double click)",
+          "value": "0"
+        },
+        {
+          "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel, default)",
+          "value": "2"
+        },
+        {
+          "label": "Switch On, Off only (send Basic Set)",
+          "value": "1"
+        },
+        {
+          "label": "Send Scenes",
+          "value": "3"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 14,
+      "label": "Action on button double press or hold",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 708,
+      "genre": "config",
+      "index": 20,
+      "label": "Energy consumption for first channel",
+      "units": "watts",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 708,
+      "genre": "config",
+      "index": 40,
+      "label": "Energy consumption for second channel",
+      "units": "watts",
+      "type": "int",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

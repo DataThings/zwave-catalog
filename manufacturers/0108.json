@@ -1,1 +1,61 @@
-[{"name":"DCH-Z110 Door/Window 3 in 1 sensor","id":"000e","type":"0002","associations":{"groups":[{"index":1,"max_associations":8,"label":"Reports"},{"index":2,"max_associations":8,"label":"Light Control"}],"numGroups":2},"pictureUrl":"pictures/0108/0002_000e.png"},{"name":"DCH-Z510 Siren","id":"000a","type":"0004","associations":{"groups":[{"auto":true,"index":1,"max_associations":8,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/0108/0004_000a.png"}]
+[
+  {
+    "name": "DCH-Z110 Door/Window 3 in 1 sensor",
+    "id": "000e",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 8,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Light Control"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0108/0002_000e.png"
+  },
+  {
+    "name": "DCH-Z120 PIR/Motion 3 in 1 sensor",
+    "id": "000d",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 8,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Light Control"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0108/0002_000d.png"
+  },
+  {
+    "name": "DCH-Z510 Siren",
+    "id": "000a",
+    "type": "0004",
+    "associations": {
+      "groups": [
+        {
+          "auto": true,
+          "index": 1,
+          "max_associations": 8,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0108/0004_000a.png"
+  }
+]

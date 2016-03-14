@@ -1,1 +1,63 @@
-{"commandClasses":[{"id":"64"},{"id":"67","base":"0"}],"parameters":[{"parameterItems":[{"label":"Frost Protection","value":"0"},{"label":"Comfort","value":"1"},{"label":"Energy Saving","value":"11"},{"label":"Direct Valve Control","value":"31"}],"instance":1,"genre":"user","index":0,"label":"Mode","type":"list"},{"parameterItems":[],"instance":1,"genre":"user","index":1,"label":"Comfort setpoint","units":"C","type":"decimal"},{"parameterItems":[],"instance":1,"genre":"user","index":11,"label":"Energy saving setpoint","units":"C","type":"decimal"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "64"
+    },
+    {
+      "id": "67",
+      "base": "0"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Frost Protection",
+          "value": "0"
+        },
+        {
+          "label": "Comfort",
+          "value": "1"
+        },
+        {
+          "label": "Energy Saving",
+          "value": "11"
+        },
+        {
+          "label": "Direct Valve Control",
+          "value": "31"
+        }
+      ],
+      "instance": 1,
+      "genre": "user",
+      "index": 0,
+      "label": "Mode",
+      "type": "list"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "user",
+      "index": 1,
+      "label": "Comfort setpoint",
+      "units": "C",
+      "type": "decimal"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "user",
+      "index": 11,
+      "label": "Energy saving setpoint",
+      "units": "C",
+      "type": "decimal"
+    }
+  ],
+  "groups": {
+    
+  }
+}

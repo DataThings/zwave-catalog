@@ -1,1 +1,15 @@
-{"commandClasses":[{"name":"COMMAND_CLASS_THERMOSTAT_SETPOINT","id":"67","base":"0"}],"parameters":[],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "name": "COMMAND_CLASS_THERMOSTAT_SETPOINT",
+      "id": "67",
+      "base": "0"
+    }
+  ],
+  "parameters": [
+    
+  ],
+  "groups": {
+    
+  }
+}

@@ -1,1 +1,134 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"No","value":"0"},{"label":"Yes","value":"1"}],"genre":"config","index":1,"label":"Ignore Start-Level (Transmitting)","type":"list","value":"1"},{"parameterItems":[{"label":"No","value":"0"},{"label":"Yes","value":"1"}],"genre":"config","index":3,"label":"Night Light","type":"list","value":"1"},{"parameterItems":[{"label":"No","value":"0"},{"label":"Yes","value":"1"}],"genre":"config","index":4,"label":"Invert Switch","type":"list","value":"0"},{"parameterItems":[{"label":"No","value":"0"},{"label":"Yes","value":"1"}],"genre":"config","index":5,"label":"Ignore Start-Level (Receiving)","type":"list","value":"1"},{"parameterItems":[{"label":"No flicker","value":"0"},{"label":"Flicker whole transmission","value":"1"},{"label":"Flicker 1 second","value":"2"}],"genre":"config","index":19,"label":"LED transmission indication","type":"list","value":"2"},{"parameterItems":[],"min":1,"max":255,"genre":"config","index":20,"label":"Polling interval","units":"minutes","type":"byte","value":"2"},{"parameterItems":[{"label":"No","value":"0"},{"label":"Yes","value":"1"}],"genre":"config","index":21,"label":"Poll first node in group","type":"list","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "No",
+          "value": "0"
+        },
+        {
+          "label": "Yes",
+          "value": "1"
+        }
+      ],
+      "genre": "config",
+      "index": 1,
+      "label": "Ignore Start-Level (Transmitting)",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No",
+          "value": "0"
+        },
+        {
+          "label": "Yes",
+          "value": "1"
+        }
+      ],
+      "genre": "config",
+      "index": 3,
+      "label": "Night Light",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No",
+          "value": "0"
+        },
+        {
+          "label": "Yes",
+          "value": "1"
+        }
+      ],
+      "genre": "config",
+      "index": 4,
+      "label": "Invert Switch",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No",
+          "value": "0"
+        },
+        {
+          "label": "Yes",
+          "value": "1"
+        }
+      ],
+      "genre": "config",
+      "index": 5,
+      "label": "Ignore Start-Level (Receiving)",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No flicker",
+          "value": "0"
+        },
+        {
+          "label": "Flicker whole transmission",
+          "value": "1"
+        },
+        {
+          "label": "Flicker 1 second",
+          "value": "2"
+        }
+      ],
+      "genre": "config",
+      "index": 19,
+      "label": "LED transmission indication",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 20,
+      "label": "Polling interval",
+      "units": "minutes",
+      "type": "byte",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No",
+          "value": "0"
+        },
+        {
+          "label": "Yes",
+          "value": "1"
+        }
+      ],
+      "genre": "config",
+      "index": 21,
+      "label": "Poll first node in group",
+      "type": "list",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

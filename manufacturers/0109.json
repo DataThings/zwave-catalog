@@ -1,1 +1,320 @@
-[{"name":"ZU1401 Z-Wave USB Stick","id":"0101","type":"1001","pictureUrl":"pictures/0109/1001_0101.png"},{"name":"ZU1401 Z-Wave USB Stick","id":"0105","type":"1001","pictureUrl":"pictures/0109/1001_0105.png"},{"name":"ZD2102 US Door/Window Sensor","id":"0101","type":"2001","associations":{"groups":[{"index":1,"max_associations":5,"label":"All Reports"}],"numGroups":1},"pictureUrl":"pictures/0109/2001_0101.png"},{"name":"ZD2102 AU Door/Window Sensor","id":"0102","type":"2001","associations":{"groups":[{"index":1,"max_associations":5,"label":"All Reports"}],"numGroups":1},"pictureUrl":"pictures/0109/2001_0102.png"},{"name":"ZD2102 JP Door/Window Sensor","id":"0104","type":"2001","associations":{"groups":[{"index":1,"max_associations":5,"label":"All Reports"}],"numGroups":1},"pictureUrl":"pictures/0109/2001_0104.png"},{"name":"ZD2102 EU Door/Window Sensor","id":"0105","type":"2001","associations":{"groups":[{"index":1,"max_associations":5,"label":"All Reports"}],"numGroups":1},"pictureUrl":"pictures/0109/2001_0105.png"},{"name":"ZD2102 EU Door/Window Sensor","id":"0106","type":"2001","associations":{"groups":[{"index":1,"max_associations":5,"label":"All Reports"}],"numGroups":1},"pictureUrl":"pictures/0109/2001_0106.png"},{"name":"ZP3102 US PIR Motion Sensor","id":"0201","type":"2002","associations":{"groups":[{"index":1,"max_associations":5,"label":"Basic on/off group for detecting movements"}],"numGroups":1},"pictureUrl":"pictures/0109/2002_0201.png"},{"name":"ZP3102 AU PIR Motion Sensor","id":"0202","type":"2002","associations":{"groups":[{"index":1,"max_associations":5,"label":"Basic on/off group for detecting movements"}],"numGroups":1},"pictureUrl":"pictures/0109/2002_0202.png"},{"name":"ZP3102 EU PIR Motion Sensor","id":"0203","type":"2002","associations":{"groups":[{"index":1,"max_associations":5,"label":"Basic on/off group for detecting movements"}],"numGroups":1},"pictureUrl":"pictures/0109/2002_0203.png"},{"name":"ZP3102 JP PIR Motion Sensor","id":"0204","type":"2002","associations":{"groups":[{"index":1,"max_associations":5,"label":"Basic on/off group for detecting movements"}],"numGroups":1},"pictureUrl":"pictures/0109/2002_0204.png"},{"name":"ZP3102 EU PIR Motion Sensor","id":"0205","type":"2002","associations":{"groups":[{"index":1,"max_associations":5,"label":"Basic on/off group for detecting movements"}],"numGroups":1},"pictureUrl":"pictures/0109/2002_0205.png"},{"name":"ZS5101 Shock and Vibration Sensor","id":"0302","type":"2003","associations":{"groups":[{"index":1,"max_associations":5,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/0109/2003_0302.png"},{"name":"ZS5101 Shock and Vibration Sensor","id":"0306","type":"2003","associations":{"groups":[{"index":1,"max_associations":5,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/0109/2003_0306.png"},{"name":"ZS6101 Smoke Detector","id":"0403","type":"2004","pictureUrl":"pictures/0109/2004_0403.png"},{"name":"ZM1601 Battery Operated Siren","id":"0503","type":"2005","pictureUrl":"pictures/0109/2005_0503.png"},{"name":"ZM1601 Battery Operated Siren","id":"0505","type":"2005","pictureUrl":"pictures/0109/2005_0505.png"},{"name":"ZM1601 Battery Operated Siren","id":"0508","type":"2005","pictureUrl":"pictures/0109/2005_0508.png"},{"name":"ZM1701 Electronic Deadbolt Door Lock without Handle","id":"0610","type":"2006","pictureUrl":"pictures/0109/2006_0610.png"},{"name":"ZM1702 Electronic Deadbolt Door Lock with Handle","id":"0620","type":"2006","pictureUrl":"pictures/0109/2006_0620.png"},{"name":"ZM1701 Electronic Deadbolt Door Lock without Handle","id":"0621","type":"2006","pictureUrl":"pictures/0109/2006_0621.png"},{"name":"Plug-in Switch","id":"0703","type":"2007","pictureUrl":"pictures/0109/2007_0703.png"},{"name":"ZL7101 Plug-in Dimmer Module","id":"0803","type":"2008","pictureUrl":"pictures/0109/2008_0803.png"},{"name":"ZM1602 Main Operated Siren","id":"0903","type":"2009","pictureUrl":"pictures/0109/2009_0903.png"},{"name":"ZM1602 Main Operated Siren","id":"0908","type":"2009","pictureUrl":"pictures/0109/2009_0908.png"},{"name":"ZG8101 Garage Door Detector","id":"0a02","type":"200a","pictureUrl":"pictures/0109/200a_0a02.png"},{"name":"ZS6301 CO Detector","id":"0f02","type":"200f","pictureUrl":"pictures/0109/200f_0f02.png"},{"name":"ZS6301 CO Detector","id":"0f03","type":"200f","pictureUrl":"pictures/0109/200f_0f03.png"},{"name":"ZR1202 Repeater","id":"1203","type":"2012","pictureUrl":"pictures/0109/2012_1203.png"},{"name":"ZL7101 Plug-in Dimmer Module","id":"1401","type":"2014","pictureUrl":"pictures/0109/2014_1401.png"},{"name":"ZL7432 In-Wall Switch, Dual Relay","id":"1717","type":"2017","pictureUrl":"pictures/0109/2017_1717.png"},{"name":"ZF5201 Flood Detector","id":"1c01","type":"201c","pictureUrl":"pictures/0109/201c_1c01.png"},{"name":"ZM1602 Main Operated Siren","id":"0104","type":"3001","pictureUrl":"pictures/0109/3001_0104.png"}]
+[
+  {
+    "name": "ZU1401 Z-Wave USB Stick",
+    "id": "0101",
+    "type": "1001",
+    "pictureUrl": "pictures/0109/1001_0101.png"
+  },
+  {
+    "name": "ZU1401 Z-Wave USB Stick",
+    "id": "0105",
+    "type": "1001",
+    "pictureUrl": "pictures/0109/1001_0105.png"
+  },
+  {
+    "name": "ZD2102 US Door/Window Sensor",
+    "id": "0101",
+    "type": "2001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "All Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2001_0101.png"
+  },
+  {
+    "name": "ZD2102 AU Door/Window Sensor",
+    "id": "0102",
+    "type": "2001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "All Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2001_0102.png"
+  },
+  {
+    "name": "ZD2102 JP Door/Window Sensor",
+    "id": "0104",
+    "type": "2001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "All Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2001_0104.png"
+  },
+  {
+    "name": "ZD2102 EU Door/Window Sensor",
+    "id": "0105",
+    "type": "2001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "All Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2001_0105.png"
+  },
+  {
+    "name": "ZD2102 EU Door/Window Sensor",
+    "id": "0106",
+    "type": "2001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "All Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2001_0106.png"
+  },
+  {
+    "name": "ZP3102 US PIR Motion Sensor",
+    "id": "0201",
+    "type": "2002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Basic on/off group for detecting movements"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2002_0201.png"
+  },
+  {
+    "name": "ZP3102 AU PIR Motion Sensor",
+    "id": "0202",
+    "type": "2002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Basic on/off group for detecting movements"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2002_0202.png"
+  },
+  {
+    "name": "ZP3102 EU PIR Motion Sensor",
+    "id": "0203",
+    "type": "2002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Basic on/off group for detecting movements"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2002_0203.png"
+  },
+  {
+    "name": "ZP3102 JP PIR Motion Sensor",
+    "id": "0204",
+    "type": "2002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Basic on/off group for detecting movements"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2002_0204.png"
+  },
+  {
+    "name": "ZP3102 EU PIR Motion Sensor",
+    "id": "0205",
+    "type": "2002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Basic on/off group for detecting movements"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2002_0205.png"
+  },
+  {
+    "name": "ZS5101 Shock and Vibration Sensor",
+    "id": "0302",
+    "type": "2003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2003_0302.png"
+  },
+  {
+    "name": "ZS5101 Shock and Vibration Sensor",
+    "id": "0306",
+    "type": "2003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0109/2003_0306.png"
+  },
+  {
+    "name": "ZS6101 Smoke Detector",
+    "id": "0403",
+    "type": "2004",
+    "pictureUrl": "pictures/0109/2004_0403.png"
+  },
+  {
+    "name": "ZM1601 Battery Operated Siren",
+    "id": "0503",
+    "type": "2005",
+    "pictureUrl": "pictures/0109/2005_0503.png"
+  },
+  {
+    "name": "ZM1601 Battery Operated Siren",
+    "id": "0505",
+    "type": "2005",
+    "pictureUrl": "pictures/0109/2005_0505.png"
+  },
+  {
+    "name": "ZM1601 Battery Operated Siren",
+    "id": "0508",
+    "type": "2005",
+    "pictureUrl": "pictures/0109/2005_0508.png"
+  },
+  {
+    "name": "ZM1701 Electronic Deadbolt Door Lock without Handle",
+    "id": "0610",
+    "type": "2006",
+    "pictureUrl": "pictures/0109/2006_0610.png"
+  },
+  {
+    "name": "ZM1702 Electronic Deadbolt Door Lock with Handle",
+    "id": "0620",
+    "type": "2006",
+    "pictureUrl": "pictures/0109/2006_0620.png"
+  },
+  {
+    "name": "ZM1701 Electronic Deadbolt Door Lock without Handle",
+    "id": "0621",
+    "type": "2006",
+    "pictureUrl": "pictures/0109/2006_0621.png"
+  },
+  {
+    "name": "Plug-in Switch",
+    "id": "0703",
+    "type": "2007",
+    "pictureUrl": "pictures/0109/2007_0703.png"
+  },
+  {
+    "name": "ZL7101 Plug-in Dimmer Module",
+    "id": "0803",
+    "type": "2008",
+    "pictureUrl": "pictures/0109/2008_0803.png"
+  },
+  {
+    "name": "ZM1602 Main Operated Siren",
+    "id": "0903",
+    "type": "2009",
+    "pictureUrl": "pictures/0109/2009_0903.png"
+  },
+  {
+    "name": "ZM1602 Main Operated Siren",
+    "id": "0908",
+    "type": "2009",
+    "pictureUrl": "pictures/0109/2009_0908.png"
+  },
+  {
+    "name": "ZG8101 Garage Door Detector",
+    "id": "0a02",
+    "type": "200a",
+    "pictureUrl": "pictures/0109/200a_0a02.png"
+  },
+  {
+    "name": "ZS6301 CO Detector",
+    "id": "0f02",
+    "type": "200f",
+    "pictureUrl": "pictures/0109/200f_0f02.png"
+  },
+  {
+    "name": "ZS6301 CO Detector",
+    "id": "0f03",
+    "type": "200f",
+    "pictureUrl": "pictures/0109/200f_0f03.png"
+  },
+  {
+    "name": "ZR1202 Repeater",
+    "id": "1203",
+    "type": "2012",
+    "pictureUrl": "pictures/0109/2012_1203.png"
+  },
+  {
+    "name": "ZL7101 Plug-in Dimmer Module",
+    "id": "1401",
+    "type": "2014",
+    "pictureUrl": "pictures/0109/2014_1401.png"
+  },
+  {
+    "name": "ZL7432 In-Wall Switch, Dual Relay",
+    "id": "1717",
+    "type": "2017",
+    "pictureUrl": "pictures/0109/2017_1717.png"
+  },
+  {
+    "name": "ZF5201 Flood Detector",
+    "id": "1c01",
+    "type": "201c",
+    "pictureUrl": "pictures/0109/201c_1c01.png"
+  },
+  {
+    "name": "ZM1602 Main Operated Siren",
+    "id": "0104",
+    "type": "3001",
+    "pictureUrl": "pictures/0109/3001_0104.png"
+  }
+]

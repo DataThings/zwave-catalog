@@ -1,1 +1,65 @@
-{"commandClasses":[{"id":"64"},{"id":"67","base":"0"}],"parameters":[{"parameterItems":[{"label":"Off","value":"0"},{"label":"Heat","value":"1"},{"label":"Heat Econ","value":"11"}],"instance":1,"min":0,"size":1,"max":11,"genre":"user","index":0,"label":"Mode","type":"list","value":"0"},{"parameterItems":[],"instance":1,"genre":"user","index":1,"label":"Comfort setpoint","units":"C","type":"decimal","value":"0"},{"parameterItems":[],"instance":1,"genre":"user","index":11,"label":"Energy saving setpoint","units":"C","type":"decimal","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "64"
+    },
+    {
+      "id": "67",
+      "base": "0"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Off",
+          "value": "0"
+        },
+        {
+          "label": "Heat",
+          "value": "1"
+        },
+        {
+          "label": "Heat Econ",
+          "value": "11"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 11,
+      "genre": "user",
+      "index": 0,
+      "label": "Mode",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "user",
+      "index": 1,
+      "label": "Comfort setpoint",
+      "units": "C",
+      "type": "decimal",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "user",
+      "index": 11,
+      "label": "Energy saving setpoint",
+      "units": "C",
+      "type": "decimal",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

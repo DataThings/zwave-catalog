@@ -1,1 +1,123 @@
-{"commandClasses":[{"id":"112"},{"id":"133"},{"mapping":"endpoints","id":"96"}],"parameters":[{"parameterItems":[],"min":0,"max":99,"genre":"config","index":1,"label":"Basic Set Level","units":"%","type":"byte","value":"99"},{"parameterItems":[],"min":-20,"max":99,"genre":"config","index":2,"label":"Temperature On Trigger","units":"degrees","type":"byte","value":"30"},{"parameterItems":[],"min":-20,"max":99,"genre":"config","index":3,"label":"Temperature Off Trigger","units":"degrees","type":"byte","value":"20"},{"parameterItems":[],"min":20,"max":99,"genre":"config","index":4,"label":"Humidity On Trigger","units":"%","type":"byte","value":"50"},{"parameterItems":[],"min":20,"max":99,"genre":"config","index":5,"label":"Humidity Off Trigger","units":"%","type":"byte","value":"40"},{"parameterItems":[],"min":0,"max":1439,"genre":"config","index":6,"label":"Auto Report Time","units":"minutes","type":"short","value":"0"},{"parameterItems":[],"min":0,"max":70,"genre":"config","index":7,"label":"Auto Report Temperature","units":"degrees","type":"byte","value":"0"},{"parameterItems":[],"min":5,"max":70,"genre":"config","index":8,"label":"Auto Report Humidity","units":"%","type":"byte","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    },
+    {
+      "mapping": "endpoints",
+      "id": "96"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 99,
+      "genre": "config",
+      "index": 1,
+      "label": "Basic Set Level",
+      "units": "%",
+      "type": "byte",
+      "value": "99"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": -20,
+      "max": 99,
+      "genre": "config",
+      "index": 2,
+      "label": "Temperature On Trigger",
+      "units": "degrees",
+      "type": "byte",
+      "value": "30"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": -20,
+      "max": 99,
+      "genre": "config",
+      "index": 3,
+      "label": "Temperature Off Trigger",
+      "units": "degrees",
+      "type": "byte",
+      "value": "20"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 20,
+      "max": 99,
+      "genre": "config",
+      "index": 4,
+      "label": "Humidity On Trigger",
+      "units": "%",
+      "type": "byte",
+      "value": "50"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 20,
+      "max": 99,
+      "genre": "config",
+      "index": 5,
+      "label": "Humidity Off Trigger",
+      "units": "%",
+      "type": "byte",
+      "value": "40"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 1439,
+      "genre": "config",
+      "index": 6,
+      "label": "Auto Report Time",
+      "units": "minutes",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 70,
+      "genre": "config",
+      "index": 7,
+      "label": "Auto Report Temperature",
+      "units": "degrees",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 5,
+      "max": 70,
+      "genre": "config",
+      "index": 8,
+      "label": "Auto Report Humidity",
+      "units": "%",
+      "type": "byte",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

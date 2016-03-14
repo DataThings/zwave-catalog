@@ -1,1 +1,64 @@
-[{"name":"UBS104 Universal Relay Switch","id":"0104","type":"0012","associations":{"groups":[{"index":1,"max_associations":16,"label":"devices that will be notified of changes in its status"},{"index":2,"max_associations":16,"label":"devices that will be controlled by a single click on the external switch"},{"index":3,"max_associations":16,"label":"devices that will be controlled by a double click on the external switch"},{"index":4,"max_associations":16,"label":"devices that will be controlled by a triple click on the external switch"},{"index":5,"max_associations":16,"label":"devices that will be controlled by hold on the external switch"}],"numGroups":3},"pictureUrl":"pictures/0149/0012_0104.png"},{"name":"UME304 Energy Driven Switch","id":"0304","type":"1214","associations":{"groups":[{"index":1,"max_associations":8,"label":"Devices to receive notifications on: status changes; energy and power levels; device local reset"},{"index":2,"max_associations":8,"label":"Devices controlled by the Up Power event"},{"index":3,"max_associations":8,"label":"Devices controlled by the Down Power event"}],"numGroups":3},"pictureUrl":"pictures/0149/1214_0304.png"}]
+[
+  {
+    "name": "UBS104 Universal Relay Switch",
+    "id": "0104",
+    "type": "0012",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 16,
+          "label": "devices that will be notified of changes in its status"
+        },
+        {
+          "index": 2,
+          "max_associations": 16,
+          "label": "devices that will be controlled by a single click on the external switch"
+        },
+        {
+          "index": 3,
+          "max_associations": 16,
+          "label": "devices that will be controlled by a double click on the external switch"
+        },
+        {
+          "index": 4,
+          "max_associations": 16,
+          "label": "devices that will be controlled by a triple click on the external switch"
+        },
+        {
+          "index": 5,
+          "max_associations": 16,
+          "label": "devices that will be controlled by hold on the external switch"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/0149/0012_0104.png"
+  },
+  {
+    "name": "UME304 Energy Driven Switch",
+    "id": "0304",
+    "type": "1214",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 8,
+          "label": "Devices to receive notifications on: status changes; energy and power levels; device local reset"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Devices controlled by the Up Power event"
+        },
+        {
+          "index": 3,
+          "max_associations": 8,
+          "label": "Devices controlled by the Down Power event"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/0149/1214_0304.png"
+  }
+]

@@ -1,1 +1,947 @@
-{"commandClasses":[{"id":"112"},{"mapping":"endpoints","id":"96"},{"id":"133"}],"parameters":[{"parameterItems":[],"instance":1,"min":1,"max":98,"genre":"config","index":1,"label":"Minimum brightness level","units":"%","type":"byte","value":"1"},{"parameterItems":[],"instance":1,"min":2,"max":99,"genre":"config","index":2,"label":"Maximum brightness level","units":"%","type":"byte","value":"99"},{"parameterItems":[],"instance":1,"min":1,"max":99,"genre":"config","index":3,"label":"Incandescence level of dimmable compact fluorescent lamps","units":"%","type":"byte","value":"1"},{"parameterItems":[],"instance":1,"min":0,"size":2,"max":255,"genre":"config","index":4,"label":"Incandescence time of dimmable compact fluorescent lamps","units":"sec","type":"byte","value":"0"},{"parameterItems":[],"instance":1,"min":1,"max":99,"genre":"config","index":5,"label":"The percentage of a dimming step at automatic control","units":"%","type":"byte","value":"1"},{"parameterItems":[],"instance":1,"min":0,"size":2,"max":255,"genre":"config","index":6,"label":"Time of a dimming step at automatic control","units":"sec","type":"byte","value":"1"},{"parameterItems":[],"instance":1,"min":1,"max":99,"genre":"config","index":7,"label":"The percentage of a dimming step at manual control","units":"%","type":"byte","value":"1"},{"parameterItems":[],"instance":1,"min":0,"size":2,"max":255,"genre":"config","index":8,"label":"Time of a dimming step at manual control","units":"sec","type":"byte","value":"5"},{"parameterItems":[{"label":"State NOT saved at power failure, all outputs are set to OFF upon power restore","value":"0"},{"label":"State saved at power failure, all outputs are set to previous state upon power restore","value":"1"}],"instance":1,"size":1,"genre":"config","index":9,"label":"Saving state before power faillure","type":"list","value":"1"},{"parameterItems":[],"instance":1,"min":0,"size":2,"max":32767,"genre":"config","index":10,"label":"Timer functionality (auto - off)","units":"sec","type":"short","value":"0"},{"parameterItems":[{"label":"ALL ON active / ALL OFF active","value":"255"},{"label":"ALL ON disabled/ ALL OFF disabled","value":"0"},{"label":"ALL ON disabled/ ALL OFF active","value":"1"},{"label":"ALL ON active / ALL OFF disabled","value":"2"}],"instance":1,"size":2,"genre":"config","index":11,"label":"Enable/Disable ALL ON/OFF","type":"list","value":"255"},{"parameterItems":[{"label":"idle","value":"0"},{"label":"Start auto-calibration of the load without Fibaro Bypass","value":"1"},{"label":"Start auto-calibration of the load with Fibaro Bypass","value":"2"}],"instance":1,"size":1,"genre":"config","index":13,"label":"Force auto-calibration","type":"list","value":"0"},{"parameterItems":[{"label":"calibration procedure not performed or Dimmer operates on manual settings","value":"0"},{"label":"Dimmer operates on auto-calibration settings","value":"1"}],"instance":1,"size":1,"read_only":"true","genre":"config","index":14,"label":"Auto-calibration status","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":1,"max":99,"genre":"config","index":15,"label":"Burnt out bulb detection","units":"%","type":"byte","value":"30"},{"parameterItems":[],"instance":1,"min":0,"size":2,"max":255,"genre":"config","index":16,"label":"Time delay of a burnt out bulb","units":"%","type":"byte","value":"5"},{"parameterItems":[],"instance":1,"min":0,"max":99,"genre":"config","index":19,"label":"Forced switch on brightness level","units":"%","type":"byte","value":"0"},{"parameterItems":[{"label":"Mono-stable input (button)","value":"0"},{"label":"Bi-stable input (switch)","value":"1"},{"label":"Role blind switch (UP / DOWN) - two switch keys operate the Dimmer","value":"2"}],"instance":1,"size":1,"genre":"config","index":20,"label":"Inputs Button/Switch configuration","type":"list","value":"0"},{"parameterItems":[{"label":"0xFF value is sent, which will set associated devices to their last saved state.","value":"0"},{"label":"Current Dimmer state is sent, which will synchronize brightness level of associated devices (other Dimmers for example).","value":"1"}],"instance":1,"size":1,"genre":"config","index":21,"label":"The value sent to associated devices on single click","type":"list","value":"0"},{"parameterItems":[{"label":"Device changes status on switch status change","value":"0"},{"label":"Device status is synchronized with switch status","value":"1"}],"instance":1,"size":1,"genre":"config","index":22,"label":"Assign toggle switch status to the device status","type":"list","value":"0"},{"parameterItems":[{"label":"Disable double click","value":"0"},{"label":"Enable double click","value":"1"}],"instance":1,"size":1,"genre":"config","index":23,"label":"Double click option","type":"list","value":"1"},{"parameterItems":[],"instance":1,"size":1,"genre":"config","index":24,"label":"Command frames sent in 2-nd and 3-rd association groups (S1 associations)","type":"byte","value":"0"},{"parameterItems":[],"instance":1,"size":1,"genre":"config","index":25,"label":"Command frames sent in 4-th and 5-th association groups (S2 associations)","type":"byte","value":"0"},{"parameterItems":[{"label":"3-way switch function for S2 disabled","value":"0"},{"label":"3-way switch function for S2 enabled","value":"1"}],"instance":1,"size":1,"genre":"config","index":26,"label":"The function of 3-way switch","type":"list","value":"0"},{"parameterItems":[],"instance":1,"size":1,"genre":"config","index":27,"label":"Associations in Z-Wave network security mode","type":"byte","value":"15"},{"parameterItems":[{"label":"Functionality deactivated","value":"0"},{"label":"Functionality activated","value":"1"}],"instance":1,"size":1,"genre":"config","index":28,"label":"Scene activation functionality","type":"list","value":"0"},{"parameterItems":[{"label":"standard mode","value":"0"},{"label":"S1 operates as S2, S2 operates as S1","value":"1"}],"instance":1,"size":1,"genre":"config","index":29,"label":"Switch functionality of S1 and S2","type":"list","value":"0"},{"parameterItems":[{"label":"forced leading edge control","value":"0"},{"label":"forced trailing edge control","value":"1"},{"label":"control mode selected automatically (based on auto-calibration)","value":"2"}],"instance":1,"size":1,"genre":"config","index":30,"label":"Load control mode","type":"list","value":"2"},{"parameterItems":[{"label":"leading edge","value":"0"},{"label":"trailing edge","value":"1"}],"instance":1,"size":1,"read_only":"true","genre":"config","index":31,"label":"Load control mode","type":"list","value":"0"},{"parameterItems":[{"label":"on/off mode disabled (dimming is possible)","value":"0"},{"label":"on/off mode enabled (dimming is not possible)","value":"1"},{"label":"mode selected automatically","value":"2"}],"instance":1,"size":1,"genre":"config","index":32,"label":"On/Off mode","type":"list","value":"2"},{"parameterItems":[{"label":"Load recognized as dimmable","value":"0"},{"label":"Load recognized as non-dimmable","value":"1"}],"instance":1,"size":1,"read_only":"true","genre":"config","index":33,"label":"Dimmability of the load","type":"list","value":"0"},{"parameterItems":[{"label":"no soft-start","value":"0"},{"label":"short soft-start (0.1s)","value":"1"},{"label":"long soft-start (0.5s)","value":"2"}],"instance":1,"size":1,"genre":"config","index":34,"label":"Soft-Start functionality","type":"list","value":"1"},{"parameterItems":[{"label":"No auto-calibration of the load after power on","value":"0"},{"label":"Auto-calibration performed after first power on","value":"1"},{"label":"Auto-calibration performed after each power on","value":"2"},{"label":"Auto-calibration performed after first power on or after each LOAD ERROR alarm (no load, load failure, burnt out bulb)","value":"3"},{"label":"Auto-calibration performed after each power on or after each LOAD ERROR alarm (no load, load failure, burnt out bulb),","value":"4"}],"instance":1,"size":1,"genre":"config","index":35,"label":"Auto-calibration after power on","type":"list","value":"1"},{"parameterItems":[{"label":"device permanently disabled until re-enabling by comand or external switch","value":"0"},{"label":"three atempts to turn on the load","value":"1"}],"instance":1,"size":1,"genre":"config","index":37,"label":"Behaviour of the Dimmer after OVERCURRENT or SURGE","type":"list","value":"1"},{"parameterItems":[],"instance":1,"min":1,"size":2,"max":350,"genre":"config","index":39,"label":"Power limit - OVERLOAD","units":"Watt","type":"byte","value":"250"},{"parameterItems":[{"label":"No reaction - no response to alarm frames","value":"0"},{"label":"ALARM DIMMER ON - device turn ON upon receipt of alarm frame","value":"1"},{"label":"ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame","value":"2"},{"label":"ALARM FLASHING - device will turn ON and OFF periodically","value":"3"}],"instance":1,"size":1,"genre":"config","index":40,"label":"Response to General Purpose Alarm","type":"list","value":"3"},{"parameterItems":[{"label":"No reaction - no response to alarm frames","value":"0"},{"label":"ALARM DIMMER ON - device turn ON upon receipt of alarm frame","value":"1"},{"label":"ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame","value":"2"},{"label":"ALARM FLASHING - device will turn ON and OFF periodically","value":"3"}],"instance":1,"size":1,"genre":"config","index":41,"label":"Response to Water Flooding Alarm","type":"list","value":"2"},{"parameterItems":[{"label":"No reaction - no response to alarm frames","value":"0"},{"label":"ALARM DIMMER ON - device turn ON upon receipt of alarm frame","value":"1"},{"label":"ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame","value":"2"},{"label":"ALARM FLASHING - device will turn ON and OFF periodically","value":"3"}],"instance":1,"size":1,"genre":"config","index":42,"label":"Response to Smoke, CO or CO2 Alarm","type":"list","value":"3"},{"parameterItems":[{"label":"No reaction - no response to alarm frames","value":"0"},{"label":"ALARM DIMMER ON - device turn ON upon receipt of alarm frame","value":"1"},{"label":"ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame","value":"2"},{"label":"ALARM FLASHING - device will turn ON and OFF periodically","value":"3"}],"instance":1,"size":1,"genre":"config","index":43,"label":"Response to Temperature Alarm","type":"list","value":"1"},{"parameterItems":[],"instance":1,"min":1,"size":2,"max":32767,"genre":"config","index":44,"label":"Time of alarm state","units":"sec","type":"byte","value":"600"},{"parameterItems":[{"label":"No reaction","value":"0"},{"label":"Send an alarm frame","value":"1"}],"instance":1,"size":1,"genre":"config","index":45,"label":"OVERLOAD alarm report","type":"list","value":"1"},{"parameterItems":[{"label":"No reaction","value":"0"},{"label":"Send an alarm frame","value":"1"}],"instance":1,"size":1,"genre":"config","index":46,"label":"LOAD ERROR alarm report","type":"list","value":"1"},{"parameterItems":[{"label":"No reaction","value":"0"},{"label":"Send an alarm frame","value":"1"}],"instance":1,"size":1,"genre":"config","index":47,"label":"OVERCURRENT alarm report","type":"list","value":"1"},{"parameterItems":[{"label":"No reaction","value":"0"},{"label":"Send an alarm frame","value":"1"}],"instance":1,"size":1,"genre":"config","index":48,"label":"SURGE alarm report","type":"list","value":"1"},{"parameterItems":[{"label":"No reaction","value":"0"},{"label":"Send an alarm frame","value":"1"}],"instance":1,"size":1,"genre":"config","index":49,"label":"OVERHEAT and VOLTAGE DROP alarm report","type":"list","value":"1"},{"parameterItems":[],"instance":1,"min":0,"max":100,"genre":"config","index":50,"label":"Active power reports","units":"%","type":"byte","value":"10"},{"parameterItems":[],"instance":1,"min":0,"size":2,"max":32767,"genre":"config","index":52,"label":"Periodic active power and energy reports","units":"sec","type":"short","value":"3600"},{"parameterItems":[],"instance":1,"min":0,"size":2,"max":255,"genre":"config","index":53,"label":"Energy reports","units":"kWh","type":"byte","value":"10"},{"parameterItems":[{"label":"Self-measurement inactive","value":"0"},{"label":"Self-measurement active","value":"1"}],"instance":1,"size":1,"genre":"config","index":54,"label":"Self-measurement","type":"list","value":"0"},{"parameterItems":[{"label":"power measurement based on the standard algorithm","value":"0"},{"label":"approximation based on the calibration data","value":"1"},{"label":"approximation based on the control angle","value":"2"}],"instance":1,"size":1,"genre":"config","index":58,"label":"Method of calculating the active power","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":0,"size":2,"max":500,"genre":"config","index":59,"label":"Approximated power at the maximum brightness level","units":"Watt","type":"short","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "mapping": "endpoints",
+      "id": "96"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "max": 98,
+      "genre": "config",
+      "index": 1,
+      "label": "Minimum brightness level",
+      "units": "%",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 2,
+      "max": 99,
+      "genre": "config",
+      "index": 2,
+      "label": "Maximum brightness level",
+      "units": "%",
+      "type": "byte",
+      "value": "99"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "max": 99,
+      "genre": "config",
+      "index": 3,
+      "label": "Incandescence level of dimmable compact fluorescent lamps",
+      "units": "%",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 2,
+      "max": 255,
+      "genre": "config",
+      "index": 4,
+      "label": "Incandescence time of dimmable compact fluorescent lamps",
+      "units": "sec",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "max": 99,
+      "genre": "config",
+      "index": 5,
+      "label": "The percentage of a dimming step at automatic control",
+      "units": "%",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 2,
+      "max": 255,
+      "genre": "config",
+      "index": 6,
+      "label": "Time of a dimming step at automatic control",
+      "units": "sec",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "max": 99,
+      "genre": "config",
+      "index": 7,
+      "label": "The percentage of a dimming step at manual control",
+      "units": "%",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 2,
+      "max": 255,
+      "genre": "config",
+      "index": 8,
+      "label": "Time of a dimming step at manual control",
+      "units": "sec",
+      "type": "byte",
+      "value": "5"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore",
+          "value": "0"
+        },
+        {
+          "label": "State saved at power failure, all outputs are set to previous state upon power restore",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 9,
+      "label": "Saving state before power faillure",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 2,
+      "max": 32767,
+      "genre": "config",
+      "index": 10,
+      "label": "Timer functionality (auto - off)",
+      "units": "sec",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "ALL ON active / ALL OFF active",
+          "value": "255"
+        },
+        {
+          "label": "ALL ON disabled/ ALL OFF disabled",
+          "value": "0"
+        },
+        {
+          "label": "ALL ON disabled/ ALL OFF active",
+          "value": "1"
+        },
+        {
+          "label": "ALL ON active / ALL OFF disabled",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "size": 2,
+      "genre": "config",
+      "index": 11,
+      "label": "Enable/Disable ALL ON/OFF",
+      "type": "list",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "idle",
+          "value": "0"
+        },
+        {
+          "label": "Start auto-calibration of the load without Fibaro Bypass",
+          "value": "1"
+        },
+        {
+          "label": "Start auto-calibration of the load with Fibaro Bypass",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 13,
+      "label": "Force auto-calibration",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "calibration procedure not performed or Dimmer operates on manual settings",
+          "value": "0"
+        },
+        {
+          "label": "Dimmer operates on auto-calibration settings",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "read_only": "true",
+      "genre": "config",
+      "index": 14,
+      "label": "Auto-calibration status",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "max": 99,
+      "genre": "config",
+      "index": 15,
+      "label": "Burnt out bulb detection",
+      "units": "%",
+      "type": "byte",
+      "value": "30"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 2,
+      "max": 255,
+      "genre": "config",
+      "index": 16,
+      "label": "Time delay of a burnt out bulb",
+      "units": "%",
+      "type": "byte",
+      "value": "5"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 99,
+      "genre": "config",
+      "index": 19,
+      "label": "Forced switch on brightness level",
+      "units": "%",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Mono-stable input (button)",
+          "value": "0"
+        },
+        {
+          "label": "Bi-stable input (switch)",
+          "value": "1"
+        },
+        {
+          "label": "Role blind switch (UP / DOWN) - two switch keys operate the Dimmer",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 20,
+      "label": "Inputs Button/Switch configuration",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "0xFF value is sent, which will set associated devices to their last saved state.",
+          "value": "0"
+        },
+        {
+          "label": "Current Dimmer state is sent, which will synchronize brightness level of associated devices (other Dimmers for example).",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 21,
+      "label": "The value sent to associated devices on single click",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Device changes status on switch status change",
+          "value": "0"
+        },
+        {
+          "label": "Device status is synchronized with switch status",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 22,
+      "label": "Assign toggle switch status to the device status",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Disable double click",
+          "value": "0"
+        },
+        {
+          "label": "Enable double click",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 23,
+      "label": "Double click option",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 24,
+      "label": "Command frames sent in 2-nd and 3-rd association groups (S1 associations)",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 25,
+      "label": "Command frames sent in 4-th and 5-th association groups (S2 associations)",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "3-way switch function for S2 disabled",
+          "value": "0"
+        },
+        {
+          "label": "3-way switch function for S2 enabled",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 26,
+      "label": "The function of 3-way switch",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 27,
+      "label": "Associations in Z-Wave network security mode",
+      "type": "byte",
+      "value": "15"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Functionality deactivated",
+          "value": "0"
+        },
+        {
+          "label": "Functionality activated",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 28,
+      "label": "Scene activation functionality",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "standard mode",
+          "value": "0"
+        },
+        {
+          "label": "S1 operates as S2, S2 operates as S1",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 29,
+      "label": "Switch functionality of S1 and S2",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "forced leading edge control",
+          "value": "0"
+        },
+        {
+          "label": "forced trailing edge control",
+          "value": "1"
+        },
+        {
+          "label": "control mode selected automatically (based on auto-calibration)",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 30,
+      "label": "Load control mode",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "leading edge",
+          "value": "0"
+        },
+        {
+          "label": "trailing edge",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "read_only": "true",
+      "genre": "config",
+      "index": 31,
+      "label": "Load control mode",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "on/off mode disabled (dimming is possible)",
+          "value": "0"
+        },
+        {
+          "label": "on/off mode enabled (dimming is not possible)",
+          "value": "1"
+        },
+        {
+          "label": "mode selected automatically",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 32,
+      "label": "On/Off mode",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Load recognized as dimmable",
+          "value": "0"
+        },
+        {
+          "label": "Load recognized as non-dimmable",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "read_only": "true",
+      "genre": "config",
+      "index": 33,
+      "label": "Dimmability of the load",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "no soft-start",
+          "value": "0"
+        },
+        {
+          "label": "short soft-start (0.1s)",
+          "value": "1"
+        },
+        {
+          "label": "long soft-start (0.5s)",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 34,
+      "label": "Soft-Start functionality",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No auto-calibration of the load after power on",
+          "value": "0"
+        },
+        {
+          "label": "Auto-calibration performed after first power on",
+          "value": "1"
+        },
+        {
+          "label": "Auto-calibration performed after each power on",
+          "value": "2"
+        },
+        {
+          "label": "Auto-calibration performed after first power on or after each LOAD ERROR alarm (no load, load failure, burnt out bulb)",
+          "value": "3"
+        },
+        {
+          "label": "Auto-calibration performed after each power on or after each LOAD ERROR alarm (no load, load failure, burnt out bulb),",
+          "value": "4"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 35,
+      "label": "Auto-calibration after power on",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "device permanently disabled until re-enabling by comand or external switch",
+          "value": "0"
+        },
+        {
+          "label": "three atempts to turn on the load",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 37,
+      "label": "Behaviour of the Dimmer after OVERCURRENT or SURGE",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "size": 2,
+      "max": 350,
+      "genre": "config",
+      "index": 39,
+      "label": "Power limit - OVERLOAD",
+      "units": "Watt",
+      "type": "byte",
+      "value": "250"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No reaction - no response to alarm frames",
+          "value": "0"
+        },
+        {
+          "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame",
+          "value": "1"
+        },
+        {
+          "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame",
+          "value": "2"
+        },
+        {
+          "label": "ALARM FLASHING - device will turn ON and OFF periodically",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 40,
+      "label": "Response to General Purpose Alarm",
+      "type": "list",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No reaction - no response to alarm frames",
+          "value": "0"
+        },
+        {
+          "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame",
+          "value": "1"
+        },
+        {
+          "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame",
+          "value": "2"
+        },
+        {
+          "label": "ALARM FLASHING - device will turn ON and OFF periodically",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 41,
+      "label": "Response to Water Flooding Alarm",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No reaction - no response to alarm frames",
+          "value": "0"
+        },
+        {
+          "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame",
+          "value": "1"
+        },
+        {
+          "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame",
+          "value": "2"
+        },
+        {
+          "label": "ALARM FLASHING - device will turn ON and OFF periodically",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 42,
+      "label": "Response to Smoke, CO or CO2 Alarm",
+      "type": "list",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No reaction - no response to alarm frames",
+          "value": "0"
+        },
+        {
+          "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame",
+          "value": "1"
+        },
+        {
+          "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame",
+          "value": "2"
+        },
+        {
+          "label": "ALARM FLASHING - device will turn ON and OFF periodically",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 43,
+      "label": "Response to Temperature Alarm",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "size": 2,
+      "max": 32767,
+      "genre": "config",
+      "index": 44,
+      "label": "Time of alarm state",
+      "units": "sec",
+      "type": "byte",
+      "value": "600"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No reaction",
+          "value": "0"
+        },
+        {
+          "label": "Send an alarm frame",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 45,
+      "label": "OVERLOAD alarm report",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No reaction",
+          "value": "0"
+        },
+        {
+          "label": "Send an alarm frame",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 46,
+      "label": "LOAD ERROR alarm report",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No reaction",
+          "value": "0"
+        },
+        {
+          "label": "Send an alarm frame",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 47,
+      "label": "OVERCURRENT alarm report",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No reaction",
+          "value": "0"
+        },
+        {
+          "label": "Send an alarm frame",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 48,
+      "label": "SURGE alarm report",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No reaction",
+          "value": "0"
+        },
+        {
+          "label": "Send an alarm frame",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 49,
+      "label": "OVERHEAT and VOLTAGE DROP alarm report",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 100,
+      "genre": "config",
+      "index": 50,
+      "label": "Active power reports",
+      "units": "%",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 2,
+      "max": 32767,
+      "genre": "config",
+      "index": 52,
+      "label": "Periodic active power and energy reports",
+      "units": "sec",
+      "type": "short",
+      "value": "3600"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 2,
+      "max": 255,
+      "genre": "config",
+      "index": 53,
+      "label": "Energy reports",
+      "units": "kWh",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Self-measurement inactive",
+          "value": "0"
+        },
+        {
+          "label": "Self-measurement active",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 54,
+      "label": "Self-measurement",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "power measurement based on the standard algorithm",
+          "value": "0"
+        },
+        {
+          "label": "approximation based on the calibration data",
+          "value": "1"
+        },
+        {
+          "label": "approximation based on the control angle",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 58,
+      "label": "Method of calculating the active power",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 2,
+      "max": 500,
+      "genre": "config",
+      "index": 59,
+      "label": "Approximated power at the maximum brightness level",
+      "units": "Watt",
+      "type": "short",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

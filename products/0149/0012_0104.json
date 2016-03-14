@@ -1,1 +1,953 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"On","value":"2"},{"label":"Off","value":"3"},{"label":"Ignore","value":"4"}],"min":1,"size":1,"max":4,"genre":"config","index":1,"label":"Device status 1 click","type":"list","value":"1"},{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"On","value":"2"},{"label":"Off","value":"3"},{"label":"Ignore","value":"4"}],"min":1,"size":1,"max":4,"genre":"config","index":2,"label":"Device status 2 clicks","type":"list","value":"1"},{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"On","value":"2"},{"label":"Off","value":"3"},{"label":"Ignore","value":"4"}],"min":1,"size":1,"max":4,"genre":"config","index":3,"label":"Device status 3 clicks","type":"list","value":"1"},{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"On","value":"2"},{"label":"Off","value":"3"},{"label":"Ignore","value":"4"}],"min":1,"size":1,"max":4,"genre":"config","index":4,"label":"Device status held down","type":"list","value":"1"},{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"Ignore if On","value":"2"},{"label":"Ignore if Off","value":"3"},{"label":"Toggle associated","value":"4"},{"label":"Set as initial status value","value":"5"},{"label":"Ignore","value":"6"}],"min":1,"size":1,"max":6,"genre":"config","index":5,"label":"Action when 1 click","type":"list","value":"1"},{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"Ignore if On","value":"2"},{"label":"Ignore if Off","value":"3"},{"label":"Toggle associated","value":"4"},{"label":"Set as initial status value","value":"5"},{"label":"Ignore","value":"6"}],"min":1,"size":1,"max":6,"genre":"config","index":6,"label":"Action when 2 clicks","type":"list","value":"1"},{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"Ignore if On","value":"2"},{"label":"Ignore if Off","value":"3"},{"label":"Toggle associated","value":"4"},{"label":"Set as initial status value","value":"5"},{"label":"Ignore","value":"6"}],"min":1,"size":1,"max":6,"genre":"config","index":7,"label":"Action when 3 clicks","type":"list","value":"6"},{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"Ignore if On","value":"2"},{"label":"Ignore if Off","value":"3"},{"label":"Toggle associated","value":"4"},{"label":"Set as initial status value","value":"5"},{"label":"Ignore","value":"6"}],"min":1,"size":1,"max":6,"genre":"config","index":8,"label":"Action when is held down","type":"list","value":"1"},{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"Ignore if On","value":"2"},{"label":"Ignore if Off","value":"3"},{"label":"Set as initial status value","value":"4"},{"label":"Ignore","value":"5"}],"min":1,"size":1,"max":5,"genre":"config","index":9,"label":"Action on all devices when 1 click","type":"list","value":"5"},{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"Ignore if On","value":"2"},{"label":"Ignore if Off","value":"3"},{"label":"Set as initial status value","value":"4"},{"label":"Ignore","value":"5"}],"min":1,"size":1,"max":5,"genre":"config","index":10,"label":"Action on all devices when 2 clicks","type":"list","value":"5"},{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"Ignore if On","value":"2"},{"label":"Ignore if Off","value":"3"},{"label":"Set as initial status value","value":"4"},{"label":"Ignore","value":"5"}],"min":1,"size":1,"max":5,"genre":"config","index":11,"label":"Action on all devices when 3 clicks","type":"list","value":"5"},{"parameterItems":[{"label":"Toggle","value":"1"},{"label":"Ignore if On","value":"2"},{"label":"Ignore if Off","value":"3"},{"label":"Set as initial status value","value":"4"},{"label":"Ignore","value":"5"}],"min":1,"size":1,"max":5,"genre":"config","index":12,"label":"Action on all devices when held down","type":"list","value":"5"},{"parameterItems":[{"label":"How received","value":"1"},{"label":"Ignore if On","value":"2"},{"label":"Ignore if Off","value":"3"},{"label":"Ignore","value":"4"}],"min":1,"size":1,"max":4,"genre":"config","index":20,"label":"Device status upon receipt of a Basic Set","type":"list","value":"1"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":30,"label":"ON_LEVEL Group 2","type":"byte","value":"255"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":31,"label":"OFF_LEVEL Group 2","type":"byte","value":"0"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":32,"label":"ON_LEVEL Group 3","type":"byte","value":"255"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":33,"label":"OFF_LEVEL Group 3 ","type":"byte","value":"0"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":34,"label":"ON_LEVEL Group 4","type":"byte","value":"255"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":35,"label":"OFF_LEVEL Group 4","type":"byte","value":"0"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":36,"label":"ON_LEVEL Group 5","type":"byte","value":"255"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":37,"label":"OFF_LEVEL Group 5","type":"byte","value":"0"},{"parameterItems":[{"label":"Timer disabled","value":"0"},{"label":"Timer enabled","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":40,"label":"Timer associated with the 1 click","type":"list","value":"0"},{"parameterItems":[{"label":"Timer disabled","value":"0"},{"label":"Timer enabled","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":41,"label":"Timer associated with the 2 click","type":"list","value":"0"},{"parameterItems":[{"label":"Timer disabled","value":"0"},{"label":"Timer enabled","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":42,"label":"Timer associated with the 3 click","type":"list","value":"0"},{"parameterItems":[{"label":"Timer disabled","value":"0"},{"label":"Timer enabled","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":43,"label":"Timer associated with the hold","type":"list","value":"0"},{"parameterItems":[{"label":"Timer disabled","value":"0"},{"label":"Timer enabled","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":44,"label":"Timer associated with Basic Set command","type":"list","value":"0"},{"parameterItems":[],"min":0,"size":2,"max":3600,"genre":"config","index":45,"label":"Switch-off timer","type":"short","value":"600"},{"parameterItems":[{"label":"Cancel","value":"0"},{"label":"Mantain","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":46,"label":"Switch-off timer validity","type":"list","value":"1"},{"parameterItems":[{"label":"On","value":"1"},{"label":"Off","value":"2"},{"label":"Flash","value":"3"},{"label":"Ignore","value":"4"}],"min":1,"size":1,"max":4,"genre":"config","index":50,"label":"Smoke Alarm, CO, CO2 Action","type":"list","value":"1"},{"parameterItems":[{"label":"On","value":"1"},{"label":"Off","value":"2"},{"label":"Flash","value":"3"},{"label":"Ignore","value":"4"}],"min":1,"size":1,"max":4,"genre":"config","index":51,"label":"Heat Allarm","type":"list","value":"1"},{"parameterItems":[{"label":"On","value":"1"},{"label":"Off","value":"2"},{"label":"Flash","value":"3"},{"label":"Ignore","value":"4"}],"min":1,"size":1,"max":4,"genre":"config","index":52,"label":"Water Allarm","type":"list","value":"2"},{"parameterItems":[{"label":"On","value":"1"},{"label":"Off","value":"2"},{"label":"Flash","value":"3"},{"label":"Ignore","value":"4"}],"min":1,"size":1,"max":4,"genre":"config","index":53,"label":"Home Security","type":"list","value":"3"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":54,"label":"ON time during flashing","type":"byte","value":"5"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":55,"label":"OFF time during flashing","type":"byte","value":"5"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":56,"label":"Duration of flashing phase","type":"byte","value":"10"},{"parameterItems":[{"label":"On","value":"1"},{"label":"Off","value":"2"},{"label":"Previous status","value":"3"}],"min":1,"size":1,"max":3,"genre":"config","index":60,"label":"Startup Status","type":"list","value":"3"},{"parameterItems":[{"label":"Factory reset","value":"0"},{"label":"Reset associations","value":"1"},{"label":"Reset configurations","value":"2"},{"label":"Ignore","value":"4"}],"min":0,"size":1,"max":4,"genre":"config","index":61,"label":"Configuration Reset","type":"list","value":"4"},{"parameterItems":[{"label":"Ignore","value":"0"},{"label":"Button","value":"1"},{"label":"Bistable switch","value":"2"},{"label":"AC sensing","value":"3"},{"label":"Automatic recognition","value":"4"}],"min":0,"size":1,"max":4,"genre":"config","index":62,"label":"Type of external switch","type":"list","value":"4"},{"parameterItems":[],"min":0,"size":1,"max":255,"genre":"config","index":63,"label":"Sensitivity","type":"byte","value":"9"},{"parameterItems":[],"min":0,"size":2,"max":3600,"genre":"config","index":64,"label":"Load protection","type":"short","value":"0"},{"parameterItems":[{"label":"Ignore","value":"0"},{"label":"1 Click","value":"1"},{"label":"2 Clicks","value":"2"},{"label":"3 Clicks","value":"3"}],"min":0,"size":1,"max":3,"genre":"config","index":65,"label":"Learn Mode","type":"list","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "On",
+          "value": "2"
+        },
+        {
+          "label": "Off",
+          "value": "3"
+        },
+        {
+          "label": "Ignore",
+          "value": "4"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 1,
+      "label": "Device status 1 click",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "On",
+          "value": "2"
+        },
+        {
+          "label": "Off",
+          "value": "3"
+        },
+        {
+          "label": "Ignore",
+          "value": "4"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 2,
+      "label": "Device status 2 clicks",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "On",
+          "value": "2"
+        },
+        {
+          "label": "Off",
+          "value": "3"
+        },
+        {
+          "label": "Ignore",
+          "value": "4"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 3,
+      "label": "Device status 3 clicks",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "On",
+          "value": "2"
+        },
+        {
+          "label": "Off",
+          "value": "3"
+        },
+        {
+          "label": "Ignore",
+          "value": "4"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 4,
+      "label": "Device status held down",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "Ignore if On",
+          "value": "2"
+        },
+        {
+          "label": "Ignore if Off",
+          "value": "3"
+        },
+        {
+          "label": "Toggle associated",
+          "value": "4"
+        },
+        {
+          "label": "Set as initial status value",
+          "value": "5"
+        },
+        {
+          "label": "Ignore",
+          "value": "6"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 6,
+      "genre": "config",
+      "index": 5,
+      "label": "Action when 1 click",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "Ignore if On",
+          "value": "2"
+        },
+        {
+          "label": "Ignore if Off",
+          "value": "3"
+        },
+        {
+          "label": "Toggle associated",
+          "value": "4"
+        },
+        {
+          "label": "Set as initial status value",
+          "value": "5"
+        },
+        {
+          "label": "Ignore",
+          "value": "6"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 6,
+      "genre": "config",
+      "index": 6,
+      "label": "Action when 2 clicks",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "Ignore if On",
+          "value": "2"
+        },
+        {
+          "label": "Ignore if Off",
+          "value": "3"
+        },
+        {
+          "label": "Toggle associated",
+          "value": "4"
+        },
+        {
+          "label": "Set as initial status value",
+          "value": "5"
+        },
+        {
+          "label": "Ignore",
+          "value": "6"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 6,
+      "genre": "config",
+      "index": 7,
+      "label": "Action when 3 clicks",
+      "type": "list",
+      "value": "6"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "Ignore if On",
+          "value": "2"
+        },
+        {
+          "label": "Ignore if Off",
+          "value": "3"
+        },
+        {
+          "label": "Toggle associated",
+          "value": "4"
+        },
+        {
+          "label": "Set as initial status value",
+          "value": "5"
+        },
+        {
+          "label": "Ignore",
+          "value": "6"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 6,
+      "genre": "config",
+      "index": 8,
+      "label": "Action when is held down",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "Ignore if On",
+          "value": "2"
+        },
+        {
+          "label": "Ignore if Off",
+          "value": "3"
+        },
+        {
+          "label": "Set as initial status value",
+          "value": "4"
+        },
+        {
+          "label": "Ignore",
+          "value": "5"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 5,
+      "genre": "config",
+      "index": 9,
+      "label": "Action on all devices when 1 click",
+      "type": "list",
+      "value": "5"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "Ignore if On",
+          "value": "2"
+        },
+        {
+          "label": "Ignore if Off",
+          "value": "3"
+        },
+        {
+          "label": "Set as initial status value",
+          "value": "4"
+        },
+        {
+          "label": "Ignore",
+          "value": "5"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 5,
+      "genre": "config",
+      "index": 10,
+      "label": "Action on all devices when 2 clicks",
+      "type": "list",
+      "value": "5"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "Ignore if On",
+          "value": "2"
+        },
+        {
+          "label": "Ignore if Off",
+          "value": "3"
+        },
+        {
+          "label": "Set as initial status value",
+          "value": "4"
+        },
+        {
+          "label": "Ignore",
+          "value": "5"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 5,
+      "genre": "config",
+      "index": 11,
+      "label": "Action on all devices when 3 clicks",
+      "type": "list",
+      "value": "5"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Toggle",
+          "value": "1"
+        },
+        {
+          "label": "Ignore if On",
+          "value": "2"
+        },
+        {
+          "label": "Ignore if Off",
+          "value": "3"
+        },
+        {
+          "label": "Set as initial status value",
+          "value": "4"
+        },
+        {
+          "label": "Ignore",
+          "value": "5"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 5,
+      "genre": "config",
+      "index": 12,
+      "label": "Action on all devices when held down",
+      "type": "list",
+      "value": "5"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "How received",
+          "value": "1"
+        },
+        {
+          "label": "Ignore if On",
+          "value": "2"
+        },
+        {
+          "label": "Ignore if Off",
+          "value": "3"
+        },
+        {
+          "label": "Ignore",
+          "value": "4"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 20,
+      "label": "Device status upon receipt of a Basic Set",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 30,
+      "label": "ON_LEVEL Group 2",
+      "type": "byte",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 31,
+      "label": "OFF_LEVEL Group 2",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 32,
+      "label": "ON_LEVEL Group 3",
+      "type": "byte",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 33,
+      "label": "OFF_LEVEL Group 3 ",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 34,
+      "label": "ON_LEVEL Group 4",
+      "type": "byte",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 35,
+      "label": "OFF_LEVEL Group 4",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 36,
+      "label": "ON_LEVEL Group 5",
+      "type": "byte",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 37,
+      "label": "OFF_LEVEL Group 5",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Timer disabled",
+          "value": "0"
+        },
+        {
+          "label": "Timer enabled",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 40,
+      "label": "Timer associated with the 1 click",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Timer disabled",
+          "value": "0"
+        },
+        {
+          "label": "Timer enabled",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 41,
+      "label": "Timer associated with the 2 click",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Timer disabled",
+          "value": "0"
+        },
+        {
+          "label": "Timer enabled",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 42,
+      "label": "Timer associated with the 3 click",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Timer disabled",
+          "value": "0"
+        },
+        {
+          "label": "Timer enabled",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 43,
+      "label": "Timer associated with the hold",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Timer disabled",
+          "value": "0"
+        },
+        {
+          "label": "Timer enabled",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 44,
+      "label": "Timer associated with Basic Set command",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 2,
+      "max": 3600,
+      "genre": "config",
+      "index": 45,
+      "label": "Switch-off timer",
+      "type": "short",
+      "value": "600"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Cancel",
+          "value": "0"
+        },
+        {
+          "label": "Mantain",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 46,
+      "label": "Switch-off timer validity",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "On",
+          "value": "1"
+        },
+        {
+          "label": "Off",
+          "value": "2"
+        },
+        {
+          "label": "Flash",
+          "value": "3"
+        },
+        {
+          "label": "Ignore",
+          "value": "4"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 50,
+      "label": "Smoke Alarm, CO, CO2 Action",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "On",
+          "value": "1"
+        },
+        {
+          "label": "Off",
+          "value": "2"
+        },
+        {
+          "label": "Flash",
+          "value": "3"
+        },
+        {
+          "label": "Ignore",
+          "value": "4"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 51,
+      "label": "Heat Allarm",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "On",
+          "value": "1"
+        },
+        {
+          "label": "Off",
+          "value": "2"
+        },
+        {
+          "label": "Flash",
+          "value": "3"
+        },
+        {
+          "label": "Ignore",
+          "value": "4"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 52,
+      "label": "Water Allarm",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "On",
+          "value": "1"
+        },
+        {
+          "label": "Off",
+          "value": "2"
+        },
+        {
+          "label": "Flash",
+          "value": "3"
+        },
+        {
+          "label": "Ignore",
+          "value": "4"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 53,
+      "label": "Home Security",
+      "type": "list",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 54,
+      "label": "ON time during flashing",
+      "type": "byte",
+      "value": "5"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 55,
+      "label": "OFF time during flashing",
+      "type": "byte",
+      "value": "5"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 56,
+      "label": "Duration of flashing phase",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "On",
+          "value": "1"
+        },
+        {
+          "label": "Off",
+          "value": "2"
+        },
+        {
+          "label": "Previous status",
+          "value": "3"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 3,
+      "genre": "config",
+      "index": 60,
+      "label": "Startup Status",
+      "type": "list",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Factory reset",
+          "value": "0"
+        },
+        {
+          "label": "Reset associations",
+          "value": "1"
+        },
+        {
+          "label": "Reset configurations",
+          "value": "2"
+        },
+        {
+          "label": "Ignore",
+          "value": "4"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 61,
+      "label": "Configuration Reset",
+      "type": "list",
+      "value": "4"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Ignore",
+          "value": "0"
+        },
+        {
+          "label": "Button",
+          "value": "1"
+        },
+        {
+          "label": "Bistable switch",
+          "value": "2"
+        },
+        {
+          "label": "AC sensing",
+          "value": "3"
+        },
+        {
+          "label": "Automatic recognition",
+          "value": "4"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 4,
+      "genre": "config",
+      "index": 62,
+      "label": "Type of external switch",
+      "type": "list",
+      "value": "4"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 63,
+      "label": "Sensitivity",
+      "type": "byte",
+      "value": "9"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 2,
+      "max": 3600,
+      "genre": "config",
+      "index": 64,
+      "label": "Load protection",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Ignore",
+          "value": "0"
+        },
+        {
+          "label": "1 Click",
+          "value": "1"
+        },
+        {
+          "label": "2 Clicks",
+          "value": "2"
+        },
+        {
+          "label": "3 Clicks",
+          "value": "3"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 3,
+      "genre": "config",
+      "index": 65,
+      "label": "Learn Mode",
+      "type": "list",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

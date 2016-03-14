@@ -1,1 +1,8 @@
-[{"name":"Dimmer Actuator","id":"0002","type":"0002","pictureUrl":"pictures/0103/0002_0002.png"}]
+[
+  {
+    "name": "Dimmer Actuator",
+    "id": "0002",
+    "type": "0002",
+    "pictureUrl": "pictures/0103/0002_0002.png"
+  }
+]

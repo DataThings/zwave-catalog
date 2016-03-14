@@ -1,1 +1,194 @@
-[{"name":"Mini Energy Dimmer","id":"0001","type":"0001","pictureUrl":"pictures/015f/0001_0001.png"},{"name":"Mini Energy Switch","id":"0001","type":"0002","pictureUrl":"pictures/015f/0002_0001.png"},{"name":"MH-S311 One-load","id":"0201","type":"3102","associations":{"groups":[{"auto":false,"index":1,"max_associations":5,"label":"Button1"},{"auto":true,"index":2,"max_associations":1,"label":"Lifeline"}],"numGroups":5},"pictureUrl":"pictures/015f/3102_0201.png"},{"name":"MH-S312 Two-load","id":"0202","type":"3102","associations":{"groups":[{"auto":false,"index":1,"max_associations":5,"label":"Button1"},{"auto":false,"index":2,"max_associations":5,"label":"Button2"},{"auto":true,"index":3,"max_associations":1,"label":"Lifeline"}],"numGroups":5},"pictureUrl":"pictures/015f/3102_0202.png"},{"name":"MH-S314 Four-load","id":"0204","type":"3102","associations":{"groups":[{"auto":false,"index":1,"max_associations":5,"label":"Button1"},{"auto":false,"index":2,"max_associations":5,"label":"Button2"},{"auto":false,"index":3,"max_associations":5,"label":"Button3"},{"auto":false,"index":4,"max_associations":5,"label":"Button4"},{"auto":true,"index":5,"max_associations":1,"label":"Lifeline"}],"numGroups":5},"pictureUrl":"pictures/015f/3102_0204.png"},{"name":"MH-S411 One-load","id":"0201","type":"4102","associations":{"groups":[{"auto":false,"index":1,"max_associations":5,"label":"Button1"},{"auto":true,"index":2,"max_associations":1,"label":"Lifeline"}],"numGroups":5},"pictureUrl":"pictures/015f/4102_0201.png"},{"name":"MH-S412 Two-load","id":"0202","type":"4102","associations":{"groups":[{"auto":false,"index":1,"max_associations":5,"label":"Button1"},{"auto":false,"index":2,"max_associations":5,"label":"Button2"},{"auto":true,"index":3,"max_associations":1,"label":"Lifeline"}],"numGroups":5},"pictureUrl":"pictures/015f/4102_0202.png"},{"name":"Touch Panel Switch MH-S513","id":"0103","type":"5102","associations":{"groups":[{"auto":false,"index":1,"max_associations":5,"label":"Button1"},{"auto":false,"index":2,"max_associations":5,"label":"Button2"},{"auto":false,"index":3,"max_associations":5,"label":"Button3"},{"auto":true,"index":4,"max_associations":1,"label":"Lifeline"}],"numGroups":5},"pictureUrl":"pictures/015f/5102_0103.png"}]
+[
+  {
+    "name": "Mini Energy Dimmer",
+    "id": "0001",
+    "type": "0001",
+    "pictureUrl": "pictures/015f/0001_0001.png"
+  },
+  {
+    "name": "Mini Energy Switch",
+    "id": "0001",
+    "type": "0002",
+    "pictureUrl": "pictures/015f/0002_0001.png"
+  },
+  {
+    "name": "MH-S311 One-load",
+    "id": "0201",
+    "type": "3102",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Button1"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 1,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 5
+    },
+    "pictureUrl": "pictures/015f/3102_0201.png"
+  },
+  {
+    "name": "MH-S312 Two-load",
+    "id": "0202",
+    "type": "3102",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Button1"
+        },
+        {
+          "auto": false,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Button2"
+        },
+        {
+          "auto": true,
+          "index": 3,
+          "max_associations": 1,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 5
+    },
+    "pictureUrl": "pictures/015f/3102_0202.png"
+  },
+  {
+    "name": "MH-S314 Four-load",
+    "id": "0204",
+    "type": "3102",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Button1"
+        },
+        {
+          "auto": false,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Button2"
+        },
+        {
+          "auto": false,
+          "index": 3,
+          "max_associations": 5,
+          "label": "Button3"
+        },
+        {
+          "auto": false,
+          "index": 4,
+          "max_associations": 5,
+          "label": "Button4"
+        },
+        {
+          "auto": true,
+          "index": 5,
+          "max_associations": 1,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 5
+    },
+    "pictureUrl": "pictures/015f/3102_0204.png"
+  },
+  {
+    "name": "MH-S411 One-load",
+    "id": "0201",
+    "type": "4102",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Button1"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 1,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 5
+    },
+    "pictureUrl": "pictures/015f/4102_0201.png"
+  },
+  {
+    "name": "MH-S412 Two-load",
+    "id": "0202",
+    "type": "4102",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Button1"
+        },
+        {
+          "auto": false,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Button2"
+        },
+        {
+          "auto": true,
+          "index": 3,
+          "max_associations": 1,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 5
+    },
+    "pictureUrl": "pictures/015f/4102_0202.png"
+  },
+  {
+    "name": "Touch Panel Switch MH-S513",
+    "id": "0103",
+    "type": "5102",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Button1"
+        },
+        {
+          "auto": false,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Button2"
+        },
+        {
+          "auto": false,
+          "index": 3,
+          "max_associations": 5,
+          "label": "Button3"
+        },
+        {
+          "auto": true,
+          "index": 4,
+          "max_associations": 1,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 5
+    },
+    "pictureUrl": "pictures/015f/5102_0103.png"
+  }
+]

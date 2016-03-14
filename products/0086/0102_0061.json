@@ -1,1 +1,116 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"Sensor Binary Report 0xFF","value":"0"},{"label":"Sensor Binary Report 0x00","value":"1"}],"size":1,"genre":"config","index":1,"label":"Sensor Binary report","type":"list","value":"0"},{"parameterItems":[{"label":"Disabled","value":"0"},{"label":"Enabled","value":"1"}],"size":1,"genre":"config","index":2,"label":"Enable/Disable Wakeup at Poweron","type":"list","value":"1"},{"parameterItems":[{"label":"Basic Report 0xFF","value":"0"},{"label":"Basic Report 0x00","value":"1"}],"size":1,"genre":"config","index":3,"label":"Basic report","type":"list","value":"0"},{"parameterItems":[],"min":10,"max":50,"genre":"config","index":39,"label":"Low Battery Level","units":"%","type":"byte","value":"10"},{"parameterItems":[],"min":0,"max":4294967295,"genre":"config","index":111,"label":"Battery Report Interval","type":"int","value":"0"},{"parameterItems":[],"genre":"config","index":121,"label":"Report type sent","type":"int","value":"256"},{"parameterItems":[],"genre":"config","index":255,"affects":"all","label":"Reset default configuration","type":"int","value":"0","write_only":"true"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Sensor Binary Report 0xFF",
+          "value": "0"
+        },
+        {
+          "label": "Sensor Binary Report 0x00",
+          "value": "1"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 1,
+      "label": "Sensor Binary report",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Disabled",
+          "value": "0"
+        },
+        {
+          "label": "Enabled",
+          "value": "1"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 2,
+      "label": "Enable/Disable Wakeup at Poweron",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Basic Report 0xFF",
+          "value": "0"
+        },
+        {
+          "label": "Basic Report 0x00",
+          "value": "1"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 3,
+      "label": "Basic report",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 10,
+      "max": 50,
+      "genre": "config",
+      "index": 39,
+      "label": "Low Battery Level",
+      "units": "%",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 4294967295,
+      "genre": "config",
+      "index": 111,
+      "label": "Battery Report Interval",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 121,
+      "label": "Report type sent",
+      "type": "int",
+      "value": "256"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 255,
+      "affects": "all",
+      "label": "Reset default configuration",
+      "type": "int",
+      "value": "0",
+      "write_only": "true"
+    }
+  ],
+  "groups": {
+    
+  }
+}

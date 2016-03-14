@@ -1,1 +1,48 @@
-[{"name":"ZWN-SC7 7-Button Scene Controller","id":"0b03","type":"0801","pictureUrl":"pictures/011a/0801_0b03.png"},{"name":"ZW15S 15A On/Off Switch","id":"0102","type":"0101","associations":{"groups":[{"auto":true,"index":1,"max_associations":5,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/011a/0101_0102.png"},{"name":"ZW20R 20A Tamper Resistant Duplex Receptacle","id":"0603","type":"0101","pictureUrl":"pictures/011a/0101_0603.png"},{"name":"ZW500D 500W In-Wall Preset Dimmer Switch","id":"0201","type":"0102","associations":{"groups":[{"auto":true,"index":1,"max_associations":5,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/011a/0102_0201.png"}]
+[
+  {
+    "name": "ZWN-SC7 7-Button Scene Controller",
+    "id": "0b03",
+    "type": "0801",
+    "pictureUrl": "pictures/011a/0801_0b03.png"
+  },
+  {
+    "name": "ZW15S 15A On/Off Switch",
+    "id": "0102",
+    "type": "0101",
+    "associations": {
+      "groups": [
+        {
+          "auto": true,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/011a/0101_0102.png"
+  },
+  {
+    "name": "ZW20R 20A Tamper Resistant Duplex Receptacle",
+    "id": "0603",
+    "type": "0101",
+    "pictureUrl": "pictures/011a/0101_0603.png"
+  },
+  {
+    "name": "ZW500D 500W In-Wall Preset Dimmer Switch",
+    "id": "0201",
+    "type": "0102",
+    "associations": {
+      "groups": [
+        {
+          "auto": true,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/011a/0102_0201.png"
+  }
+]

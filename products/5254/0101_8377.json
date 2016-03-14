@@ -1,1 +1,128 @@
-{"commandClasses":[{"getsupported":"false","id":"67","base":"0"},{"name":"COMMAND_CLASS_THERMOSTAT_MODE","create_vars":"true","id":"64","version":"1","request_flags":"4"},{"id":"112"}],"parameters":[{"parameterItems":[{"label":"Off","value":"0"},{"label":"Heat","value":"1"},{"label":"Cool","value":"2"},{"label":"Resume","value":"5"},{"label":"Fan Only","value":"6"},{"label":"Dry Air","value":"8"},{"label":"Auto Changeover","value":"10"}],"instance":1,"min":0,"read_only":"false","max":0,"genre":"user","index":0,"label":"Mode","type":"list","value":"0","write_only":"false"},{"parameterItems":[],"min":0,"max":22,"genre":"config","index":25,"label":"Indicate a location for IR code  learning and start learning","type":"int","value":"0"},{"parameterItems":[],"genre":"config","index":26,"label":"Learning status register","type":"int","value":"0"},{"parameterItems":[],"genre":"config","index":27,"label":"IR code number for built-in  code library","type":"int","value":"0"},{"parameterItems":[],"genre":"config","index":28,"label":"External IR Emitter power  level","type":"int","value":"0"},{"parameterItems":[],"genre":"config","index":32,"label":"Surround IR control","type":"int","value":"0"},{"parameterItems":[],"genre":"config","index":33,"label":"Surround IR control","type":"int","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "getsupported": "false",
+      "id": "67",
+      "base": "0"
+    },
+    {
+      "name": "COMMAND_CLASS_THERMOSTAT_MODE",
+      "create_vars": "true",
+      "id": "64",
+      "version": "1",
+      "request_flags": "4"
+    },
+    {
+      "id": "112"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Off",
+          "value": "0"
+        },
+        {
+          "label": "Heat",
+          "value": "1"
+        },
+        {
+          "label": "Cool",
+          "value": "2"
+        },
+        {
+          "label": "Resume",
+          "value": "5"
+        },
+        {
+          "label": "Fan Only",
+          "value": "6"
+        },
+        {
+          "label": "Dry Air",
+          "value": "8"
+        },
+        {
+          "label": "Auto Changeover",
+          "value": "10"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "read_only": "false",
+      "max": 0,
+      "genre": "user",
+      "index": 0,
+      "label": "Mode",
+      "type": "list",
+      "value": "0",
+      "write_only": "false"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 22,
+      "genre": "config",
+      "index": 25,
+      "label": "Indicate a location for IR code  learning and start learning",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 26,
+      "label": "Learning status register",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 27,
+      "label": "IR code number for built-in  code library",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 28,
+      "label": "External IR Emitter power  level",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 32,
+      "label": "Surround IR control",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 33,
+      "label": "Surround IR control",
+      "type": "int",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

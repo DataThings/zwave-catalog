@@ -1,1 +1,304 @@
-{"commandClasses":[{"id":"112"},{"id":"133"},{"action":"remove","id":"32"},{"mapping":"endpoints","id":"96"}],"parameters":[{"parameterItems":[{"label":"Mono-stable switch type (push button)","value":"0"},{"label":"Bi-stable switch type","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":1,"label":"Input 1 switch type","type":"list","value":"0"},{"parameterItems":[{"label":"Dimmer mode","value":"0"},{"label":"Switch mode","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":5,"label":"Working mode","type":"list","value":"0"},{"parameterItems":[{"label":"ALL ON active, ALL OFF active","value":"255"},{"label":"ALL ON is not active ALL OFF is not active","value":"0"},{"label":"ALL ON is not active ALL OFF active","value":"1"},{"label":"ALL ON active ALL OFF is not active","value":"2"}],"instance":1,"min":0,"size":1,"max":255,"genre":"config","index":10,"label":"Activate / deactivate functions ALL ON/ALL OFF","type":"list","value":"255"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":32536,"genre":"config","index":11,"label":"Automatic turning off output after set time","type":"short","value":"0"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":32535,"genre":"config","index":12,"label":"Automatic turning on output after set time","type":"short","value":"0"},{"parameterItems":[{"label":"double click disabled","value":"0"},{"label":"double click enabled","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":21,"label":"Enable/Disable Double click function","type":"list","value":"0"},{"parameterItems":[{"label":"Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)","value":"0"},{"label":"Flush dimmer module does not save the state after a power failure, it returns to off position","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":30,"label":"Saving the state of the relay after a power failure","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":100,"genre":"config","index":40,"label":"Power reporting in Watts on power change","type":"byte","value":"5"},{"parameterItems":[],"instance":1,"min":0,"max":32767,"genre":"config","index":42,"label":"Power reporting in Watts by time interval","type":"short","value":"0"},{"parameterItems":[],"instance":1,"min":1,"max":98,"genre":"config","index":60,"label":"Minimum dimming value","type":"byte","value":"1"},{"parameterItems":[],"instance":1,"min":2,"max":99,"genre":"config","index":61,"label":"Maximum dimming value","type":"byte","value":"99"},{"parameterItems":[],"instance":1,"min":1,"max":255,"genre":"config","index":65,"label":"Dimming time (soft on/off)","type":"short","value":"100"},{"parameterItems":[],"instance":1,"min":1,"max":255,"genre":"config","index":66,"label":"Dimming time when key pressed","type":"short","value":"3"},{"parameterItems":[{"label":"respect start level","value":"0"},{"label":"ignore start level","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":67,"label":"Ignore start level","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":127,"genre":"config","index":68,"label":"Dimming duration","type":"byte","value":"0"},{"parameterItems":[],"instance":1,"min":1,"max":32536,"genre":"config","index":110,"label":"Temperature sensor offset settings","type":"short","value":"32536"},{"parameterItems":[],"instance":1,"min":0,"max":127,"genre":"config","index":120,"label":"Digital temperature sensor reporting","type":"byte","value":"5"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    },
+    {
+      "action": "remove",
+      "id": "32"
+    },
+    {
+      "mapping": "endpoints",
+      "id": "96"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Mono-stable switch type (push button)",
+          "value": "0"
+        },
+        {
+          "label": "Bi-stable switch type",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 1,
+      "label": "Input 1 switch type",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Dimmer mode",
+          "value": "0"
+        },
+        {
+          "label": "Switch mode",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 5,
+      "label": "Working mode",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "ALL ON active, ALL OFF active",
+          "value": "255"
+        },
+        {
+          "label": "ALL ON is not active ALL OFF is not active",
+          "value": "0"
+        },
+        {
+          "label": "ALL ON is not active ALL OFF active",
+          "value": "1"
+        },
+        {
+          "label": "ALL ON active ALL OFF is not active",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 10,
+      "label": "Activate / deactivate functions ALL ON/ALL OFF",
+      "type": "list",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 32536,
+      "genre": "config",
+      "index": 11,
+      "label": "Automatic turning off output after set time",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 32535,
+      "genre": "config",
+      "index": 12,
+      "label": "Automatic turning on output after set time",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "double click disabled",
+          "value": "0"
+        },
+        {
+          "label": "double click enabled",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 21,
+      "label": "Enable/Disable Double click function",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)",
+          "value": "0"
+        },
+        {
+          "label": "Flush dimmer module does not save the state after a power failure, it returns to off position",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 30,
+      "label": "Saving the state of the relay after a power failure",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 100,
+      "genre": "config",
+      "index": 40,
+      "label": "Power reporting in Watts on power change",
+      "type": "byte",
+      "value": "5"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 32767,
+      "genre": "config",
+      "index": 42,
+      "label": "Power reporting in Watts by time interval",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "max": 98,
+      "genre": "config",
+      "index": 60,
+      "label": "Minimum dimming value",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 2,
+      "max": 99,
+      "genre": "config",
+      "index": 61,
+      "label": "Maximum dimming value",
+      "type": "byte",
+      "value": "99"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 65,
+      "label": "Dimming time (soft on/off)",
+      "type": "short",
+      "value": "100"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 66,
+      "label": "Dimming time when key pressed",
+      "type": "short",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "respect start level",
+          "value": "0"
+        },
+        {
+          "label": "ignore start level",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 67,
+      "label": "Ignore start level",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 127,
+      "genre": "config",
+      "index": 68,
+      "label": "Dimming duration",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "max": 32536,
+      "genre": "config",
+      "index": 110,
+      "label": "Temperature sensor offset settings",
+      "type": "short",
+      "value": "32536"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 127,
+      "genre": "config",
+      "index": 120,
+      "label": "Digital temperature sensor reporting",
+      "type": "byte",
+      "value": "5"
+    }
+  ],
+  "groups": {
+    
+  }
+}

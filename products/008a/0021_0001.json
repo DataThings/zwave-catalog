@@ -1,1 +1,124 @@
-{"commandClasses":[{"id":"112"},{"getsupported":"false","id":"122"},{"id":"133"}],"parameters":[{"parameterItems":[],"instance":1,"genre":"config","index":1,"label":"Set to Default","type":"byte","value":"-1"},{"parameterItems":[],"instance":1,"size":1,"genre":"config","index":2,"label":"Data request interval","type":"byte","value":"20"},{"parameterItems":[],"instance":1,"size":1,"genre":"config","index":3,"label":"T room update difference","type":"byte","value":"1"},{"parameterItems":[],"instance":1,"size":1,"genre":"config","index":4,"label":"T setpoint update difference","type":"byte","value":"5"},{"parameterItems":[{"label":"0x00 (disabled)","value":"0"},{"label":"0x01 – 0xFF: enabled","value":"1"}],"instance":1,"genre":"config","index":5,"label":"Unsolicited CRC","type":"list","value":"1"},{"parameterItems":[{"label":"0x00: No special","value":"0"},{"label":"0x01: Remeha Celcia 20","value":"1"},{"label":"0x02: Honeywell (rounded temperatures)","value":"2"}],"instance":1,"genre":"config","index":6,"label":"Type of 'special' thermostat","type":"list","value":"0"},{"parameterItems":[{"label":"0x00: Disable thermostat schedule","value":"0"},{"label":"0x01 - OFF: Enable thermostat schedule","value":"1"}],"instance":1,"genre":"config","index":9,"label":"Enable/Disable thermostat schedule","type":"list","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "getsupported": "false",
+      "id": "122"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 1,
+      "label": "Set to Default",
+      "type": "byte",
+      "value": "-1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 2,
+      "label": "Data request interval",
+      "type": "byte",
+      "value": "20"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 3,
+      "label": "T room update difference",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 4,
+      "label": "T setpoint update difference",
+      "type": "byte",
+      "value": "5"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "0x00 (disabled)",
+          "value": "0"
+        },
+        {
+          "label": "0x01 – 0xFF: enabled",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 5,
+      "label": "Unsolicited CRC",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "0x00: No special",
+          "value": "0"
+        },
+        {
+          "label": "0x01: Remeha Celcia 20",
+          "value": "1"
+        },
+        {
+          "label": "0x02: Honeywell (rounded temperatures)",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 6,
+      "label": "Type of 'special' thermostat",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "0x00: Disable thermostat schedule",
+          "value": "0"
+        },
+        {
+          "label": "0x01 - OFF: Enable thermostat schedule",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 9,
+      "label": "Enable/Disable thermostat schedule",
+      "type": "list",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

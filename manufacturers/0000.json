@@ -1,1 +1,8 @@
-[{"name":"UZB Z-Wave USB Adapter","id":"0001","type":"0001","pictureUrl":"pictures/0000/0001_0001.png"}]
+[
+  {
+    "name": "UZB Z-Wave USB Adapter",
+    "id": "0001",
+    "type": "0001",
+    "pictureUrl": "pictures/0000/0001_0001.png"
+  }
+]

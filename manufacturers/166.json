@@ -1,1 +1,46 @@
-[{"name":"SwiidInter","id":"100","type":"100","associations":{"groups":[{"index":1,"max_associations":5,"label":"Long press"},{"auto":true,"index":2,"max_associations":5,"label":"Short press"}],"numGroups":2},"pictureUrl":"pictures/166/100_100.png"},{"name":"SwiidPlug","id":"0706","type":"2007","associations":{"groups":[{"index":1,"max_associations":5,"label":"Long press"},{"auto":true,"index":2,"max_associations":5,"label":"Status"}],"numGroups":2},"pictureUrl":"pictures/166/2007_0706.png"}]
+[
+  {
+    "name": "SwiidInter",
+    "id": "100",
+    "type": "100",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Long press"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Short press"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/166/100_100.png"
+  },
+  {
+    "name": "SwiidPlug",
+    "id": "0706",
+    "type": "2007",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Long press"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Status"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/166/2007_0706.png"
+  }
+]

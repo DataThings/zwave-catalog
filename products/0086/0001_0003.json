@@ -1,1 +1,200 @@
-{"commandClasses":[{"id":"112"},{"action":"remove","id":"38"},{"create_vars":"false","id":"132"},{"id":"133"},{"action":"add","create_vars":"false","id":"155"}],"parameters":[{"parameterItems":[{"label":"Default Mode","value":"0"},{"label":"Scene Mode","value":"1"},{"label":"Add Mode","value":"2"},{"label":"Remove Mode","value":"3"},{"label":"Association Mode","value":"4"},{"label":"Learn Mode","value":"5"}],"instance":1,"min":0,"size":1,"max":5,"genre":"config","index":241,"label":"Button #1 Programmable","type":"list","value":"0","write_only":"true"},{"parameterItems":[{"label":"Default Mode","value":"0"},{"label":"Scene Mode","value":"1"},{"label":"Add Mode","value":"2"},{"label":"Remove Mode","value":"3"},{"label":"Association Mode","value":"4"},{"label":"Learn Mode","value":"5"}],"instance":1,"min":0,"size":1,"max":5,"genre":"config","index":242,"label":"Button #2 Programmable","type":"list","value":"0","write_only":"true"},{"parameterItems":[{"label":"Default Mode","value":"0"},{"label":"Scene Mode","value":"1"},{"label":"Add Mode","value":"2"},{"label":"Remove Mode","value":"3"},{"label":"Association Mode","value":"4"},{"label":"Learn Mode","value":"5"}],"instance":1,"min":0,"size":1,"max":5,"genre":"config","index":243,"label":"Button #3 Programmable","type":"list","value":"0","write_only":"true"},{"parameterItems":[{"label":"Default Mode","value":"0"},{"label":"Scene Mode","value":"1"},{"label":"Add Mode","value":"2"},{"label":"Remove Mode","value":"3"},{"label":"Association Mode","value":"4"},{"label":"Learn Mode","value":"5"}],"instance":1,"min":0,"size":1,"max":5,"genre":"config","index":244,"label":"Button #4 Programmable","type":"list","value":"0","write_only":"true"},{"parameterItems":[{"label":"Group","value":"0"},{"label":"Scene","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":250,"label":"Mode","type":"list","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "action": "remove",
+      "id": "38"
+    },
+    {
+      "create_vars": "false",
+      "id": "132"
+    },
+    {
+      "id": "133"
+    },
+    {
+      "action": "add",
+      "create_vars": "false",
+      "id": "155"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Default Mode",
+          "value": "0"
+        },
+        {
+          "label": "Scene Mode",
+          "value": "1"
+        },
+        {
+          "label": "Add Mode",
+          "value": "2"
+        },
+        {
+          "label": "Remove Mode",
+          "value": "3"
+        },
+        {
+          "label": "Association Mode",
+          "value": "4"
+        },
+        {
+          "label": "Learn Mode",
+          "value": "5"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 5,
+      "genre": "config",
+      "index": 241,
+      "label": "Button #1 Programmable",
+      "type": "list",
+      "value": "0",
+      "write_only": "true"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Default Mode",
+          "value": "0"
+        },
+        {
+          "label": "Scene Mode",
+          "value": "1"
+        },
+        {
+          "label": "Add Mode",
+          "value": "2"
+        },
+        {
+          "label": "Remove Mode",
+          "value": "3"
+        },
+        {
+          "label": "Association Mode",
+          "value": "4"
+        },
+        {
+          "label": "Learn Mode",
+          "value": "5"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 5,
+      "genre": "config",
+      "index": 242,
+      "label": "Button #2 Programmable",
+      "type": "list",
+      "value": "0",
+      "write_only": "true"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Default Mode",
+          "value": "0"
+        },
+        {
+          "label": "Scene Mode",
+          "value": "1"
+        },
+        {
+          "label": "Add Mode",
+          "value": "2"
+        },
+        {
+          "label": "Remove Mode",
+          "value": "3"
+        },
+        {
+          "label": "Association Mode",
+          "value": "4"
+        },
+        {
+          "label": "Learn Mode",
+          "value": "5"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 5,
+      "genre": "config",
+      "index": 243,
+      "label": "Button #3 Programmable",
+      "type": "list",
+      "value": "0",
+      "write_only": "true"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Default Mode",
+          "value": "0"
+        },
+        {
+          "label": "Scene Mode",
+          "value": "1"
+        },
+        {
+          "label": "Add Mode",
+          "value": "2"
+        },
+        {
+          "label": "Remove Mode",
+          "value": "3"
+        },
+        {
+          "label": "Association Mode",
+          "value": "4"
+        },
+        {
+          "label": "Learn Mode",
+          "value": "5"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 5,
+      "genre": "config",
+      "index": 244,
+      "label": "Button #4 Programmable",
+      "type": "list",
+      "value": "0",
+      "write_only": "true"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Group",
+          "value": "0"
+        },
+        {
+          "label": "Scene",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 250,
+      "label": "Mode",
+      "type": "list",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

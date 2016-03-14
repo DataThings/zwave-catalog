@@ -1,1 +1,262 @@
-[{"name":"ZCS101 Serial Interface","id":"3130","type":"4349","pictureUrl":"pictures/0001/4349_3130.png"},{"name":"ZIR000 PIR Motion Sensor","id":"3030","type":"4952","associations":{"groups":[{"index":1,"max_associations":5,"label":"Motion"},{"auto":true,"index":2,"max_associations":5,"label":"Tamper"},{"auto":true,"index":3,"max_associations":5,"label":"Battery"}],"numGroups":3},"pictureUrl":"pictures/0001/4952_3030.png"},{"name":"ZIR010 PIR Motion Sensor","id":"3330","type":"4952","associations":{"groups":[{"index":1,"max_associations":5,"label":"Motion"},{"auto":true,"index":2,"max_associations":5,"label":"Tamper"},{"auto":true,"index":3,"max_associations":5,"label":"Battery"}],"numGroups":3},"pictureUrl":"pictures/0001/4952_3330.png"},{"name":"ZIR010 PIR Motion Sensor","id":"3130","type":"4952","associations":{"groups":[{"index":1,"max_associations":5,"label":"Motion"},{"auto":true,"index":2,"max_associations":5,"label":"Tamper"},{"auto":true,"index":3,"max_associations":5,"label":"Battery"}],"numGroups":3},"pictureUrl":"pictures/0001/4952_3130.png"},{"name":"ZDP100 Plugin Lamp Module","id":"3030","type":"4450","pictureUrl":"pictures/0001/4450_3030.png"},{"name":"ZDW103 Wall Dimmer Module","id":"3033","type":"4457","associations":{"groups":[{"index":1,"max_associations":5,"label":"Group 1"},{"index":2,"max_associations":5,"label":"Group 2 (two taps)"},{"index":3,"max_associations":5,"label":"Group 3 (three taps)"}],"numGroups":3},"pictureUrl":"pictures/0001/4457_3033.png"},{"name":"ZDW230 Wall Dimmer Module","id":"3330","type":"4457","pictureUrl":"pictures/0001/4457_3330.png"},{"name":"ZDW232 Wall Dimmer Module","id":"3332","type":"4457","associations":{"groups":[{"index":1,"max_associations":5,"label":"One tap / Local load control"},{"index":2,"max_associations":5,"label":"Two taps (Dimmers: One tap, then hold to dim)"},{"index":3,"max_associations":5,"label":"Three taps (Dimmers: Two taps, then hold to dim)"},{"auto":true,"index":4,"max_associations":5,"label":"Update Controller"}],"numGroups":4},"pictureUrl":"pictures/0001/4457_3332.png"},{"name":"ZDM230 Wall Dimmer Module","id":"3330","type":"444d","associations":{"groups":[{"index":1,"max_associations":5,"label":"Left Switch"},{"index":2,"max_associations":5,"label":"Right Switch"},{"index":3,"max_associations":5,"label":"Right Switch (2 Taps)"},{"auto":true,"index":4,"max_associations":5,"label":"Update Controller"}],"numGroups":4},"pictureUrl":"pictures/0001/444d_3330.png"},{"name":"ZRP100 Plugin Appliance Module","id":"3030","type":"5250","pictureUrl":"pictures/0001/5250_3030.png"},{"name":"ZRP110 Exterior Appliance Module","id":"3130","type":"5250","pictureUrl":"pictures/0001/5250_3130.png"},{"name":"ZRW230 Wall Appliance Module","id":"3330","type":"5257","pictureUrl":"pictures/0001/5257_3330.png"},{"name":"LFM-20 Relay Fixture Module","id":"3133","type":"5246","pictureUrl":"pictures/0001/5246_3133.png"},{"name":"ZRW103 Wall Switch Module","id":"3033","type":"5257","associations":{"groups":[{"index":1,"max_associations":5,"label":"Group 1"},{"index":2,"max_associations":5,"label":"Group 2 (two taps)"},{"index":3,"max_associations":5,"label":"Group 3 (three taps)"}],"numGroups":3},"pictureUrl":"pictures/0001/5257_3033.png"},{"name":"ZRM230 Wall Appliance Module","id":"3330","type":"524d","pictureUrl":"pictures/0001/524d_3330.png"},{"name":"ZTW230 Wall Transmitter Module","id":"3330","type":"5457","pictureUrl":"pictures/0001/5457_3330.png"},{"name":"ZTM230 Wall Transmitter Module","id":"3330","type":"544d","pictureUrl":"pictures/0001/544d_3330.png"}]
+[
+  {
+    "name": "ZCS101 Serial Interface",
+    "id": "3130",
+    "type": "4349",
+    "pictureUrl": "pictures/0001/4349_3130.png"
+  },
+  {
+    "name": "ZIR000 PIR Motion Sensor",
+    "id": "3030",
+    "type": "4952",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Motion"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Tamper"
+        },
+        {
+          "auto": true,
+          "index": 3,
+          "max_associations": 5,
+          "label": "Battery"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/0001/4952_3030.png"
+  },
+  {
+    "name": "ZIR010 PIR Motion Sensor",
+    "id": "3330",
+    "type": "4952",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Motion"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Tamper"
+        },
+        {
+          "auto": true,
+          "index": 3,
+          "max_associations": 5,
+          "label": "Battery"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/0001/4952_3330.png"
+  },
+  {
+    "name": "ZIR010 PIR Motion Sensor",
+    "id": "3130",
+    "type": "4952",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Motion"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Tamper"
+        },
+        {
+          "auto": true,
+          "index": 3,
+          "max_associations": 5,
+          "label": "Battery"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/0001/4952_3130.png"
+  },
+  {
+    "name": "ZDP100 Plugin Lamp Module",
+    "id": "3030",
+    "type": "4450",
+    "pictureUrl": "pictures/0001/4450_3030.png"
+  },
+  {
+    "name": "ZDW103 Wall Dimmer Module",
+    "id": "3033",
+    "type": "4457",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group 1"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Group 2 (two taps)"
+        },
+        {
+          "index": 3,
+          "max_associations": 5,
+          "label": "Group 3 (three taps)"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/0001/4457_3033.png"
+  },
+  {
+    "name": "ZDW230 Wall Dimmer Module",
+    "id": "3330",
+    "type": "4457",
+    "pictureUrl": "pictures/0001/4457_3330.png"
+  },
+  {
+    "name": "ZDW232 Wall Dimmer Module",
+    "id": "3332",
+    "type": "4457",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "One tap / Local load control"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Two taps (Dimmers: One tap, then hold to dim)"
+        },
+        {
+          "index": 3,
+          "max_associations": 5,
+          "label": "Three taps (Dimmers: Two taps, then hold to dim)"
+        },
+        {
+          "auto": true,
+          "index": 4,
+          "max_associations": 5,
+          "label": "Update Controller"
+        }
+      ],
+      "numGroups": 4
+    },
+    "pictureUrl": "pictures/0001/4457_3332.png"
+  },
+  {
+    "name": "ZDM230 Wall Dimmer Module",
+    "id": "3330",
+    "type": "444d",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Left Switch"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Right Switch"
+        },
+        {
+          "index": 3,
+          "max_associations": 5,
+          "label": "Right Switch (2 Taps)"
+        },
+        {
+          "auto": true,
+          "index": 4,
+          "max_associations": 5,
+          "label": "Update Controller"
+        }
+      ],
+      "numGroups": 4
+    },
+    "pictureUrl": "pictures/0001/444d_3330.png"
+  },
+  {
+    "name": "ZRP100 Plugin Appliance Module",
+    "id": "3030",
+    "type": "5250",
+    "pictureUrl": "pictures/0001/5250_3030.png"
+  },
+  {
+    "name": "ZRP110 Exterior Appliance Module",
+    "id": "3130",
+    "type": "5250",
+    "pictureUrl": "pictures/0001/5250_3130.png"
+  },
+  {
+    "name": "ZRW230 Wall Appliance Module",
+    "id": "3330",
+    "type": "5257",
+    "pictureUrl": "pictures/0001/5257_3330.png"
+  },
+  {
+    "name": "LFM-20 Relay Fixture Module",
+    "id": "3133",
+    "type": "5246",
+    "pictureUrl": "pictures/0001/5246_3133.png"
+  },
+  {
+    "name": "ZRW103 Wall Switch Module",
+    "id": "3033",
+    "type": "5257",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group 1"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Group 2 (two taps)"
+        },
+        {
+          "index": 3,
+          "max_associations": 5,
+          "label": "Group 3 (three taps)"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/0001/5257_3033.png"
+  },
+  {
+    "name": "ZRM230 Wall Appliance Module",
+    "id": "3330",
+    "type": "524d",
+    "pictureUrl": "pictures/0001/524d_3330.png"
+  },
+  {
+    "name": "ZTW230 Wall Transmitter Module",
+    "id": "3330",
+    "type": "5457",
+    "pictureUrl": "pictures/0001/5457_3330.png"
+  },
+  {
+    "name": "ZTM230 Wall Transmitter Module",
+    "id": "3330",
+    "type": "544d",
+    "pictureUrl": "pictures/0001/544d_3330.png"
+  }
+]

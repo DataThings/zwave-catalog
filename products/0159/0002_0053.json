@@ -1,1 +1,249 @@
-{"commandClasses":[{"id":"112"},{"id":"133"},{"action":"remove","id":"32"}],"parameters":[{"parameterItems":[{"label":"Mono-stable switch type (push button)","value":"0"},{"label":"Bi-stable switch type","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":1,"label":"Input 1 switch type","type":"list","value":"1"},{"parameterItems":[{"label":"NO (normaly open) input type","value":"0"},{"label":"NC (normaly close) input type","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":2,"label":"Input 2 contact type","type":"list","value":"0"},{"parameterItems":[{"label":"ALL ON active, ALL OFF active","value":"255"},{"label":"ALL ON is not active ALL OFF is not active","value":"0"},{"label":"ALL ON is not active ALL OFF active","value":"1"},{"label":"ALL ON active ALL OFF is not active","value":"2"}],"instance":1,"min":0,"size":1,"max":255,"genre":"config","index":10,"label":"Activate / deactivate functions ALL ON/ALL OFF","type":"list","value":"255"},{"parameterItems":[],"instance":1,"min":0,"max":32535,"genre":"config","index":11,"label":"Automatic turning off relay after set time","type":"short","value":"0"},{"parameterItems":[],"instance":1,"min":0,"max":32535,"genre":"config","index":12,"label":"Automatic turning on relay after set time","type":"short","value":"0"},{"parameterItems":[{"label":"seconds","value":"0"},{"label":"milliseconds","value":"1"}],"instance":1,"min":0,"max":1,"genre":"config","index":15,"label":"Automatic turning on/off seconds or milliseconds selection","type":"list","value":"0"},{"parameterItems":[{"label":"Flush 1 relay module saves its state before power failure (it returns to the last position saved before a power failure)","value":"0"},{"label":"Flush 1 relay module does not save the state after a power failure, it returns to off position.","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":30,"label":"Saving the state of the relay after a power failure","type":"list","value":"0"},{"parameterItems":[{"label":"When system is turned off the output is 0V (NC)","value":"0"},{"label":"When system is turned off the output is 230V or 24V (NO)","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":63,"label":"Output switch selection","type":"list","value":"0"},{"parameterItems":[{"label":"Endpoint, I2 disabled","value":"0"},{"label":"Home Security; Motion Detection, unknown location","value":"1"},{"label":"Carbon Monoxide; Carbon Monoxide detected, unknown location","value":"2"},{"label":"Carbon Dioxide; Carbon Dioxide detected, unknown location","value":"3"},{"label":"Water Alarm; Water Leak detected, unknown location","value":"4"},{"label":"Heat Alarm; Overheat detected, unknown location","value":"5"},{"label":"Smoke Alarm; Smoke detected, unknown location","value":"6"},{"label":"Sensor binary","value":"9"}],"instance":1,"min":0,"size":1,"max":9,"genre":"config","index":100,"label":"Enable / Disable Endpoints I2 or select notification type and event","type":"list","value":"1"},{"parameterItems":[],"instance":1,"min":0,"max":32535,"genre":"config","index":110,"label":"Temperature sensor offset settings","type":"short","value":"32535"},{"parameterItems":[],"instance":1,"min":0,"max":127,"genre":"config","index":120,"label":"Digital temperature sensor reporting","type":"byte","value":"5"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    },
+    {
+      "action": "remove",
+      "id": "32"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Mono-stable switch type (push button)",
+          "value": "0"
+        },
+        {
+          "label": "Bi-stable switch type",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 1,
+      "label": "Input 1 switch type",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "NO (normaly open) input type",
+          "value": "0"
+        },
+        {
+          "label": "NC (normaly close) input type",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 2,
+      "label": "Input 2 contact type",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "ALL ON active, ALL OFF active",
+          "value": "255"
+        },
+        {
+          "label": "ALL ON is not active ALL OFF is not active",
+          "value": "0"
+        },
+        {
+          "label": "ALL ON is not active ALL OFF active",
+          "value": "1"
+        },
+        {
+          "label": "ALL ON active ALL OFF is not active",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 10,
+      "label": "Activate / deactivate functions ALL ON/ALL OFF",
+      "type": "list",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 32535,
+      "genre": "config",
+      "index": 11,
+      "label": "Automatic turning off relay after set time",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 32535,
+      "genre": "config",
+      "index": 12,
+      "label": "Automatic turning on relay after set time",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "seconds",
+          "value": "0"
+        },
+        {
+          "label": "milliseconds",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 1,
+      "genre": "config",
+      "index": 15,
+      "label": "Automatic turning on/off seconds or milliseconds selection",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Flush 1 relay module saves its state before power failure (it returns to the last position saved before a power failure)",
+          "value": "0"
+        },
+        {
+          "label": "Flush 1 relay module does not save the state after a power failure, it returns to off position.",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 30,
+      "label": "Saving the state of the relay after a power failure",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "When system is turned off the output is 0V (NC)",
+          "value": "0"
+        },
+        {
+          "label": "When system is turned off the output is 230V or 24V (NO)",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 63,
+      "label": "Output switch selection",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Endpoint, I2 disabled",
+          "value": "0"
+        },
+        {
+          "label": "Home Security; Motion Detection, unknown location",
+          "value": "1"
+        },
+        {
+          "label": "Carbon Monoxide; Carbon Monoxide detected, unknown location",
+          "value": "2"
+        },
+        {
+          "label": "Carbon Dioxide; Carbon Dioxide detected, unknown location",
+          "value": "3"
+        },
+        {
+          "label": "Water Alarm; Water Leak detected, unknown location",
+          "value": "4"
+        },
+        {
+          "label": "Heat Alarm; Overheat detected, unknown location",
+          "value": "5"
+        },
+        {
+          "label": "Smoke Alarm; Smoke detected, unknown location",
+          "value": "6"
+        },
+        {
+          "label": "Sensor binary",
+          "value": "9"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 9,
+      "genre": "config",
+      "index": 100,
+      "label": "Enable / Disable Endpoints I2 or select notification type and event",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 32535,
+      "genre": "config",
+      "index": 110,
+      "label": "Temperature sensor offset settings",
+      "type": "short",
+      "value": "32535"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 127,
+      "genre": "config",
+      "index": 120,
+      "label": "Digital temperature sensor reporting",
+      "type": "byte",
+      "value": "5"
+    }
+  ],
+  "groups": {
+    
+  }
+}

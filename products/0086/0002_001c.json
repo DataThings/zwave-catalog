@@ -1,1 +1,272 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"Disable","value":"0"},{"label":"Enable","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":2,"label":"Reverse Clamping","type":"list","value":"0"},{"parameterItems":[{"label":"Disable","value":"0"},{"label":"Enable","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":3,"label":"Power changed","type":"list","value":"0"},{"parameterItems":[],"genre":"config","index":4,"label":"Wattage Threshold","units":"watts","type":"short","value":"50"},{"parameterItems":[],"genre":"config","index":5,"label":"Wattage Threshold C1","units":"watts","type":"short","value":"50"},{"parameterItems":[],"genre":"config","index":6,"label":"Wattage Threshold C2","units":"watts","type":"short","value":"50"},{"parameterItems":[],"genre":"config","index":7,"label":"Wattage Threshold C3","units":"watts","type":"short","value":"50"},{"parameterItems":[],"genre":"config","index":8,"label":"Wattage Percentage Change","units":"%","type":"byte","value":"10"},{"parameterItems":[],"genre":"config","index":9,"label":"Wattage Percentage Change C1","units":"%","type":"byte","value":"10"},{"parameterItems":[],"genre":"config","index":10,"label":"Wattage Percentage Change C2","units":"%","type":"byte","value":"10"},{"parameterItems":[],"genre":"config","index":11,"label":"Wattage Percentage Change C3","units":"%","type":"byte","value":"10"},{"parameterItems":[],"genre":"config","index":100,"affects":"101,102,103","label":"Reset #101-103","type":"int","value":"0","write_only":"true"},{"parameterItems":[],"genre":"config","index":101,"label":"Group 1 Reports","type":"int","value":"0"},{"parameterItems":[],"genre":"config","index":102,"label":"Group 2 Reports","type":"int","value":"0"},{"parameterItems":[],"genre":"config","index":103,"label":"Group 3 Reports","type":"int","value":"0"},{"parameterItems":[],"genre":"config","index":110,"affects":"111,112,113","label":"Reset #111-113","type":"int","value":"0","write_only":"true"},{"parameterItems":[],"genre":"config","index":111,"label":"Group 1 Interval","units":"seconds","type":"int","value":"720"},{"parameterItems":[],"genre":"config","index":112,"label":"Group 2 Interval","units":"seconds","type":"int","value":"720"},{"parameterItems":[],"genre":"config","index":113,"label":"Group 3 Interval","units":"seconds","type":"int","value":"720"},{"parameterItems":[{"label":"Aeon Labs Standard Product","value":"0"},{"label":"AT&T","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":200,"label":"Partner ID","type":"list","value":"0"},{"parameterItems":[],"genre":"config","index":254,"label":"Device Tag","type":"short","value":"0"},{"parameterItems":[],"genre":"config","index":255,"affects":"all","label":"Reset default configuration","type":"int","value":"0","write_only":"true"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Disable",
+          "value": "0"
+        },
+        {
+          "label": "Enable",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 2,
+      "label": "Reverse Clamping",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Disable",
+          "value": "0"
+        },
+        {
+          "label": "Enable",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 3,
+      "label": "Power changed",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 4,
+      "label": "Wattage Threshold",
+      "units": "watts",
+      "type": "short",
+      "value": "50"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 5,
+      "label": "Wattage Threshold C1",
+      "units": "watts",
+      "type": "short",
+      "value": "50"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 6,
+      "label": "Wattage Threshold C2",
+      "units": "watts",
+      "type": "short",
+      "value": "50"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 7,
+      "label": "Wattage Threshold C3",
+      "units": "watts",
+      "type": "short",
+      "value": "50"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 8,
+      "label": "Wattage Percentage Change",
+      "units": "%",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 9,
+      "label": "Wattage Percentage Change C1",
+      "units": "%",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 10,
+      "label": "Wattage Percentage Change C2",
+      "units": "%",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 11,
+      "label": "Wattage Percentage Change C3",
+      "units": "%",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 100,
+      "affects": "101,102,103",
+      "label": "Reset #101-103",
+      "type": "int",
+      "value": "0",
+      "write_only": "true"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 101,
+      "label": "Group 1 Reports",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 102,
+      "label": "Group 2 Reports",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 103,
+      "label": "Group 3 Reports",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 110,
+      "affects": "111,112,113",
+      "label": "Reset #111-113",
+      "type": "int",
+      "value": "0",
+      "write_only": "true"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 111,
+      "label": "Group 1 Interval",
+      "units": "seconds",
+      "type": "int",
+      "value": "720"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 112,
+      "label": "Group 2 Interval",
+      "units": "seconds",
+      "type": "int",
+      "value": "720"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 113,
+      "label": "Group 3 Interval",
+      "units": "seconds",
+      "type": "int",
+      "value": "720"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Aeon Labs Standard Product",
+          "value": "0"
+        },
+        {
+          "label": "AT&T",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 200,
+      "label": "Partner ID",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 254,
+      "label": "Device Tag",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 255,
+      "affects": "all",
+      "label": "Reset default configuration",
+      "type": "int",
+      "value": "0",
+      "write_only": "true"
+    }
+  ],
+  "groups": {
+    
+  }
+}

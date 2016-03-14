@@ -1,1 +1,53 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[],"min":0,"max":120,"genre":"config","index":1,"label":"True Period","units":"100ms","type":"short","value":"10"},{"parameterItems":[],"min":0,"max":1,"genre":"config","index":2,"label":"Send Out Basic Command","type":"byte","value":"0"},{"parameterItems":[],"min":0,"max":3240,"genre":"config","index":3,"label":"Meter Report Period","units":"10s","type":"short","value":"3"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 120,
+      "genre": "config",
+      "index": 1,
+      "label": "True Period",
+      "units": "100ms",
+      "type": "short",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 1,
+      "genre": "config",
+      "index": 2,
+      "label": "Send Out Basic Command",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 3240,
+      "genre": "config",
+      "index": 3,
+      "label": "Meter Report Period",
+      "units": "10s",
+      "type": "short",
+      "value": "3"
+    }
+  ],
+  "groups": {
+    
+  }
+}

@@ -1,1 +1,78 @@
-[{"name":"ASR-RF Thermostat Receiver","id":"0001","type":"0001","pictureUrl":"pictures/0059/0001_0001.png"},{"name":"AS2-RF Thermostat Transmitter","id":"0002","type":"0001","pictureUrl":"pictures/0059/0001_0002.png"},{"name":"HRT4-ZW Thermostat Transmitter","id":"0003","type":"0001","associations":{"groups":[{"index":1,"max_associations":4,"label":"Thermostat Mode Set"},{"auto":true,"index":2,"max_associations":4,"label":"Binary Switch Set"},{"auto":true,"index":3,"max_associations":4,"label":"Unsolicited Battery Level Reports"},{"auto":true,"index":4,"max_associations":4,"label":"Thermostat Set Point Reports"},{"auto":true,"index":5,"max_associations":4,"label":"Unsolicited Sensor Multilevel Reports"}],"numGroups":1},"pictureUrl":"pictures/0059/0001_0003.png"},{"name":"ASR-ZW Thermostat Receiver","id":"0001","type":"0003","pictureUrl":"pictures/0059/0003_0001.png"},{"name":"SCSC17 Thermostat","id":"0001","type":"0004","pictureUrl":"pictures/0059/0004_0001.png"},{"name":"SES 301 Temperature Sensor","id":"0001","type":"000d","pictureUrl":"pictures/0059/000d_0001.png"},{"name":"SWM01 Water Meter Sensor","id":"0001","type":"000f","pictureUrl":"pictures/0059/000f_0001.png"}]
+[
+  {
+    "name": "ASR-RF Thermostat Receiver",
+    "id": "0001",
+    "type": "0001",
+    "pictureUrl": "pictures/0059/0001_0001.png"
+  },
+  {
+    "name": "AS2-RF Thermostat Transmitter",
+    "id": "0002",
+    "type": "0001",
+    "pictureUrl": "pictures/0059/0001_0002.png"
+  },
+  {
+    "name": "HRT4-ZW Thermostat Transmitter",
+    "id": "0003",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 4,
+          "label": "Thermostat Mode Set"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 4,
+          "label": "Binary Switch Set"
+        },
+        {
+          "auto": true,
+          "index": 3,
+          "max_associations": 4,
+          "label": "Unsolicited Battery Level Reports"
+        },
+        {
+          "auto": true,
+          "index": 4,
+          "max_associations": 4,
+          "label": "Thermostat Set Point Reports"
+        },
+        {
+          "auto": true,
+          "index": 5,
+          "max_associations": 4,
+          "label": "Unsolicited Sensor Multilevel Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0059/0001_0003.png"
+  },
+  {
+    "name": "ASR-ZW Thermostat Receiver",
+    "id": "0001",
+    "type": "0003",
+    "pictureUrl": "pictures/0059/0003_0001.png"
+  },
+  {
+    "name": "SCSC17 Thermostat",
+    "id": "0001",
+    "type": "0004",
+    "pictureUrl": "pictures/0059/0004_0001.png"
+  },
+  {
+    "name": "SES 301 Temperature Sensor",
+    "id": "0001",
+    "type": "000d",
+    "pictureUrl": "pictures/0059/000d_0001.png"
+  },
+  {
+    "name": "SWM01 Water Meter Sensor",
+    "id": "0001",
+    "type": "000f",
+    "pictureUrl": "pictures/0059/000f_0001.png"
+  }
+]

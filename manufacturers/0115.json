@@ -1,1 +1,400 @@
-[{"name":"Z-Wave USB Stick","id":"0001","type":"0001","pictureUrl":"pictures/0115/0001_0001.png"},{"name":"Key Fob","id":"0069","type":"0001","pictureUrl":"pictures/0115/0001_0069.png"},{"name":"Z-Wave USB Stick","id":"0003","type":"0002","pictureUrl":"pictures/0115/0002_0003.png"},{"name":"Floor Thermostat","id":"0001","type":"0024","pictureUrl":"pictures/0115/0024_0001.png"},{"name":"ZME_KFOB 4 Button Key Fob","id":"0001","type":"0100","associations":{"groups":[{"auto":false,"index":1,"max_associations":8,"label":"Controlled by button 1 or single clicks of buttons 1 and 3"},{"index":2,"max_associations":8,"label":"Controlled by button 2 or single clicks of buttons 2 and 4"},{"index":3,"max_associations":8,"label":"Controlled by button 3 or double clicks of buttons 1 and 3"},{"index":4,"max_associations":8,"label":"Controlled by button 4 or double clicks of buttons 2 and 4"}],"numGroups":4},"pictureUrl":"pictures/0115/0100_0001.png"},{"name":"ZME_WCD2 Double Paddle Wall Controller","id":"0004","type":"0100","associations":{"groups":[{"index":1,"max_associations":8,"label":"Group 1"},{"auto":true,"index":2,"max_associations":8,"label":"Group 2"},{"auto":true,"index":3,"max_associations":8,"label":"Group 3"},{"auto":true,"index":4,"max_associations":8,"label":"Group 4"}],"numGroups":4},"pictureUrl":"pictures/0115/0100_0004.png"},{"name":"ZME_WALLC-S Secure Wall Controller","id":"0101","type":"0100","associations":{"groups":[{"auto":false,"index":1,"max_associations":8,"label":"Controlled by button 1 or single clicks of buttons 1 and 3"},{"index":2,"max_associations":8,"label":"Controlled by button 2 or single clicks of buttons 2 and 4"},{"index":3,"max_associations":8,"label":"Controlled by button 3 or double clicks of buttons 1 and 3"},{"index":4,"max_associations":8,"label":"Controlled by button 4 or double clicks of buttons 2 and 4"}],"numGroups":4},"pictureUrl":"pictures/0115/0100_0101.png"},{"name":"ZME_KFOB-S 4 Button Key Fob","id":"0102","type":"0100","associations":{"groups":[{"index":1,"max_associations":10,"label":"Lifeline"},{"index":2,"max_associations":10,"label":"Control Group A, controlled by button 1 or single clicks of buttons 1 and 3"},{"index":3,"max_associations":10,"label":"Control Group B, controlled by button 2 or single clicks of buttons 2 and 4"},{"index":4,"max_associations":10,"label":"Control Group C, controlled by button 3 or single clicks of buttons 1 and 3"},{"index":5,"max_associations":10,"label":"Control Group D, controlled by button 4 or single clicks of buttons 2 and 4"}],"numGroups":5},"pictureUrl":"pictures/0115/0100_0102.png"},{"name":"ZME_KFOB-C 4 Button Key Fob","id":"0103","type":"0100","associations":{"groups":[{"index":1,"max_associations":10,"label":"Lifeline"},{"index":2,"max_associations":10,"label":"Control Group A, controlled by button 1 or single clicks of buttons 1 and 3"},{"index":3,"max_associations":10,"label":"Control Group B, controlled by button 2 or single clicks of buttons 2 and 4"},{"index":4,"max_associations":10,"label":"Control Group C, controlled by button 3 or single clicks of buttons 1 and 3"},{"index":5,"max_associations":10,"label":"Control Group D, controlled by button 4 or single clicks of buttons 2 and 4"}],"numGroups":5},"pictureUrl":"pictures/0115/0100_0103.png"},{"name":"Smoke Detector","id":"0200","type":"0100","pictureUrl":"pictures/0115/0100_0200.png"},{"name":"Smoke Detector","id":"0201","type":"0100","pictureUrl":"pictures/0115/0100_0201.png"},{"name":"iTemp Temperature Sensor","id":"0001","type":"0200","pictureUrl":"pictures/0115/0200_0001.png"},{"name":"iTemp Temperature Sensor","id":"0001","type":"0201","pictureUrl":"pictures/0115/0201_0001.png"},{"name":"Thermostat","id":"0002","type":"0201","pictureUrl":"pictures/0115/0201_0002.png"},{"name":"Binary Sensor","id":"0003","type":"0201","pictureUrl":"pictures/0115/0201_0003.png"},{"name":"ZME_UZB1 USB Stick","id":"0001","type":"0400","pictureUrl":"pictures/0115/0400_0001.png"},{"name":"ZME_054313Z Flush-Mountable Switch","id":"0001","type":"1000","associations":{"groups":[{"auto":false,"index":1,"max_associations":8,"label":"Group 1 Single press and hold of up/down buttons"},{"index":2,"max_associations":8,"label":"Group 2 Double press and press-hold of up/down buttons"},{"auto":true,"index":3,"max_associations":8,"label":"Group 3 Send Reports on switch state change"}],"numGroups":3},"pictureUrl":"pictures/0115/1000_0001.png"},{"name":"ZME_06433/05433 Wall Flush-Mountable Dimmer","id":"0002","type":"1000","associations":{"groups":[{"auto":false,"index":1,"max_associations":8,"label":"Group 1"},{"index":2,"max_associations":8,"label":"Group 2"},{"auto":true,"index":3,"max_associations":8,"label":"Send updates"}],"numGroups":3},"pictureUrl":"pictures/0115/1000_0002.png"},{"name":"ZME_06436 Motor Control","id":"0003","type":"1000","associations":{"groups":[{"auto":false,"index":1,"max_associations":8,"label":"Group 1"},{"index":2,"max_associations":8,"label":"Group 2"},{"auto":true,"index":3,"max_associations":8,"label":"Send updates"}],"numGroups":3},"pictureUrl":"pictures/0115/1000_0003.png"},{"name":"ZME_064435 Wall Controller","id":"0004","type":"1000","associations":{"groups":[{"auto":false,"index":1,"max_associations":8,"label":"Single press"},{"index":2,"max_associations":8,"label":"Double press"}],"numGroups":2},"pictureUrl":"pictures/0115/1000_0004.png"},{"name":"ZME_05461 Dual Load Wall Switch","id":"0100","type":"1000","associations":{"groups":[{"auto":true,"index":1,"max_associations":5,"label":"Group 1 Send Reports on switch state change"},{"auto":false,"index":2,"max_associations":5,"label":"Group 2 Single press and hold of up/down buttons"},{"index":3,"max_associations":5,"label":"Group 3 Double press and press-hold of up/down buttons"}],"numGroups":3},"pictureUrl":"pictures/0115/1000_0100.png"},{"name":"ZME_064381 IP44 Plug-in Switch","id":"0200","type":"1000","associations":{"groups":[{"index":1,"max_associations":5,"label":"Send reports on switch state change"},{"auto":true,"index":2,"max_associations":5,"label":"Controlled by buttons"}],"numGroups":2},"pictureUrl":"pictures/0115/1000_0200.png"},{"name":"PLDE Plug-in Dimmer","id":"0002","type":"1100","pictureUrl":"pictures/0115/1100_0002.png"}]
+[
+  {
+    "name": "Z-Wave USB Stick",
+    "id": "0001",
+    "type": "0001",
+    "pictureUrl": "pictures/0115/0001_0001.png"
+  },
+  {
+    "name": "Key Fob",
+    "id": "0069",
+    "type": "0001",
+    "pictureUrl": "pictures/0115/0001_0069.png"
+  },
+  {
+    "name": "Z-Wave USB Stick",
+    "id": "0003",
+    "type": "0002",
+    "pictureUrl": "pictures/0115/0002_0003.png"
+  },
+  {
+    "name": "Floor Thermostat",
+    "id": "0001",
+    "type": "0024",
+    "pictureUrl": "pictures/0115/0024_0001.png"
+  },
+  {
+    "name": "ZME_KFOB 4 Button Key Fob",
+    "id": "0001",
+    "type": "0100",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 8,
+          "label": "Controlled by button 1 or single clicks of buttons 1 and 3"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Controlled by button 2 or single clicks of buttons 2 and 4"
+        },
+        {
+          "index": 3,
+          "max_associations": 8,
+          "label": "Controlled by button 3 or double clicks of buttons 1 and 3"
+        },
+        {
+          "index": 4,
+          "max_associations": 8,
+          "label": "Controlled by button 4 or double clicks of buttons 2 and 4"
+        }
+      ],
+      "numGroups": 4
+    },
+    "pictureUrl": "pictures/0115/0100_0001.png"
+  },
+  {
+    "name": "ZME_WCD2 Double Paddle Wall Controller",
+    "id": "0004",
+    "type": "0100",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 8,
+          "label": "Group 1"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 8,
+          "label": "Group 2"
+        },
+        {
+          "auto": true,
+          "index": 3,
+          "max_associations": 8,
+          "label": "Group 3"
+        },
+        {
+          "auto": true,
+          "index": 4,
+          "max_associations": 8,
+          "label": "Group 4"
+        }
+      ],
+      "numGroups": 4
+    },
+    "pictureUrl": "pictures/0115/0100_0004.png"
+  },
+  {
+    "name": "ZME_WALLC-S Secure Wall Controller",
+    "id": "0101",
+    "type": "0100",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 8,
+          "label": "Controlled by button 1 or single clicks of buttons 1 and 3"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Controlled by button 2 or single clicks of buttons 2 and 4"
+        },
+        {
+          "index": 3,
+          "max_associations": 8,
+          "label": "Controlled by button 3 or double clicks of buttons 1 and 3"
+        },
+        {
+          "index": 4,
+          "max_associations": 8,
+          "label": "Controlled by button 4 or double clicks of buttons 2 and 4"
+        }
+      ],
+      "numGroups": 4
+    },
+    "pictureUrl": "pictures/0115/0100_0101.png"
+  },
+  {
+    "name": "ZME_KFOB-S 4 Button Key Fob",
+    "id": "0102",
+    "type": "0100",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 10,
+          "label": "Lifeline"
+        },
+        {
+          "index": 2,
+          "max_associations": 10,
+          "label": "Control Group A, controlled by button 1 or single clicks of buttons 1 and 3"
+        },
+        {
+          "index": 3,
+          "max_associations": 10,
+          "label": "Control Group B, controlled by button 2 or single clicks of buttons 2 and 4"
+        },
+        {
+          "index": 4,
+          "max_associations": 10,
+          "label": "Control Group C, controlled by button 3 or single clicks of buttons 1 and 3"
+        },
+        {
+          "index": 5,
+          "max_associations": 10,
+          "label": "Control Group D, controlled by button 4 or single clicks of buttons 2 and 4"
+        }
+      ],
+      "numGroups": 5
+    },
+    "pictureUrl": "pictures/0115/0100_0102.png"
+  },
+  {
+    "name": "ZME_KFOB-C 4 Button Key Fob",
+    "id": "0103",
+    "type": "0100",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 10,
+          "label": "Lifeline"
+        },
+        {
+          "index": 2,
+          "max_associations": 10,
+          "label": "Control Group A, controlled by button 1 or single clicks of buttons 1 and 3"
+        },
+        {
+          "index": 3,
+          "max_associations": 10,
+          "label": "Control Group B, controlled by button 2 or single clicks of buttons 2 and 4"
+        },
+        {
+          "index": 4,
+          "max_associations": 10,
+          "label": "Control Group C, controlled by button 3 or single clicks of buttons 1 and 3"
+        },
+        {
+          "index": 5,
+          "max_associations": 10,
+          "label": "Control Group D, controlled by button 4 or single clicks of buttons 2 and 4"
+        }
+      ],
+      "numGroups": 5
+    },
+    "pictureUrl": "pictures/0115/0100_0103.png"
+  },
+  {
+    "name": "Smoke Detector",
+    "id": "0200",
+    "type": "0100",
+    "pictureUrl": "pictures/0115/0100_0200.png"
+  },
+  {
+    "name": "Smoke Detector",
+    "id": "0201",
+    "type": "0100",
+    "pictureUrl": "pictures/0115/0100_0201.png"
+  },
+  {
+    "name": "iTemp Temperature Sensor",
+    "id": "0001",
+    "type": "0200",
+    "pictureUrl": "pictures/0115/0200_0001.png"
+  },
+  {
+    "name": "iTemp Temperature Sensor",
+    "id": "0001",
+    "type": "0201",
+    "pictureUrl": "pictures/0115/0201_0001.png"
+  },
+  {
+    "name": "Thermostat",
+    "id": "0002",
+    "type": "0201",
+    "pictureUrl": "pictures/0115/0201_0002.png"
+  },
+  {
+    "name": "Binary Sensor",
+    "id": "0003",
+    "type": "0201",
+    "pictureUrl": "pictures/0115/0201_0003.png"
+  },
+  {
+    "name": "ZME_UZB1 USB Stick",
+    "id": "0001",
+    "type": "0400",
+    "pictureUrl": "pictures/0115/0400_0001.png"
+  },
+  {
+    "name": "ZME_054313Z Flush-Mountable Switch",
+    "id": "0001",
+    "type": "1000",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 8,
+          "label": "Group 1 Single press and hold of up/down buttons"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Group 2 Double press and press-hold of up/down buttons"
+        },
+        {
+          "auto": true,
+          "index": 3,
+          "max_associations": 8,
+          "label": "Group 3 Send Reports on switch state change"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/0115/1000_0001.png"
+  },
+  {
+    "name": "ZME_06433/05433 Wall Flush-Mountable Dimmer",
+    "id": "0002",
+    "type": "1000",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 8,
+          "label": "Group 1"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Group 2"
+        },
+        {
+          "auto": true,
+          "index": 3,
+          "max_associations": 8,
+          "label": "Send updates"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/0115/1000_0002.png"
+  },
+  {
+    "name": "ZME_06436 Motor Control",
+    "id": "0003",
+    "type": "1000",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 8,
+          "label": "Group 1"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Group 2"
+        },
+        {
+          "auto": true,
+          "index": 3,
+          "max_associations": 8,
+          "label": "Send updates"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/0115/1000_0003.png"
+  },
+  {
+    "name": "ZME_064435 Wall Controller",
+    "id": "0004",
+    "type": "1000",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 8,
+          "label": "Single press"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Double press"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0115/1000_0004.png"
+  },
+  {
+    "name": "ZME_05461 Dual Load Wall Switch",
+    "id": "0100",
+    "type": "1000",
+    "associations": {
+      "groups": [
+        {
+          "auto": true,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group 1 Send Reports on switch state change"
+        },
+        {
+          "auto": false,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Group 2 Single press and hold of up/down buttons"
+        },
+        {
+          "index": 3,
+          "max_associations": 5,
+          "label": "Group 3 Double press and press-hold of up/down buttons"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/0115/1000_0100.png"
+  },
+  {
+    "name": "ZME_064381 IP44 Plug-in Switch",
+    "id": "0200",
+    "type": "1000",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Send reports on switch state change"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Controlled by buttons"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0115/1000_0200.png"
+  },
+  {
+    "name": "PLDE Plug-in Dimmer",
+    "id": "0002",
+    "type": "1100",
+    "pictureUrl": "pictures/0115/1100_0002.png"
+  }
+]

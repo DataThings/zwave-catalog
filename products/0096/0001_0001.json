@@ -1,1 +1,135 @@
-{"commandClasses":[{"id":"112"}],"parameters":[{"parameterItems":[],"min":1,"max":65535,"genre":"config","index":1,"label":"Pulse factor","units":"pulses","type":"short","value":"1024"},{"parameterItems":[{"label":"Pulse Meter","value":"1"},{"label":"Rotating Wheel","value":"2"}],"min":1,"size":1,"max":2,"genre":"config","index":2,"label":"Sensor type","type":"list","value":"2"},{"parameterItems":[],"min":0,"max":127,"genre":"config","index":3,"label":"IR Listen period","type":"byte","value":"0"},{"parameterItems":[],"min":0,"max":127,"genre":"config","index":4,"label":"IR Pulse Width","type":"byte","value":"50"},{"parameterItems":[],"min":1,"max":50,"genre":"config","index":5,"label":"Poll / Wake up frequency","units":"seconds","type":"byte","value":"20"},{"parameterItems":[],"min":1,"max":32767,"read_only":"true","genre":"config","index":8,"label":"Wake up interval","units":"seconds","type":"int","value":"900"},{"parameterItems":[],"min":0,"max":2147483647,"genre":"config","index":9,"label":"Pulse count","units":"pulses/kWh","type":"int","value":"0"},{"parameterItems":[],"min":0,"max":32767,"genre":"config","index":10,"label":"Keep alive period","units":"pulses/kWh","type":"int","value":"60"},{"parameterItems":[],"min":0,"max":32767,"genre":"config","index":11,"label":"Real-time mode","units":"pulses/kWh","type":"int","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 1,
+      "max": 65535,
+      "genre": "config",
+      "index": 1,
+      "label": "Pulse factor",
+      "units": "pulses",
+      "type": "short",
+      "value": "1024"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Pulse Meter",
+          "value": "1"
+        },
+        {
+          "label": "Rotating Wheel",
+          "value": "2"
+        }
+      ],
+      "min": 1,
+      "size": 1,
+      "max": 2,
+      "genre": "config",
+      "index": 2,
+      "label": "Sensor type",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 127,
+      "genre": "config",
+      "index": 3,
+      "label": "IR Listen period",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 127,
+      "genre": "config",
+      "index": 4,
+      "label": "IR Pulse Width",
+      "type": "byte",
+      "value": "50"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 1,
+      "max": 50,
+      "genre": "config",
+      "index": 5,
+      "label": "Poll / Wake up frequency",
+      "units": "seconds",
+      "type": "byte",
+      "value": "20"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 1,
+      "max": 32767,
+      "read_only": "true",
+      "genre": "config",
+      "index": 8,
+      "label": "Wake up interval",
+      "units": "seconds",
+      "type": "int",
+      "value": "900"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 2147483647,
+      "genre": "config",
+      "index": 9,
+      "label": "Pulse count",
+      "units": "pulses/kWh",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 32767,
+      "genre": "config",
+      "index": 10,
+      "label": "Keep alive period",
+      "units": "pulses/kWh",
+      "type": "int",
+      "value": "60"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 32767,
+      "genre": "config",
+      "index": 11,
+      "label": "Real-time mode",
+      "units": "pulses/kWh",
+      "type": "int",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

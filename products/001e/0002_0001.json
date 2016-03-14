@@ -1,1 +1,103 @@
-{"commandClasses":[{"id":"112"},{"id":"32","setasreport":"true"},{"mapping":"endpoints","id":"96"},{"id":"133"}],"parameters":[{"parameterItems":[],"min":0,"max":255,"genre":"config","index":1,"label":"Sensitivity","type":"byte","value":"200"},{"parameterItems":[],"min":0,"max":255,"genre":"config","index":2,"label":"On Time","units":"minutes","type":"byte","value":"20"},{"parameterItems":[{"label":"Off","value":"0"},{"label":"On","value":"255"}],"size":1,"genre":"config","index":3,"label":"LED ON/OFF","type":"list","value":"255"},{"parameterItems":[],"min":0,"max":100,"genre":"config","index":4,"label":"Light Threshold","units":"%","type":"byte","value":"100"},{"parameterItems":[],"min":0,"max":255,"genre":"config","index":5,"label":"Stay Awake","type":"byte","value":"0"},{"parameterItems":[],"min":0,"max":255,"genre":"config","index":6,"label":"On Value","type":"byte","value":"255"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "32",
+      "setasreport": "true"
+    },
+    {
+      "mapping": "endpoints",
+      "id": "96"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 1,
+      "label": "Sensitivity",
+      "type": "byte",
+      "value": "200"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 2,
+      "label": "On Time",
+      "units": "minutes",
+      "type": "byte",
+      "value": "20"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Off",
+          "value": "0"
+        },
+        {
+          "label": "On",
+          "value": "255"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 3,
+      "label": "LED ON/OFF",
+      "type": "list",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 100,
+      "genre": "config",
+      "index": 4,
+      "label": "Light Threshold",
+      "units": "%",
+      "type": "byte",
+      "value": "100"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 5,
+      "label": "Stay Awake",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 6,
+      "label": "On Value",
+      "type": "byte",
+      "value": "255"
+    }
+  ],
+  "groups": {
+    
+  }
+}

@@ -1,1 +1,354 @@
-[{"name":"HSP02 Motion Detector","id":"0001","type":"0001","associations":{"groups":[{"index":1,"max_associations":1,"label":"Reports"},{"index":2,"max_associations":3,"label":"Control"}],"numGroups":2},"pictureUrl":"pictures/0060/0001_0001.png"},{"name":"SP814 Motion Detector","id":"0002","type":"0001","associations":{"groups":[{"index":1,"max_associations":1,"label":"Reports"},{"index":2,"max_associations":3,"label":"Control"}],"numGroups":2},"pictureUrl":"pictures/0060/0001_0002.png"},{"name":"SM103 Door/Window Sensor","id":"0001","type":"0002","associations":{"groups":[{"index":1,"max_associations":5,"label":"Reports"}],"numGroups":1},"pictureUrl":"pictures/0060/0002_0001.png"},{"name":"AD142 Plug-in Dimmer Module","id":"0001","type":"0003","pictureUrl":"pictures/0060/0003_0001.png"},{"name":"AD147 Plug-in Dimmer Module","id":"0003","type":"0003","associations":{"groups":[{"index":1,"max_associations":1,"label":"Reports"},{"index":2,"max_associations":4,"label":"Basic"}],"numGroups":2},"pictureUrl":"pictures/0060/0003_0003.png"},{"name":"AD146 In wall Dimmer Module","id":"0002","type":"0003","associations":{"groups":[{"index":1,"max_associations":1,"label":"Reports"},{"index":2,"max_associations":4,"label":"Basic"}],"numGroups":2},"pictureUrl":"pictures/0060/0003_0002.png"},{"name":"AN157 Plug-in Appliance Module","id":"0001","type":"0004","pictureUrl":"pictures/0060/0004_0001.png"},{"name":"AN158 Plug-in Meter Appliance Module","id":"0002","type":"0004","associations":{"groups":[{"index":1,"max_associations":1,"label":"Reports"},{"index":2,"max_associations":4,"label":"Basic"}],"numGroups":2},"pictureUrl":"pictures/0060/0004_0002.png"},{"name":"AN180 Plug-in ON/OFF Module","id":"0007","type":"0004","associations":{"groups":[{"index":1,"max_associations":1,"label":"Lifeline"},{"index":2,"max_associations":4,"label":"Basic Set"}],"numGroups":2},"pictureUrl":"pictures/0060/0004_0007.png"},{"name":"AN179 In wall ON/OFF Module","id":"0008","type":"0004","associations":{"groups":[{"index":1,"max_associations":1,"label":"Lifeline"},{"index":2,"max_associations":4,"label":"Basic Set"}],"numGroups":2},"pictureUrl":"pictures/0060/0004_0008.png"},{"name":"ST814 Temperature and Humidity Sensor","id":"0001","type":"0006","associations":{"groups":[{"index":1,"max_associations":1,"label":"Reports"},{"index":2,"max_associations":3,"label":"Basic"}],"numGroups":2},"pictureUrl":"pictures/0060/0006_0001.png"},{"name":"ST815 Illumination Sensor","id":"0001","type":"0007","associations":{"groups":[{"index":1,"max_associations":1,"label":"Reports"},{"index":2,"max_associations":3,"label":"Basic"}],"numGroups":2},"pictureUrl":"pictures/0060/0007_0001.png"},{"name":"TSE03 Door Bell","id":"0001","type":"0009","associations":{"groups":[{"index":1,"max_associations":5,"label":"Reports"}],"numGroups":1},"pictureUrl":"pictures/0060/0009_0001.png"},{"name":"ST812 Flood Detector","id":"0001","type":"000b","associations":{"groups":[{"index":1,"max_associations":1,"label":"Reports"},{"index":2,"max_associations":3,"label":"Basic"}],"numGroups":2},"pictureUrl":"pictures/0060/000b_0001.png"},{"name":"SE812 Siren","id":"0001","type":"000c","associations":{"groups":[{"index":1,"max_associations":5,"label":"Reports"}],"numGroups":1},"pictureUrl":"pictures/0060/000c_0001.png"},{"name":"SF812 Smoke Alarm","id":"0001","type":"000d","associations":{"groups":[{"index":1,"max_associations":5,"label":"Reports"}],"numGroups":1},"pictureUrl":"pictures/0060/000d_0001.png"},{"name":"HAC01 In-wall Remote Module","id":"0001","type":"0010","pictureUrl":"pictures/0060/0010_0001.png"},{"name":"HAN01 In-wall Remote Module","id":"0001","type":"0011","pictureUrl":"pictures/0060/0011_0001.png"},{"name":"HAN02 In-wall Remote Module","id":"0002","type":"0011","pictureUrl":"pictures/0060/0011_0002.png"},{"name":"SP103 PIR Motion Sensor","id":"0001","type":"0101","associations":{"groups":[{"index":1,"max_associations":5,"label":"Motion"}],"numGroups":1},"pictureUrl":"pictures/0060/0101_0001.png"},{"name":"AN145 Lamp Screw In Module","id":"0001","type":"0104","associations":{"groups":[{"index":1,"max_associations":5,"label":"Basic"}],"numGroups":1},"pictureUrl":"pictures/0060/0104_0001.png"},{"name":"SM103 Door/Window Sensor","id":"0001","type":"0202","associations":{"groups":[{"index":1,"max_associations":5,"label":"Reports"}],"numGroups":1},"pictureUrl":"pictures/0060/0202_0001.png"}]
+[
+  {
+    "name": "HSP02 Motion Detector",
+    "id": "0001",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 3,
+          "label": "Control"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0060/0001_0001.png"
+  },
+  {
+    "name": "SP814 Motion Detector",
+    "id": "0002",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 3,
+          "label": "Control"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0060/0001_0002.png"
+  },
+  {
+    "name": "SM103 Door/Window Sensor",
+    "id": "0001",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0060/0002_0001.png"
+  },
+  {
+    "name": "AD142 Plug-in Dimmer Module",
+    "id": "0001",
+    "type": "0003",
+    "pictureUrl": "pictures/0060/0003_0001.png"
+  },
+  {
+    "name": "AD147 Plug-in Dimmer Module",
+    "id": "0003",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 4,
+          "label": "Basic"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0060/0003_0003.png"
+  },
+  {
+    "name": "AD146 In wall Dimmer Module",
+    "id": "0002",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 4,
+          "label": "Basic"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0060/0003_0002.png"
+  },
+  {
+    "name": "AN157 Plug-in Appliance Module",
+    "id": "0001",
+    "type": "0004",
+    "pictureUrl": "pictures/0060/0004_0001.png"
+  },
+  {
+    "name": "AN158 Plug-in Meter Appliance Module",
+    "id": "0002",
+    "type": "0004",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 4,
+          "label": "Basic"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0060/0004_0002.png"
+  },
+  {
+    "name": "AN180 Plug-in ON/OFF Module",
+    "id": "0007",
+    "type": "0004",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Lifeline"
+        },
+        {
+          "index": 2,
+          "max_associations": 4,
+          "label": "Basic Set"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0060/0004_0007.png"
+  },
+  {
+    "name": "AN179 In wall ON/OFF Module",
+    "id": "0008",
+    "type": "0004",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Lifeline"
+        },
+        {
+          "index": 2,
+          "max_associations": 4,
+          "label": "Basic Set"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0060/0004_0008.png"
+  },
+  {
+    "name": "ST814 Temperature and Humidity Sensor",
+    "id": "0001",
+    "type": "0006",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 3,
+          "label": "Basic"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0060/0006_0001.png"
+  },
+  {
+    "name": "ST815 Illumination Sensor",
+    "id": "0001",
+    "type": "0007",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 3,
+          "label": "Basic"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0060/0007_0001.png"
+  },
+  {
+    "name": "TSE03 Door Bell",
+    "id": "0001",
+    "type": "0009",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0060/0009_0001.png"
+  },
+  {
+    "name": "ST812 Flood Detector",
+    "id": "0001",
+    "type": "000b",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 3,
+          "label": "Basic"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0060/000b_0001.png"
+  },
+  {
+    "name": "SE812 Siren",
+    "id": "0001",
+    "type": "000c",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0060/000c_0001.png"
+  },
+  {
+    "name": "SF812 Smoke Alarm",
+    "id": "0001",
+    "type": "000d",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0060/000d_0001.png"
+  },
+  {
+    "name": "HAC01 In-wall Remote Module",
+    "id": "0001",
+    "type": "0010",
+    "pictureUrl": "pictures/0060/0010_0001.png"
+  },
+  {
+    "name": "HAN01 In-wall Remote Module",
+    "id": "0001",
+    "type": "0011",
+    "pictureUrl": "pictures/0060/0011_0001.png"
+  },
+  {
+    "name": "HAN02 In-wall Remote Module",
+    "id": "0002",
+    "type": "0011",
+    "pictureUrl": "pictures/0060/0011_0002.png"
+  },
+  {
+    "name": "SP103 PIR Motion Sensor",
+    "id": "0001",
+    "type": "0101",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Motion"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0060/0101_0001.png"
+  },
+  {
+    "name": "AN145 Lamp Screw In Module",
+    "id": "0001",
+    "type": "0104",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Basic"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0060/0104_0001.png"
+  },
+  {
+    "name": "SM103 Door/Window Sensor",
+    "id": "0001",
+    "type": "0202",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0060/0202_0001.png"
+  }
+]

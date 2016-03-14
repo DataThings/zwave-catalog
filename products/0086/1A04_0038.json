@@ -1,1 +1,246 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[],"min":1,"max":255,"genre":"config","index":2,"label":"doorbell ringtone repetitions","type":"byte","value":"2"},{"parameterItems":[],"min":1,"max":100,"genre":"config","index":5,"label":"Default Doorbell Ringtone","type":"byte","value":"1"},{"parameterItems":[],"min":0,"max":255,"genre":"user","index":6,"label":"Play Ringtone","type":"byte","value":"0"},{"parameterItems":[{"label":"Play","value":"1"},{"label":"Stop","value":"2"},{"label":"Pause","value":"3"},{"label":"Next","value":"4"},{"label":"Previous","value":"5"}],"size":1,"genre":"user","index":7,"label":"Control","type":"list","value":"2"},{"parameterItems":[],"min":0,"max":10,"genre":"config","index":8,"label":"Volume","type":"byte","value":"10"},{"parameterItems":[{"label":"Standard","value":"0"},{"label":"Reversed","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":10,"label":"Swap Buttons","type":"list","value":"0"},{"parameterItems":[{"label":"Short Press - Volume, Long Press - RingTone","value":"0"},{"label":"Short Press - RingTone, Long Press - Volume","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":11,"label":"Button Short/Long Press Function","type":"list","value":"0"},{"parameterItems":[{"label":"Normal Battery Level","value":"0"},{"label":"Low Battery Level","value":"255"}],"size":1,"read_only":"true","genre":"config","index":42,"label":"Wireless Button Status","type":"list","value":"0"},{"parameterItems":[{"label":"Nothing","value":"0"},{"label":"Hail","value":"1"},{"label":"Basic","value":"2"}],"min":0,"size":1,"max":2,"genre":"config","index":80,"label":"Notification status","type":"list","value":"2"},{"parameterItems":[{"label":"Nothing","value":"0"},{"label":"Configuration Paramater 42","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":81,"label":"Low Battery Notification status","type":"list","value":"1"},{"parameterItems":[{"label":"Start Pairing/Paired","value":"0xFFFFFFFF"},{"label":"Not Pairing/Unpaired","value":"0"}],"size":4,"genre":"config","index":241,"label":"Pair Wireless Button","type":"list","value":"0"},{"parameterItems":[{"label":"Disable","value":"0"},{"label":"Enable","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":252,"label":"Configuration Locked","type":"list","value":"0"},{"parameterItems":[],"genre":"config","index":255,"affects":"all","label":"Reset default configuration","type":"int","value":"0","write_only":"true"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 2,
+      "label": "doorbell ringtone repetitions",
+      "type": "byte",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 1,
+      "max": 100,
+      "genre": "config",
+      "index": 5,
+      "label": "Default Doorbell Ringtone",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "user",
+      "index": 6,
+      "label": "Play Ringtone",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Play",
+          "value": "1"
+        },
+        {
+          "label": "Stop",
+          "value": "2"
+        },
+        {
+          "label": "Pause",
+          "value": "3"
+        },
+        {
+          "label": "Next",
+          "value": "4"
+        },
+        {
+          "label": "Previous",
+          "value": "5"
+        }
+      ],
+      "size": 1,
+      "genre": "user",
+      "index": 7,
+      "label": "Control",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 10,
+      "genre": "config",
+      "index": 8,
+      "label": "Volume",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Standard",
+          "value": "0"
+        },
+        {
+          "label": "Reversed",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 10,
+      "label": "Swap Buttons",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Short Press - Volume, Long Press - RingTone",
+          "value": "0"
+        },
+        {
+          "label": "Short Press - RingTone, Long Press - Volume",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 11,
+      "label": "Button Short/Long Press Function",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Normal Battery Level",
+          "value": "0"
+        },
+        {
+          "label": "Low Battery Level",
+          "value": "255"
+        }
+      ],
+      "size": 1,
+      "read_only": "true",
+      "genre": "config",
+      "index": 42,
+      "label": "Wireless Button Status",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Nothing",
+          "value": "0"
+        },
+        {
+          "label": "Hail",
+          "value": "1"
+        },
+        {
+          "label": "Basic",
+          "value": "2"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 2,
+      "genre": "config",
+      "index": 80,
+      "label": "Notification status",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Nothing",
+          "value": "0"
+        },
+        {
+          "label": "Configuration Paramater 42",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 81,
+      "label": "Low Battery Notification status",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Start Pairing/Paired",
+          "value": "0xFFFFFFFF"
+        },
+        {
+          "label": "Not Pairing/Unpaired",
+          "value": "0"
+        }
+      ],
+      "size": 4,
+      "genre": "config",
+      "index": 241,
+      "label": "Pair Wireless Button",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Disable",
+          "value": "0"
+        },
+        {
+          "label": "Enable",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 252,
+      "label": "Configuration Locked",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 255,
+      "affects": "all",
+      "label": "Reset default configuration",
+      "type": "int",
+      "value": "0",
+      "write_only": "true"
+    }
+  ],
+  "groups": {
+    
+  }
+}

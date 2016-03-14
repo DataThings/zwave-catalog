@@ -1,1 +1,34 @@
-[{"name":"RGBW LED Bulb","id":"0002","type":"0002","associations":{"groups":[{"index":1,"max_associations":5,"label":"Report"}],"numGroups":1},"pictureUrl":"pictures/0131/0002_0002.png"},{"name":"Zipato Mini Keypad","id":"4501","type":"6131","associations":{"groups":[{"index":1,"max_associations":5,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/0131/6131_4501.png"}]
+[
+  {
+    "name": "RGBW LED Bulb",
+    "id": "0002",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Report"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0131/0002_0002.png"
+  },
+  {
+    "name": "Zipato Mini Keypad",
+    "id": "4501",
+    "type": "6131",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0131/6131_4501.png"
+  }
+]

@@ -1,1 +1,14 @@
-{"commandClasses":[{"id":"67","base":"0"}],"parameters":[],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "67",
+      "base": "0"
+    }
+  ],
+  "parameters": [
+    
+  ],
+  "groups": {
+    
+  }
+}

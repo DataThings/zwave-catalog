@@ -1,1 +1,322 @@
-{"commandClasses":[{"id":"112"},{"id":"133"},{"action":"remove","id":"32"},{"mapping":"endpoints","id":"96"}],"parameters":[{"parameterItems":[{"label":"mono-stable switch type (push button)","value":"0"},{"label":"bi-stable switch type","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":1,"label":"Input 1 switch type","type":"list","value":"1"},{"parameterItems":[{"label":"mono-stable switch type (push button)","value":"0"},{"label":"bi-stable switch type","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":2,"label":"Input 2 switch type","type":"list","value":"1"},{"parameterItems":[{"label":"mono-stable switch type (push button)","value":"0"},{"label":"bi-stable switch type","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":3,"label":"Input 3 switch type","type":"list","value":"0"},{"parameterItems":[{"label":"NO (normaly open) input type","value":"0"},{"label":"NC (normaly close) input type","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":4,"label":"Input 2 contact type","type":"list","value":"0"},{"parameterItems":[{"label":"NO (normaly open) input type","value":"0"},{"label":"NC (normaly close) input type","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":5,"label":"Input 3 contact type","type":"list","value":"0"},{"parameterItems":[{"label":"ALL ON active, ALL OFF active","value":"255"},{"label":"ALL ON is not active ALL OFF is not active","value":"0"},{"label":"ALL ON is not active ALL OFF active","value":"1"},{"label":"ALL ON active ALL OFF is not active","value":"2"}],"instance":1,"min":0,"size":1,"max":255,"genre":"config","index":10,"label":"Activate / deactivate functions ALL ON/ALL OFF","type":"list","value":"255"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":11,"label":"Setpoint set by I2","type":"short","value":"65535"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":12,"label":"Setpoint set by I3","type":"short","value":"65535"},{"parameterItems":[{"label":"Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)","value":"0"},{"label":"Flush dimmer module does not save the state after a power failure, it returns to off position","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":30,"label":"Saving the state of the relay after a power failure","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":100,"genre":"config","index":40,"label":"Power reporting in Watts on power change","type":"byte","value":"3"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":42,"label":"Power reporting in Watts by time interval","type":"short","value":"300"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":255,"genre":"config","index":43,"label":"Hysteresis On","type":"byte","value":"132"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":255,"genre":"config","index":44,"label":"Hysteresis Off","type":"byte","value":"132"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":255,"genre":"config","index":45,"label":"Antifreeze","type":"byte","value":"50"},{"parameterItems":[],"instance":1,"min":1,"size":2,"max":1000,"genre":"config","index":60,"label":"Too low temperature limit","type":"short","value":"50"},{"parameterItems":[],"instance":1,"min":1,"size":2,"max":1000,"genre":"config","index":61,"label":"Too high temperature limit","type":"short","value":"700"},{"parameterItems":[{"label":"NO (normaly open) input type","value":"0"},{"label":"NC (normaly close) input type","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":63,"label":"Switch selection","type":"list","value":"1"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    },
+    {
+      "action": "remove",
+      "id": "32"
+    },
+    {
+      "mapping": "endpoints",
+      "id": "96"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "mono-stable switch type (push button)",
+          "value": "0"
+        },
+        {
+          "label": "bi-stable switch type",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 1,
+      "label": "Input 1 switch type",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "mono-stable switch type (push button)",
+          "value": "0"
+        },
+        {
+          "label": "bi-stable switch type",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 2,
+      "label": "Input 2 switch type",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "mono-stable switch type (push button)",
+          "value": "0"
+        },
+        {
+          "label": "bi-stable switch type",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 3,
+      "label": "Input 3 switch type",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "NO (normaly open) input type",
+          "value": "0"
+        },
+        {
+          "label": "NC (normaly close) input type",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 4,
+      "label": "Input 2 contact type",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "NO (normaly open) input type",
+          "value": "0"
+        },
+        {
+          "label": "NC (normaly close) input type",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 5,
+      "label": "Input 3 contact type",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "ALL ON active, ALL OFF active",
+          "value": "255"
+        },
+        {
+          "label": "ALL ON is not active ALL OFF is not active",
+          "value": "0"
+        },
+        {
+          "label": "ALL ON is not active ALL OFF active",
+          "value": "1"
+        },
+        {
+          "label": "ALL ON active ALL OFF is not active",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 10,
+      "label": "Activate / deactivate functions ALL ON/ALL OFF",
+      "type": "list",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 11,
+      "label": "Setpoint set by I2",
+      "type": "short",
+      "value": "65535"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 12,
+      "label": "Setpoint set by I3",
+      "type": "short",
+      "value": "65535"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)",
+          "value": "0"
+        },
+        {
+          "label": "Flush dimmer module does not save the state after a power failure, it returns to off position",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 30,
+      "label": "Saving the state of the relay after a power failure",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 100,
+      "genre": "config",
+      "index": 40,
+      "label": "Power reporting in Watts on power change",
+      "type": "byte",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 42,
+      "label": "Power reporting in Watts by time interval",
+      "type": "short",
+      "value": "300"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 43,
+      "label": "Hysteresis On",
+      "type": "byte",
+      "value": "132"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 44,
+      "label": "Hysteresis Off",
+      "type": "byte",
+      "value": "132"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 45,
+      "label": "Antifreeze",
+      "type": "byte",
+      "value": "50"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "size": 2,
+      "max": 1000,
+      "genre": "config",
+      "index": 60,
+      "label": "Too low temperature limit",
+      "type": "short",
+      "value": "50"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "size": 2,
+      "max": 1000,
+      "genre": "config",
+      "index": 61,
+      "label": "Too high temperature limit",
+      "type": "short",
+      "value": "700"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "NO (normaly open) input type",
+          "value": "0"
+        },
+        {
+          "label": "NC (normaly close) input type",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 63,
+      "label": "Switch selection",
+      "type": "list",
+      "value": "1"
+    }
+  ],
+  "groups": {
+    
+  }
+}

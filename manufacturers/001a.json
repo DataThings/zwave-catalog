@@ -1,1 +1,50 @@
-[{"name":"RF9534DS Wall Dimmer Module","id":"0002","type":"4449","pictureUrl":"pictures/001a/4449_0002.png"},{"name":"RF9540-N All Load Dimmer Light Switch","id":"0101","type":"4449","associations":{"groups":[{"index":1,"max_associations":5,"label":"Group #1"},{"index":255,"max_associations":1,"label":"Group #255"}],"numGroups":2},"pictureUrl":"pictures/001a/4449_0101.png"},{"name":"RF9505-T Split Control Duplex Receptacle","id":"0000","type":"5244","associations":{"groups":[{"index":1,"max_associations":5,"label":"Group #1"},{"index":255,"max_associations":1,"label":"Group #255"}],"numGroups":2},"pictureUrl":"pictures/001a/5244_0000.png"}]
+[
+  {
+    "name": "RF9534DS Wall Dimmer Module",
+    "id": "0002",
+    "type": "4449",
+    "pictureUrl": "pictures/001a/4449_0002.png"
+  },
+  {
+    "name": "RF9540-N All Load Dimmer Light Switch",
+    "id": "0101",
+    "type": "4449",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group #1"
+        },
+        {
+          "index": 255,
+          "max_associations": 1,
+          "label": "Group #255"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/001a/4449_0101.png"
+  },
+  {
+    "name": "RF9505-T Split Control Duplex Receptacle",
+    "id": "0000",
+    "type": "5244",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group #1"
+        },
+        {
+          "index": 255,
+          "max_associations": 1,
+          "label": "Group #255"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/001a/5244_0000.png"
+  }
+]

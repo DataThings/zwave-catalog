@@ -1,1 +1,29 @@
-{"commandClasses":[{"id":"32","setasreport":"true"},{"getsupported":"false","id":"98"},{"getsupported":"false","id":"113"},{"action":"remove","id":"115"},{"id":"133"}],"parameters":[],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "32",
+      "setasreport": "true"
+    },
+    {
+      "getsupported": "false",
+      "id": "98"
+    },
+    {
+      "getsupported": "false",
+      "id": "113"
+    },
+    {
+      "action": "remove",
+      "id": "115"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    
+  ],
+  "groups": {
+    
+  }
+}

@@ -1,1 +1,85 @@
-{"commandClasses":[{"id":"112"},{"id":"32","setasreport":"true"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"Lighting","value":"0"},{"label":"Alarm","value":"1"},{"label":"Sensor","value":"2"}],"size":1,"genre":"config","index":17,"label":"Mode","type":"list","value":"0"},{"parameterItems":[],"min":0,"max":255,"genre":"config","index":18,"label":"Off/Idle Delay","units":"minutes","type":"byte","value":"1"},{"parameterItems":[{"label":"No","value":"0"},{"label":"Yes","value":"1"}],"size":1,"genre":"config","index":19,"label":"Unsolicited Commands","type":"list","value":"1"},{"parameterItems":[],"min":15,"max":45,"genre":"config","index":22,"label":"Awake Time","units":"seconds","type":"byte","value":"30"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "32",
+      "setasreport": "true"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Lighting",
+          "value": "0"
+        },
+        {
+          "label": "Alarm",
+          "value": "1"
+        },
+        {
+          "label": "Sensor",
+          "value": "2"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 17,
+      "label": "Mode",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 18,
+      "label": "Off/Idle Delay",
+      "units": "minutes",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No",
+          "value": "0"
+        },
+        {
+          "label": "Yes",
+          "value": "1"
+        }
+      ],
+      "size": 1,
+      "genre": "config",
+      "index": 19,
+      "label": "Unsolicited Commands",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 15,
+      "max": 45,
+      "genre": "config",
+      "index": 22,
+      "label": "Awake Time",
+      "units": "seconds",
+      "type": "byte",
+      "value": "30"
+    }
+  ],
+  "groups": {
+    
+  }
+}

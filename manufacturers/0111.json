@@ -1,1 +1,8 @@
-[{"name":"ZDS-100","id":"0200","type":"8200","pictureUrl":"pictures/0111/8200_0200.png"}]
+[
+  {
+    "name": "ZDS-100",
+    "id": "0200",
+    "type": "8200",
+    "pictureUrl": "pictures/0111/8200_0200.png"
+  }
+]

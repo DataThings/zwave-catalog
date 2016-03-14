@@ -1,1 +1,14 @@
-[{"name":"Door/Window Sensor","id":"0001","type":"0102","pictureUrl":"pictures/006f/0102_0001.png"},{"name":"HM-AM001 Plugin Appliance Module","id":"0001","type":"0104","pictureUrl":"pictures/006f/0104_0001.png"}]
+[
+  {
+    "name": "Door/Window Sensor",
+    "id": "0001",
+    "type": "0102",
+    "pictureUrl": "pictures/006f/0102_0001.png"
+  },
+  {
+    "name": "HM-AM001 Plugin Appliance Module",
+    "id": "0001",
+    "type": "0104",
+    "pictureUrl": "pictures/006f/0104_0001.png"
+  }
+]

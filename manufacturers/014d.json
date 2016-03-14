@@ -1,1 +1,8 @@
-[{"name":"SS201-US-W Z-Wave Controller","id":"0001","type":"0001","pictureUrl":"pictures/014d/0001_0001.png"}]
+[
+  {
+    "name": "SS201-US-W Z-Wave Controller",
+    "id": "0001",
+    "type": "0001",
+    "pictureUrl": "pictures/014d/0001_0001.png"
+  }
+]

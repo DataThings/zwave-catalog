@@ -1,1 +1,50 @@
-[{"name":"HSCP02 Motion Detector","id":"0001","type":"0001","associations":{"groups":[{"index":1,"max_associations":1,"label":"Reports"},{"index":2,"max_associations":3,"label":"Control"}],"numGroups":2},"pictureUrl":"pictures/0116/0001_0001.png"},{"name":"HSM02 Mini Door/Window Detector","id":"0001","type":"0002","associations":{"groups":[{"index":1,"max_associations":1,"label":"Alarm Reports"},{"index":2,"max_associations":5,"label":"Basic level"}],"numGroups":1},"pictureUrl":"pictures/0116/0002_0001.png"},{"name":"HAC01 Remote Button","id":"0001","type":"0010","pictureUrl":"pictures/0116/0010_0001.png"}]
+[
+  {
+    "name": "HSCP02 Motion Detector",
+    "id": "0001",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 3,
+          "label": "Control"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0116/0001_0001.png"
+  },
+  {
+    "name": "HSM02 Mini Door/Window Detector",
+    "id": "0001",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Alarm Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Basic level"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0116/0002_0001.png"
+  },
+  {
+    "name": "HAC01 Remote Button",
+    "id": "0001",
+    "type": "0010",
+    "pictureUrl": "pictures/0116/0010_0001.png"
+  }
+]

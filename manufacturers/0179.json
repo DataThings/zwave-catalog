@@ -1,1 +1,8 @@
-[{"name":"CH-201 Thermostat","id":"0001","type":"0001","pictureUrl":"pictures/0179/0001_0001.png"}]
+[
+  {
+    "name": "CH-201 Thermostat",
+    "id": "0001",
+    "type": "0001",
+    "pictureUrl": "pictures/0179/0001_0001.png"
+  }
+]

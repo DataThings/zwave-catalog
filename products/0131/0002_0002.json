@@ -1,1 +1,47 @@
-{"commandClasses":[{"id":"112"},{"action":"remove","id":"39"},{"action":"remove","id":"32"},{"id":"133"}],"parameters":[{"parameterItems":[],"min":0,"max":100,"genre":"config","index":1,"label":"RGB Color","type":"byte","value":"50"},{"parameterItems":[],"min":0,"max":32,"genre":"config","index":2,"label":"Shock Sensor","type":"byte","value":"10"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "action": "remove",
+      "id": "39"
+    },
+    {
+      "action": "remove",
+      "id": "32"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 100,
+      "genre": "config",
+      "index": 1,
+      "label": "RGB Color",
+      "type": "byte",
+      "value": "50"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 32,
+      "genre": "config",
+      "index": 2,
+      "label": "Shock Sensor",
+      "type": "byte",
+      "value": "10"
+    }
+  ],
+  "groups": {
+    
+  }
+}

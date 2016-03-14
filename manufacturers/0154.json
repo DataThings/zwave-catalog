@@ -1,1 +1,108 @@
-[{"name":"123601 Plug-in Switch","id":"0001","type":"1100","associations":{"groups":[{"index":1,"max_associations":1,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/0154/1100_0001.png"},{"name":"123580 Plug-in Dimmer","id":"0002","type":"1100","associations":{"groups":[{"index":1,"max_associations":1,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/0154/1100_0002.png"},{"name":"123658 Plug-in Switch plus Power Meter","id":"0001","type":"0001","associations":{"groups":[{"index":1,"max_associations":1,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/0154/0001_0001.png"},{"name":"POPE009105 Wall Plug switch Schuko (IP44) - Gen 5","id":"0001","type":"0003","associations":{"groups":[{"index":1,"max_associations":5,"label":"Send reports on switch state change"},{"auto":true,"index":2,"max_associations":5,"label":"Controlled by buttons"}],"numGroups":2},"pictureUrl":"pictures/0154/0003_0001.png"},{"name":"Battery Wall Switch Z-Wave+","id":"0101","type":"0100","associations":{"groups":[{"index":1,"max_associations":10,"label":"Lifeline"},{"index":2,"max_associations":10,"label":"Control Group A, controlled by button 1 or single clicks of buttons 1 and 3"},{"index":3,"max_associations":10,"label":"Control Group B, controlled by button 2 or single clicks of buttons 2 and 4"},{"index":4,"max_associations":10,"label":"Control Group C, controlled by button 3 or double clicks of buttons 1 and 3"},{"index":5,"max_associations":10,"label":"Control Group D, controlled by button 4 or double clicks of buttons 2 and 4"}],"numGroups":5},"pictureUrl":"pictures/0154/0100_0101.png"}]
+[
+  {
+    "name": "123601 Plug-in Switch",
+    "id": "0001",
+    "type": "1100",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0154/1100_0001.png"
+  },
+  {
+    "name": "123580 Plug-in Dimmer",
+    "id": "0002",
+    "type": "1100",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0154/1100_0002.png"
+  },
+  {
+    "name": "123658 Plug-in Switch plus Power Meter",
+    "id": "0001",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0154/0001_0001.png"
+  },
+  {
+    "name": "POPE009105 Wall Plug switch Schuko (IP44) - Gen 5",
+    "id": "0001",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Send reports on switch state change"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Controlled by buttons"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0154/0003_0001.png"
+  },
+  {
+    "name": "Battery Wall Switch Z-Wave+",
+    "id": "0101",
+    "type": "0100",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 10,
+          "label": "Lifeline"
+        },
+        {
+          "index": 2,
+          "max_associations": 10,
+          "label": "Control Group A, controlled by button 1 or single clicks of buttons 1 and 3"
+        },
+        {
+          "index": 3,
+          "max_associations": 10,
+          "label": "Control Group B, controlled by button 2 or single clicks of buttons 2 and 4"
+        },
+        {
+          "index": 4,
+          "max_associations": 10,
+          "label": "Control Group C, controlled by button 3 or double clicks of buttons 1 and 3"
+        },
+        {
+          "index": 5,
+          "max_associations": 10,
+          "label": "Control Group D, controlled by button 4 or double clicks of buttons 2 and 4"
+        }
+      ],
+      "numGroups": 5
+    },
+    "pictureUrl": "pictures/0154/0100_0101.png"
+  }
+]

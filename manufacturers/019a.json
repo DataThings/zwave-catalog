@@ -1,1 +1,18 @@
-[{"name":"Strips-MAZW","id":"0003","type":"0003","associations":{"groups":[{"index":1,"max_associations":1,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/019a/0003_0003.png"}]
+[
+  {
+    "name": "Strips-MAZW",
+    "id": "0003",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/019a/0003_0003.png"
+  }
+]

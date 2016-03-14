@@ -1,1 +1,50 @@
-[{"name":"ZW EDAN 300 Flush Mounted Dimmer","id":"0000","type":"0001","pictureUrl":"pictures/0064/0001_0000.png"},{"name":"Flush Mounted Switch","id":"0002","type":"1000","pictureUrl":"pictures/0064/1000_0002.png"},{"name":"Plugin Dimmer","id":"0000","type":"1001","pictureUrl":"pictures/0064/1001_0000.png"},{"name":"ZW ES 1000 Flush Mounted Switch","id":"0000","type":"2001","pictureUrl":"pictures/0064/2001_0000.png"},{"name":"ZW ZS 3500 Plugin Switch","id":"0000","type":"3001","pictureUrl":"pictures/0064/3001_0000.png"},{"name":"ZW ZSA 3500 Plugin Switch","id":"0000","type":"3002","pictureUrl":"pictures/0064/3002_0000.png"},{"name":"ZW ESJ Blind Control","id":"0000","type":"4001","pictureUrl":"pictures/0064/4001_0000.png"},{"name":"Wireless Flush Mounted Switch","id":"0000","type":"5002","pictureUrl":"pictures/0064/5002_0000.png"}]
+[
+  {
+    "name": "ZW EDAN 300 Flush Mounted Dimmer",
+    "id": "0000",
+    "type": "0001",
+    "pictureUrl": "pictures/0064/0001_0000.png"
+  },
+  {
+    "name": "Flush Mounted Switch",
+    "id": "0002",
+    "type": "1000",
+    "pictureUrl": "pictures/0064/1000_0002.png"
+  },
+  {
+    "name": "Plugin Dimmer",
+    "id": "0000",
+    "type": "1001",
+    "pictureUrl": "pictures/0064/1001_0000.png"
+  },
+  {
+    "name": "ZW ES 1000 Flush Mounted Switch",
+    "id": "0000",
+    "type": "2001",
+    "pictureUrl": "pictures/0064/2001_0000.png"
+  },
+  {
+    "name": "ZW ZS 3500 Plugin Switch",
+    "id": "0000",
+    "type": "3001",
+    "pictureUrl": "pictures/0064/3001_0000.png"
+  },
+  {
+    "name": "ZW ZSA 3500 Plugin Switch",
+    "id": "0000",
+    "type": "3002",
+    "pictureUrl": "pictures/0064/3002_0000.png"
+  },
+  {
+    "name": "ZW ESJ Blind Control",
+    "id": "0000",
+    "type": "4001",
+    "pictureUrl": "pictures/0064/4001_0000.png"
+  },
+  {
+    "name": "Wireless Flush Mounted Switch",
+    "id": "0000",
+    "type": "5002",
+    "pictureUrl": "pictures/0064/5002_0000.png"
+  }
+]

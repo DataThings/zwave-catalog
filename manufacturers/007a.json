@@ -1,1 +1,89 @@
-[{"name":"Plug-in Appliance Module","id":"0001","type":"8001","pictureUrl":"pictures/007a/8001_0001.png"},{"name":"Plug-in Dimmer Module","id":"0001","type":"8002","pictureUrl":"pictures/007a/8002_0001.png"},{"name":"Plug-in Roller Shutter Module","id":"0001","type":"8003","associations":{"groups":[{"auto":true,"index":1,"max_associations":12,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/007a/8003_0001.png"},{"name":"Wall Dimmer Module","id":"0001","type":"4003","pictureUrl":"pictures/007a/4003_0001.png"},{"name":"Wall Appliance Module","id":"0001","type":"4002","pictureUrl":"pictures/007a/4002_0001.png"},{"name":"Wall Roller Shutter Module","id":"0001","type":"4004","associations":{"groups":[{"index":1,"max_associations":5,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/007a/4004_0001.png"},{"name":"Receiver Flush-Mounted 1-Gang Switch","id":"8001","type":"8001","pictureUrl":"pictures/007a/8001_8001.png"},{"name":"Transmitter Flush-Mounted 4-Gang Switch","id":"0004","type":"0003","pictureUrl":"pictures/007a/0003_0004.png"},{"name":"Transmitter 1-Gang Switch","id":"0002","type":"0001","pictureUrl":"pictures/007a/0001_0002.png"},{"name":"Transmitter 2-Gang Switch","id":"0004","type":"0001","pictureUrl":"pictures/007a/0001_0004.png"},{"name":"Transmitter Move","id":"0001","type":"0002","pictureUrl":"pictures/007a/0002_0001.png"}]
+[
+  {
+    "name": "Plug-in Appliance Module",
+    "id": "0001",
+    "type": "8001",
+    "pictureUrl": "pictures/007a/8001_0001.png"
+  },
+  {
+    "name": "Plug-in Dimmer Module",
+    "id": "0001",
+    "type": "8002",
+    "pictureUrl": "pictures/007a/8002_0001.png"
+  },
+  {
+    "name": "Plug-in Roller Shutter Module",
+    "id": "0001",
+    "type": "8003",
+    "associations": {
+      "groups": [
+        {
+          "auto": true,
+          "index": 1,
+          "max_associations": 12,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/007a/8003_0001.png"
+  },
+  {
+    "name": "Wall Dimmer Module",
+    "id": "0001",
+    "type": "4003",
+    "pictureUrl": "pictures/007a/4003_0001.png"
+  },
+  {
+    "name": "Wall Appliance Module",
+    "id": "0001",
+    "type": "4002",
+    "pictureUrl": "pictures/007a/4002_0001.png"
+  },
+  {
+    "name": "Wall Roller Shutter Module",
+    "id": "0001",
+    "type": "4004",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/007a/4004_0001.png"
+  },
+  {
+    "name": "Receiver Flush-Mounted 1-Gang Switch",
+    "id": "8001",
+    "type": "8001",
+    "pictureUrl": "pictures/007a/8001_8001.png"
+  },
+  {
+    "name": "Transmitter Flush-Mounted 4-Gang Switch",
+    "id": "0004",
+    "type": "0003",
+    "pictureUrl": "pictures/007a/0003_0004.png"
+  },
+  {
+    "name": "Transmitter 1-Gang Switch",
+    "id": "0002",
+    "type": "0001",
+    "pictureUrl": "pictures/007a/0001_0002.png"
+  },
+  {
+    "name": "Transmitter 2-Gang Switch",
+    "id": "0004",
+    "type": "0001",
+    "pictureUrl": "pictures/007a/0001_0004.png"
+  },
+  {
+    "name": "Transmitter Move",
+    "id": "0001",
+    "type": "0002",
+    "pictureUrl": "pictures/007a/0002_0001.png"
+  }
+]

@@ -1,1 +1,140 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[],"min":0,"max":255,"genre":"config","index":2,"label":"Clear Pulse Meter Counts","type":"byte","value":"0"},{"parameterItems":[],"min":0,"max":255,"genre":"config","index":3,"label":"Trigger Mapping","type":"byte","value":"0"},{"parameterItems":[],"min":0,"max":255,"genre":"config","index":4,"label":"Lower Threshold, High","type":"byte","value":"187"},{"parameterItems":[],"min":0,"max":255,"genre":"config","index":5,"label":"Lower Threshold, Low","type":"byte","value":"171"},{"parameterItems":[],"min":0,"max":255,"genre":"config","index":6,"label":"Upper Threshold, High","type":"byte","value":"255"},{"parameterItems":[],"min":0,"max":255,"genre":"config","index":7,"label":"Upper Threshold, Low","type":"byte","value":"254"},{"parameterItems":[{"label":"Trigger outside thresholds, analog trigger thresholds","value":"0"},{"label":"Trigger between thresholds, analog trigger thresholds","value":"1"},{"label":"Trigger outside thresholds, digital trigger thresholds","value":"2"},{"label":"Trigger between thresholds, digital trigger thresholds","value":"3"}],"min":0,"max":3,"genre":"config","index":8,"label":"Input Flags","type":"list","value":"3"},{"parameterItems":[],"min":0,"max":255,"genre":"config","index":9,"label":"Sensor/Pulse Report Interval","units":"10 minutes","type":"byte","value":"3"},{"parameterItems":[],"min":0,"max":255,"genre":"config","index":11,"label":"Momentary Relay1 enable/disable","units":"100 msec","type":"byte","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 2,
+      "label": "Clear Pulse Meter Counts",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 3,
+      "label": "Trigger Mapping",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 4,
+      "label": "Lower Threshold, High",
+      "type": "byte",
+      "value": "187"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 5,
+      "label": "Lower Threshold, Low",
+      "type": "byte",
+      "value": "171"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 6,
+      "label": "Upper Threshold, High",
+      "type": "byte",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 7,
+      "label": "Upper Threshold, Low",
+      "type": "byte",
+      "value": "254"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Trigger outside thresholds, analog trigger thresholds",
+          "value": "0"
+        },
+        {
+          "label": "Trigger between thresholds, analog trigger thresholds",
+          "value": "1"
+        },
+        {
+          "label": "Trigger outside thresholds, digital trigger thresholds",
+          "value": "2"
+        },
+        {
+          "label": "Trigger between thresholds, digital trigger thresholds",
+          "value": "3"
+        }
+      ],
+      "min": 0,
+      "max": 3,
+      "genre": "config",
+      "index": 8,
+      "label": "Input Flags",
+      "type": "list",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 9,
+      "label": "Sensor/Pulse Report Interval",
+      "units": "10 minutes",
+      "type": "byte",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 255,
+      "genre": "config",
+      "index": 11,
+      "label": "Momentary Relay1 enable/disable",
+      "units": "100 msec",
+      "type": "byte",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

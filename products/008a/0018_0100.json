@@ -1,1 +1,152 @@
-{"commandClasses":[{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[],"instance":1,"genre":"config","index":1,"label":"Set to Default","type":"byte","value":"-1"},{"parameterItems":[{"label":"Switch own light on and send a Z-Wave message to all associated nodes (direct and extern)","value":"0"},{"label":"Don.t switch own light on but only send a Z-Wave message to associated node. (extern only)","value":"1"}],"instance":1,"size":1,"genre":"config","index":3,"label":"Control Type","type":"list","value":"0"},{"parameterItems":[{"label":"Dimming disabled.","value":"0"},{"label":"Dimming enabled.","value":"2"}],"instance":1,"genre":"config","index":4,"label":"Dimming enabled","type":"byte","value":"1"},{"parameterItems":[],"instance":1,"size":2,"genre":"config","index":6,"label":"Maximum Powerload","type":"byte","value":"200"},{"parameterItems":[],"instance":1,"genre":"config","index":7,"label":"Dimming Speed","type":"byte","value":"3"},{"parameterItems":[],"instance":1,"genre":"config","index":8,"label":"Fading up  Speed","type":"byte","value":"3"},{"parameterItems":[],"instance":1,"genre":"config","index":11,"label":"Auto meter report: percentage","type":"byte","value":"20"},{"parameterItems":[],"instance":1,"genre":"config","index":12,"label":"Auto meter report: watt","type":"byte","value":"10"},{"parameterItems":[],"instance":1,"genre":"config","index":13,"label":"Auto meter report: time","type":"byte","value":"20"},{"parameterItems":[],"instance":1,"genre":"config","index":14,"label":"Last known status","type":"byte","value":"0"},{"parameterItems":[],"instance":1,"genre":"config","index":15,"label":"Fading down speed","type":"byte","value":"1"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 1,
+      "label": "Set to Default",
+      "type": "byte",
+      "value": "-1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Switch own light on and send a Z-Wave message to all associated nodes (direct and extern)",
+          "value": "0"
+        },
+        {
+          "label": "Don.t switch own light on but only send a Z-Wave message to associated node. (extern only)",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 3,
+      "label": "Control Type",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Dimming disabled.",
+          "value": "0"
+        },
+        {
+          "label": "Dimming enabled.",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 4,
+      "label": "Dimming enabled",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "size": 2,
+      "genre": "config",
+      "index": 6,
+      "label": "Maximum Powerload",
+      "type": "byte",
+      "value": "200"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 7,
+      "label": "Dimming Speed",
+      "type": "byte",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 8,
+      "label": "Fading up  Speed",
+      "type": "byte",
+      "value": "3"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 11,
+      "label": "Auto meter report: percentage",
+      "type": "byte",
+      "value": "20"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 12,
+      "label": "Auto meter report: watt",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 13,
+      "label": "Auto meter report: time",
+      "type": "byte",
+      "value": "20"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 14,
+      "label": "Last known status",
+      "type": "byte",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "genre": "config",
+      "index": 15,
+      "label": "Fading down speed",
+      "type": "byte",
+      "value": "1"
+    }
+  ],
+  "groups": {
+    
+  }
+}

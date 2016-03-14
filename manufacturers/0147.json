@@ -1,1 +1,14 @@
-[{"name":"RaZberry Controller","id":"0003","type":"0002","pictureUrl":"pictures/0147/0002_0003.png"},{"name":"RaZberry Controller ZWave+","id":"0001","type":"0400","pictureUrl":"pictures/0147/0400_0001.png"}]
+[
+  {
+    "name": "RaZberry Controller",
+    "id": "0003",
+    "type": "0002",
+    "pictureUrl": "pictures/0147/0002_0003.png"
+  },
+  {
+    "name": "RaZberry Controller ZWave+",
+    "id": "0001",
+    "type": "0400",
+    "pictureUrl": "pictures/0147/0400_0001.png"
+  }
+]

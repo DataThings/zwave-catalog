@@ -1,1 +1,14 @@
-{"commandClasses":[{"action":"remove","id":"48"}],"parameters":[],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "action": "remove",
+      "id": "48"
+    }
+  ],
+  "parameters": [
+    
+  ],
+  "groups": {
+    
+  }
+}

@@ -1,1 +1,18 @@
-[{"name":"In Wall Dimmer","id":"3034","type":"4447","associations":{"groups":[{"index":1,"max_associations":5,"label":"Group #1 for lifeline communications. Max associations=5.  Lifeline association only supports the manual reset event."}],"numGroups":1},"pictureUrl":"pictures/0184/4447_3034.png"}]
+[
+  {
+    "name": "In Wall Dimmer",
+    "id": "3034",
+    "type": "4447",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group #1 for lifeline communications. Max associations=5.  Lifeline association only supports the manual reset event."
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0184/4447_3034.png"
+  }
+]

@@ -1,1 +1,36 @@
-{"commandClasses":[{"id":"112"}],"parameters":[{"parameterItems":[],"min":0,"max":1,"genre":"config","index":3,"label":"Night Light","type":"byte","value":"1"},{"parameterItems":[],"min":0,"max":1,"genre":"config","index":4,"label":"Invert Switch","type":"byte","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 1,
+      "genre": "config",
+      "index": 3,
+      "label": "Night Light",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 1,
+      "genre": "config",
+      "index": 4,
+      "label": "Invert Switch",
+      "type": "byte",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}

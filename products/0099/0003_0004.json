@@ -1,1 +1,91 @@
-{"commandClasses":[{"id":"112"},{"mapping":"endpoints","id":"96"},{"action":"remove","id":"113"},{"action":"remove","id":"135"},{"id":"133"}],"parameters":[{"parameterItems":[],"instance":1,"min":1,"max":255,"genre":"config","index":1,"label":"No communication light","type":"byte","value":"2"},{"parameterItems":[{"label":"Black (empty)","value":"128"},{"label":"Green (1)","value":"129"},{"label":"Dark Blue (2)","value":"130"},{"label":"Red (3)","value":"131"},{"label":"Yellow (4)","value":"132"},{"label":"Purple (5)","value":"133"},{"label":"Orange (6)","value":"134"},{"label":"Light Blue (7)","value":"135"},{"label":"Pink (8)","value":"136"},{"label":"Locked","value":"137"}],"instance":1,"size":1,"read_only":"true","genre":"config","index":2,"label":"Room color","type":"list"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "mapping": "endpoints",
+      "id": "96"
+    },
+    {
+      "action": "remove",
+      "id": "113"
+    },
+    {
+      "action": "remove",
+      "id": "135"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 1,
+      "label": "No communication light",
+      "type": "byte",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Black (empty)",
+          "value": "128"
+        },
+        {
+          "label": "Green (1)",
+          "value": "129"
+        },
+        {
+          "label": "Dark Blue (2)",
+          "value": "130"
+        },
+        {
+          "label": "Red (3)",
+          "value": "131"
+        },
+        {
+          "label": "Yellow (4)",
+          "value": "132"
+        },
+        {
+          "label": "Purple (5)",
+          "value": "133"
+        },
+        {
+          "label": "Orange (6)",
+          "value": "134"
+        },
+        {
+          "label": "Light Blue (7)",
+          "value": "135"
+        },
+        {
+          "label": "Pink (8)",
+          "value": "136"
+        },
+        {
+          "label": "Locked",
+          "value": "137"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "read_only": "true",
+      "genre": "config",
+      "index": 2,
+      "label": "Room color",
+      "type": "list"
+    }
+  ],
+  "groups": {
+    
+  }
+}

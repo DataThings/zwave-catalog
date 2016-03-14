@@ -1,1 +1,14 @@
-[{"name":"Garage Door Sensor","id":"0003","type":"0001","pictureUrl":"pictures/014a/0001_0003.png"}]
+[
+  {
+    "name": "Door/Window Sensor",
+    "id": "0001",
+    "type": "0001",
+    "pictureUrl": "pictures/014a/0001_0001.png"
+  },
+  {
+    "name": "Garage Door Sensor",
+    "id": "0003",
+    "type": "0001",
+    "pictureUrl": "pictures/014a/0001_0003.png"
+  }
+]

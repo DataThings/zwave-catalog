@@ -1,1 +1,20 @@
-[{"name":"TM-H2VHD081 HA Dongle","id":"0000","type":"0000","pictureUrl":"pictures/0123/0000_0000.png"},{"name":"NE-4CT-2P Electric Power Measuring Equipment","id":"0102","type":"0102","pictureUrl":"pictures/0123/0102_0102.png"},{"name":"NE-4CT Electric Power Measuring Equipment","id":"0103","type":"0103","pictureUrl":"pictures/0123/0103_0103.png"}]
+[
+  {
+    "name": "TM-H2VHD081 HA Dongle",
+    "id": "0000",
+    "type": "0000",
+    "pictureUrl": "pictures/0123/0000_0000.png"
+  },
+  {
+    "name": "NE-4CT-2P Electric Power Measuring Equipment",
+    "id": "0102",
+    "type": "0102",
+    "pictureUrl": "pictures/0123/0102_0102.png"
+  },
+  {
+    "name": "NE-4CT Electric Power Measuring Equipment",
+    "id": "0103",
+    "type": "0103",
+    "pictureUrl": "pictures/0123/0103_0103.png"
+  }
+]

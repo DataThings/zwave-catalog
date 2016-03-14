@@ -1,1 +1,329 @@
-{"commandClasses":[{"id":"112"},{"mapping":"endpoints","id":"96","forceUniqueEndpoints":"true"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"Deactivate Overload Protection (Default)","value":"0"},{"label":"Active Overload Protection","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":3,"label":"Current Overload Protection","type":"list","value":"0"},{"parameterItems":[{"label":"Last status (Default)","value":"0"},{"label":"Always on","value":"1"},{"label":"Always off","value":"2"}],"min":0,"size":1,"max":2,"genre":"config","index":20,"label":"Output Load Status","type":"list","value":"0"},{"parameterItems":[{"label":"Nothing","value":"0"},{"label":"Hail","value":"1"},{"label":"Basic","value":"2"}],"min":0,"size":1,"max":2,"genre":"config","index":80,"label":"Notification status","type":"list","value":"2"},{"parameterItems":[{"label":"The LED will follow the status (on/off) of its load. (Default)","value":"0"},{"label":"When the state of the Switch changes, the LED will follow the status (on/off) of its load, but the LED will turn off after 5 seconds.","value":"1"},{"label":"Night Light Mode","value":"2"}],"min":0,"size":1,"max":1,"genre":"config","index":81,"label":"Configure the state of the LED","type":"list","value":"0"},{"parameterItems":[],"min":0,"size":3,"max":16777215,"genre":"config","index":83,"label":"Night Light Color","type":"byte","value":"14524637"},{"parameterItems":[],"min":0,"size":3,"max":16777215,"genre":"config","index":84,"label":"RGB Brightness in Energy Mode","type":"byte","value":"5263440"},{"parameterItems":[],"genre":"config","index":90,"label":"Enables/disables parameter 91/92","type":"bool","value":"0"},{"parameterItems":[],"min":0,"size":2,"max":32000,"genre":"config","index":91,"label":"Minimum Change to send Report (Watt)","units":"watts","type":"short","value":"25"},{"parameterItems":[],"min":0,"max":100,"genre":"config","index":92,"label":"Minimum Change to send Report (%)","units":"%","type":"byte","value":"5"},{"parameterItems":[],"genre":"config","index":100,"affects":"101,102,103","label":"Default Group Reports","type":"button","write_only":"true"},{"parameterItems":[],"genre":"config","index":101,"label":"Report type sent in Reporting Group 1","type":"int","value":"4"},{"parameterItems":[],"genre":"config","index":102,"label":"Report type sent in Reporting Group 2","type":"int","value":"8"},{"parameterItems":[],"genre":"config","index":103,"label":"Report type sent in Reporting Group 3","type":"int","value":"0"},{"parameterItems":[],"genre":"config","index":110,"affects":"111,112,113","label":"Set 111 to 113 to default","type":"button","value":"0","write_only":"true"},{"parameterItems":[],"min":0,"max":65535,"genre":"config","index":111,"label":"Send Interval for Reporting Group 1","units":"seconds","type":"int","value":"600"},{"parameterItems":[],"min":0,"max":65535,"genre":"config","index":112,"label":"Send Interval for Reporting Group 2","units":"seconds","type":"int","value":"600"},{"parameterItems":[],"min":0,"max":65535,"genre":"config","index":113,"label":"Send Interval for Reporting Group 3","units":"seconds","type":"int","value":"600"},{"parameterItems":[{"label":"Aeon Labs Standard (Default)","value":"0"},{"label":"Others","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":200,"label":"Partner ID","type":"list","value":"0"},{"parameterItems":[{"label":"Disable","value":"0"},{"label":"Enable","value":"1"}],"min":0,"size":1,"max":1,"genre":"config","index":252,"label":"Configuration Locked","type":"list","value":"0"},{"parameterItems":[],"min":0,"max":65535,"genre":"config","index":254,"label":"Device tag","type":"short","value":"0"},{"parameterItems":[],"genre":"config","index":255,"label":"Reset device","type":"button","write_only":"true"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "mapping": "endpoints",
+      "id": "96",
+      "forceUniqueEndpoints": "true"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Deactivate Overload Protection (Default)",
+          "value": "0"
+        },
+        {
+          "label": "Active Overload Protection",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 3,
+      "label": "Current Overload Protection",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Last status (Default)",
+          "value": "0"
+        },
+        {
+          "label": "Always on",
+          "value": "1"
+        },
+        {
+          "label": "Always off",
+          "value": "2"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 2,
+      "genre": "config",
+      "index": 20,
+      "label": "Output Load Status",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Nothing",
+          "value": "0"
+        },
+        {
+          "label": "Hail",
+          "value": "1"
+        },
+        {
+          "label": "Basic",
+          "value": "2"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 2,
+      "genre": "config",
+      "index": 80,
+      "label": "Notification status",
+      "type": "list",
+      "value": "2"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "The LED will follow the status (on/off) of its load. (Default)",
+          "value": "0"
+        },
+        {
+          "label": "When the state of the Switch changes, the LED will follow the status (on/off) of its load, but the LED will turn off after 5 seconds.",
+          "value": "1"
+        },
+        {
+          "label": "Night Light Mode",
+          "value": "2"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 81,
+      "label": "Configure the state of the LED",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 3,
+      "max": 16777215,
+      "genre": "config",
+      "index": 83,
+      "label": "Night Light Color",
+      "type": "byte",
+      "value": "14524637"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 3,
+      "max": 16777215,
+      "genre": "config",
+      "index": 84,
+      "label": "RGB Brightness in Energy Mode",
+      "type": "byte",
+      "value": "5263440"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 90,
+      "label": "Enables/disables parameter 91/92",
+      "type": "bool",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "size": 2,
+      "max": 32000,
+      "genre": "config",
+      "index": 91,
+      "label": "Minimum Change to send Report (Watt)",
+      "units": "watts",
+      "type": "short",
+      "value": "25"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 100,
+      "genre": "config",
+      "index": 92,
+      "label": "Minimum Change to send Report (%)",
+      "units": "%",
+      "type": "byte",
+      "value": "5"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 100,
+      "affects": "101,102,103",
+      "label": "Default Group Reports",
+      "type": "button",
+      "write_only": "true"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 101,
+      "label": "Report type sent in Reporting Group 1",
+      "type": "int",
+      "value": "4"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 102,
+      "label": "Report type sent in Reporting Group 2",
+      "type": "int",
+      "value": "8"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 103,
+      "label": "Report type sent in Reporting Group 3",
+      "type": "int",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 110,
+      "affects": "111,112,113",
+      "label": "Set 111 to 113 to default",
+      "type": "button",
+      "value": "0",
+      "write_only": "true"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 111,
+      "label": "Send Interval for Reporting Group 1",
+      "units": "seconds",
+      "type": "int",
+      "value": "600"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 112,
+      "label": "Send Interval for Reporting Group 2",
+      "units": "seconds",
+      "type": "int",
+      "value": "600"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 113,
+      "label": "Send Interval for Reporting Group 3",
+      "units": "seconds",
+      "type": "int",
+      "value": "600"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Aeon Labs Standard (Default)",
+          "value": "0"
+        },
+        {
+          "label": "Others",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 200,
+      "label": "Partner ID",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Disable",
+          "value": "0"
+        },
+        {
+          "label": "Enable",
+          "value": "1"
+        }
+      ],
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 252,
+      "label": "Configuration Locked",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 254,
+      "label": "Device tag",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "genre": "config",
+      "index": 255,
+      "label": "Reset device",
+      "type": "button",
+      "write_only": "true"
+    }
+  ],
+  "groups": {
+    
+  }
+}

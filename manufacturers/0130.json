@@ -1,1 +1,8 @@
-[{"name":"Energy Management System","id":"0001","type":"0001","pictureUrl":"pictures/0130/0001_0001.png"}]
+[
+  {
+    "name": "Energy Management System",
+    "id": "0001",
+    "type": "0001",
+    "pictureUrl": "pictures/0130/0001_0001.png"
+  }
+]

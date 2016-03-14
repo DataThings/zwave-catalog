@@ -1,1 +1,1088 @@
-[{"name":"Z-Wave Extender","id":"0000","type":"0000","pictureUrl":"pictures/0086/0000_0000.png"},{"name":"Z-Stick","id":"0001","type":"0001","pictureUrl":"pictures/0086/0001_0001.png"},{"name":"Z-Stick S2","id":"0002","type":"0001","pictureUrl":"pictures/0086/0001_0002.png"},{"name":"Minimote","id":"0003","type":"0001","associations":{"groups":[{"auto":false,"index":1,"max_associations":5,"label":"Button #1"},{"auto":false,"index":2,"max_associations":5,"label":"Button #2"},{"auto":false,"index":3,"max_associations":5,"label":"Button #3"},{"auto":false,"index":4,"max_associations":5,"label":"Button #4"}],"numGroups":4},"pictureUrl":"pictures/0086/0001_0003.png"},{"name":"Z-Stick S2 Lite","id":"0007","type":"0001","pictureUrl":"pictures/0086/0001_0007.png"},{"name":"Key Fob","id":"0016","type":"0001","associations":{"groups":[{"auto":false,"index":1,"max_associations":5,"label":"Group1"}],"numGroups":1},"pictureUrl":"pictures/0086/0001_0016.png"},{"name":"ZW088 Key Fob Gen5","id":"0058","type":"0001","associations":{"groups":[{"index":1,"max_associations":5,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/0086/0001_0058.png"},{"name":"Z-Stick Gen5","id":"005a","type":"0001","pictureUrl":"pictures/0086/0001_005a.png"},{"name":"Z-Stick Lite Gen5","id":"005c","type":"0001","pictureUrl":"pictures/0086/0001_005c.png"},{"name":"Panic Button","id":"0026","type":"0001","associations":{"groups":[{"index":1,"max_associations":5,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/0086/0001_0026.png"},{"name":"Z-Stick S2","id":"0001","type":"0002","pictureUrl":"pictures/0086/0002_0001.png"},{"name":"Door/Window Sensor","id":"0004","type":"0002","associations":{"groups":[{"index":1,"max_associations":6,"label":"Reports"}],"numGroups":1},"pictureUrl":"pictures/0086/0002_0004.png"},{"name":"Multi Sensor","id":"0005","type":"0002","associations":{"groups":[{"index":1,"max_associations":4,"label":"Reports"}],"numGroups":1},"pictureUrl":"pictures/0086/0002_0005.png"},{"name":"Home Energy Meter","id":"0009","type":"0002","associations":{"groups":[{"index":1,"max_associations":5,"label":"Report"}],"numGroups":1},"pictureUrl":"pictures/0086/0002_0009.png"},{"name":"Home Energy Meter G2","id":"001c","type":"0002","associations":{"groups":[{"index":1,"max_associations":5,"label":"Report"}],"numGroups":1},"pictureUrl":"pictures/0086/0002_001c.png"},{"name":"Door/Window Sensor","id":"001d","type":"0002","associations":{"groups":[{"index":1,"max_associations":6,"label":"Reports"}],"numGroups":1},"pictureUrl":"pictures/0086/0002_001d.png"},{"name":"Water Sensor","id":"002d","type":"0002","associations":{"groups":[{"index":1,"max_associations":4,"label":"Reports"}],"numGroups":1},"pictureUrl":"pictures/0086/0002_002d.png"},{"name":"Recessed Door Sensor","id":"0036","type":"0002","associations":{"groups":[{"index":1,"max_associations":5,"label":"Group 1: Will receive Basic Set/ Sensor Binary Report (configurable) when the status of Recessed Door Sensor’s magnet switch open or close."},{"index":2,"max_associations":5,"label":"Group 2: If the battery power is below the warning value, the Node IDs in Group 2 will receive the Low Battery Warning Report, and when the Recessed Door Sensor wake up at the first time it will receive the Battery Report."}],"numGroups":2},"pictureUrl":"pictures/0086/0002_0036.png"},{"name":"Multi Sensor Gen5","id":"004a","type":"0002","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"}],"numGroups":1},"pictureUrl":"pictures/0086/0002_004a.png"},{"name":"Recessed Door Sensor","id":"0059","type":"0002","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"auto":true,"index":2,"max_associations":5,"label":"Battery"}],"numGroups":2},"pictureUrl":"pictures/0086/0002_0059.png"},{"name":"Smart Energy Switch","id":"0006","type":"0003","associations":{"groups":[{"index":1,"max_associations":5,"label":"Reports"}],"numGroups":1},"pictureUrl":"pictures/0086/0003_0006.png"},{"name":"Smart Energy Illuminator","id":"0008","type":"0003","pictureUrl":"pictures/0086/0003_0008.png"},{"name":"Smart Energy 220V Utility Switch","id":"000a","type":"0003","pictureUrl":"pictures/0086/0003_000a.png"},{"name":"Smart Energy Strip","id":"000b","type":"0003","pictureUrl":"pictures/0086/0003_000b.png"},{"name":"Micro Smart Energy Switch","id":"000c","type":"0003","associations":{"groups":[{"index":1,"max_associations":5,"label":"Reports"}],"numGroups":1},"pictureUrl":"pictures/0086/0003_000c.png"},{"name":"Micro Smart Energy Illuminator","id":"000d","type":"0003","pictureUrl":"pictures/0086/0003_000d.png"},{"name":"Micro Motor Controller","id":"000e","type":"0003","pictureUrl":"pictures/0086/0003_000e.png"},{"name":"Micro Double Switch","id":"0011","type":"0003","pictureUrl":"pictures/0086/0003_0011.png"},{"name":"Smart Switch (2nd Edition)","id":"0018","type":"0003","pictureUrl":"pictures/0086/0003_0018.png"},{"name":"Micro Switch (2nd Edition)","id":"001a","type":"0003","pictureUrl":"pictures/0086/0003_001a.png"},{"name":"Micro Smart Energy Illuminator G2","id":"001b","type":"0003","pictureUrl":"pictures/0086/0003_001b.png"},{"name":"Micro Smart Energy Switch G2","id":"0012","type":"0003","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"index":2,"max_associations":5,"label":"Reports"}],"numGroups":2},"pictureUrl":"pictures/0086/0003_0012.png"},{"name":"Micro Smart Energy Dimmer v2","id":"0013","type":"0003","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"index":2,"max_associations":5,"label":"Reports"}],"numGroups":2},"pictureUrl":"pictures/0086/0003_0013.png"},{"name":"Smart Energy Switch Gen5","id":"004b","type":"0003","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"index":2,"max_associations":5,"label":"Retransmit Switch CC"}],"numGroups":2},"pictureUrl":"pictures/0086/0003_004b.png"},{"name":"Heavy Duty Smart Switch Gen5","id":"004e","type":"0003","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"index":2,"max_associations":5,"label":"Reports"}],"numGroups":2},"pictureUrl":"pictures/0086/0003_004e.png"},{"name":"Z-Wave Repeater","id":"0025","type":"0004","pictureUrl":"pictures/0086/0004_0025.png"},{"name":"DSD31 Siren Gen5","id":"0050","type":"0004","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"}],"numGroups":1},"pictureUrl":"pictures/0086/0004_0050.png"},{"name":"Z-Stick Gen5","id":"005a","type":"0101","pictureUrl":"pictures/0086/0101_005a.png"},{"name":"Recessed Door Sensor Gen5","id":"0059","type":"0102","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"auto":true,"index":2,"max_associations":5,"label":"Battery"}],"numGroups":2},"pictureUrl":"pictures/0086/0102_0059.png"},{"name":"DoorBell Gen5","id":"0038","type":"0004","associations":{"groups":[{"index":1,"max_associations":5,"label":"DoorBell Status"},{"index":2,"max_associations":5,"label":"Transmit"}],"numGroups":2},"pictureUrl":"pictures/0086/0004_0038.png"},{"name":"DoorBell Gen5","id":"0038","type":"0104","associations":{"groups":[{"index":1,"max_associations":5,"label":"DoorBell Status"},{"index":2,"max_associations":5,"label":"Transmit"}],"numGroups":2},"pictureUrl":"pictures/0086/0104_0038.png"},{"name":"DoorBell Gen5","id":"0038","type":"0204","associations":{"groups":[{"index":1,"max_associations":5,"label":"DoorBell Status"},{"index":2,"max_associations":5,"label":"Transmit"}],"numGroups":2},"pictureUrl":"pictures/0086/0204_0038.png"},{"name":"DoorBell Gen5","id":"0038","type":"0304","associations":{"groups":[{"index":1,"max_associations":5,"label":"DoorBell Status"},{"index":2,"max_associations":5,"label":"Transmit"}],"numGroups":2},"pictureUrl":"pictures/0086/0304_0038.png"},{"name":"DoorBell Gen5","id":"0038","type":"0904","associations":{"groups":[{"index":1,"max_associations":5,"label":"DoorBell Status"},{"index":2,"max_associations":5,"label":"Transmit"}],"numGroups":2},"pictureUrl":"pictures/0086/0904_0038.png"},{"name":"DoorBell Gen5","id":"0038","type":"1D04","associations":{"groups":[{"index":1,"max_associations":5,"label":"DoorBell Status"},{"index":2,"max_associations":5,"label":"Transmit"}],"numGroups":2},"pictureUrl":"pictures/0086/1D04_0038.png"},{"name":"DoorBell Gen5","id":"0038","type":"1A04","associations":{"groups":[{"index":1,"max_associations":5,"label":"DoorBell Status"},{"index":2,"max_associations":5,"label":"Transmit"}],"numGroups":2},"pictureUrl":"pictures/0086/1A04_0038.png"},{"name":"DoorBell Gen5","id":"0038","type":"0A04","associations":{"groups":[{"index":1,"max_associations":5,"label":"DoorBell Status"},{"index":2,"max_associations":5,"label":"Transmit"}],"numGroups":2},"pictureUrl":"pictures/0086/0A04_0038.png"},{"name":"Dry Contact Sensor Gen5","id":"0061","type":"0002","associations":{"groups":[{"index":1,"max_associations":5,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/0086/0002_0061.png"},{"name":"Dry Contact Sensor Gen5","id":"0061","type":"0102","associations":{"groups":[{"index":1,"max_associations":5,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/0086/0102_0061.png"},{"name":"Dry Contact Sensor Gen5","id":"0061","type":"0202","associations":{"groups":[{"index":1,"max_associations":5,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/0086/0202_0061.png"},{"name":"Z-Stick Gen5","id":"005a","type":"0201","pictureUrl":"pictures/0086/0201_005a.png"},{"name":"Recessed Door Sensor Gen5","id":"0059","type":"0202","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"auto":true,"index":2,"max_associations":5,"label":"Battery"}],"numGroups":2},"pictureUrl":"pictures/0086/0202_0059.png"},{"name":"Smart Switch 6","id":"0060","type":"0003","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"index":2,"max_associations":5,"label":"Retransmit Switch CC"}],"numGroups":2},"pictureUrl":"pictures/0086/0003_0060.png"},{"name":"Smart Switch 6","id":"0060","type":"0103","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"index":2,"max_associations":5,"label":"Retransmit Switch CC"}],"numGroups":2},"pictureUrl":"pictures/0086/0103_0060.png"},{"name":"Smart Switch 6","id":"0060","type":"0203","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"index":2,"max_associations":5,"label":"Retransmit Switch CC"}],"numGroups":2},"pictureUrl":"pictures/0086/0203_0060.png"},{"name":"MultiSensor 6","id":"0064","type":"0002","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"}],"numGroups":1},"pictureUrl":"pictures/0086/0002_0064.png"},{"name":"MultiSensor 6","id":"0064","type":"0102","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"}],"numGroups":1},"pictureUrl":"pictures/0086/0102_0064.png"},{"name":"MultiSensor 6","id":"0064","type":"0202","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"}],"numGroups":1},"pictureUrl":"pictures/0086/0202_0064.png"},{"name":"LED Bulb","id":"0062","type":"0003","associations":{"groups":[{"index":1,"max_associations":5,"label":"Lifeline"},{"index":1,"max_associations":5,"label":"Retransmit"}],"numGroups":2},"pictureUrl":"pictures/0086/0003_0062.png"},{"name":"LED Bulb","id":"0062","type":"0103","associations":{"groups":[{"index":1,"max_associations":5,"label":"Lifeline"},{"index":1,"max_associations":5,"label":"Retransmit"}],"numGroups":2},"pictureUrl":"pictures/0086/0103_0062.png"},{"name":"LED Bulb","id":"0062","type":"0203","associations":{"groups":[{"index":1,"max_associations":5,"label":"Lifeline"},{"index":1,"max_associations":5,"label":"Retransmit"}],"numGroups":2},"pictureUrl":"pictures/0086/0203_0062.png"},{"name":"Smart Dimmer 6","id":"0063","type":"0003","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"index":2,"max_associations":5,"label":"Retransmit Switch CC"}],"numGroups":2},"pictureUrl":"pictures/0086/0003_0063.png"},{"name":"Smart Dimmer 6","id":"0063","type":"0103","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"index":2,"max_associations":5,"label":"Retransmit Switch CC"}],"numGroups":2},"pictureUrl":"pictures/0086/0103_0063.png"},{"name":"Smart Dimmer 6","id":"0063","type":"0203","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"index":2,"max_associations":5,"label":"Retransmit Switch CC"}],"numGroups":2},"pictureUrl":"pictures/0086/0203_0063.png"},{"name":"Smart Dimmer 6","id":"0063","type":"1D03","associations":{"groups":[{"index":1,"max_associations":5,"label":"LifeLine"},{"index":2,"max_associations":5,"label":"Retransmit Switch CC"}],"numGroups":2},"pictureUrl":"pictures/0086/1D03_0063.png"},{"name":"Door/Window Sensor 6","id":"0070","type":"0002","associations":{"groups":[{"auto":true,"index":1,"max_associations":5,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/0086/0002_0070.png"},{"name":"Door/Window Sensor 6","id":"0070","type":"0102","associations":{"groups":[{"auto":true,"index":1,"max_associations":5,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/0086/0102_0070.png"},{"name":"Door/Window Sensor 6","id":"0070","type":"0202","associations":{"groups":[{"auto":true,"index":1,"max_associations":5,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/0086/0202_0070.png"},{"name":"Door/Window Sensor 6","id":"0070","type":"1D02","associations":{"groups":[{"auto":true,"index":1,"max_associations":5,"label":"Lifeline"}],"numGroups":1},"pictureUrl":"pictures/0086/1D02_0070.png"}]
+[
+  {
+    "name": "Z-Wave Extender",
+    "id": "0000",
+    "type": "0000",
+    "pictureUrl": "pictures/0086/0000_0000.png"
+  },
+  {
+    "name": "Z-Stick",
+    "id": "0001",
+    "type": "0001",
+    "pictureUrl": "pictures/0086/0001_0001.png"
+  },
+  {
+    "name": "Z-Stick S2",
+    "id": "0002",
+    "type": "0001",
+    "pictureUrl": "pictures/0086/0001_0002.png"
+  },
+  {
+    "name": "Minimote",
+    "id": "0003",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Button #1"
+        },
+        {
+          "auto": false,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Button #2"
+        },
+        {
+          "auto": false,
+          "index": 3,
+          "max_associations": 5,
+          "label": "Button #3"
+        },
+        {
+          "auto": false,
+          "index": 4,
+          "max_associations": 5,
+          "label": "Button #4"
+        }
+      ],
+      "numGroups": 4
+    },
+    "pictureUrl": "pictures/0086/0001_0003.png"
+  },
+  {
+    "name": "Z-Stick S2 Lite",
+    "id": "0007",
+    "type": "0001",
+    "pictureUrl": "pictures/0086/0001_0007.png"
+  },
+  {
+    "name": "Key Fob",
+    "id": "0016",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "auto": false,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0001_0016.png"
+  },
+  {
+    "name": "ZW088 Key Fob Gen5",
+    "id": "0058",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0001_0058.png"
+  },
+  {
+    "name": "Z-Stick Gen5",
+    "id": "005a",
+    "type": "0001",
+    "pictureUrl": "pictures/0086/0001_005a.png"
+  },
+  {
+    "name": "Z-Stick Lite Gen5",
+    "id": "005c",
+    "type": "0001",
+    "pictureUrl": "pictures/0086/0001_005c.png"
+  },
+  {
+    "name": "Panic Button",
+    "id": "0026",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0001_0026.png"
+  },
+  {
+    "name": "Z-Stick S2",
+    "id": "0001",
+    "type": "0002",
+    "pictureUrl": "pictures/0086/0002_0001.png"
+  },
+  {
+    "name": "Door/Window Sensor",
+    "id": "0004",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 6,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0002_0004.png"
+  },
+  {
+    "name": "Multi Sensor",
+    "id": "0005",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 4,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0002_0005.png"
+  },
+  {
+    "name": "Home Energy Meter",
+    "id": "0009",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Report"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0002_0009.png"
+  },
+  {
+    "name": "Home Energy Meter G2",
+    "id": "001c",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Report"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0002_001c.png"
+  },
+  {
+    "name": "Door/Window Sensor",
+    "id": "001d",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 6,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0002_001d.png"
+  },
+  {
+    "name": "Water Sensor",
+    "id": "002d",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 4,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0002_002d.png"
+  },
+  {
+    "name": "Recessed Door Sensor",
+    "id": "0036",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Group 1: Will receive Basic Set/ Sensor Binary Report (configurable) when the status of Recessed Door Sensor’s magnet switch open or close."
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Group 2: If the battery power is below the warning value, the Node IDs in Group 2 will receive the Low Battery Warning Report, and when the Recessed Door Sensor wake up at the first time it will receive the Battery Report."
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0002_0036.png"
+  },
+  {
+    "name": "Multi Sensor Gen5",
+    "id": "004a",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0002_004a.png"
+  },
+  {
+    "name": "Recessed Door Sensor",
+    "id": "0059",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Battery"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0002_0059.png"
+  },
+  {
+    "name": "Smart Energy Switch",
+    "id": "0006",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0003_0006.png"
+  },
+  {
+    "name": "Smart Energy Illuminator",
+    "id": "0008",
+    "type": "0003",
+    "pictureUrl": "pictures/0086/0003_0008.png"
+  },
+  {
+    "name": "Smart Energy 220V Utility Switch",
+    "id": "000a",
+    "type": "0003",
+    "pictureUrl": "pictures/0086/0003_000a.png"
+  },
+  {
+    "name": "Smart Energy Strip",
+    "id": "000b",
+    "type": "0003",
+    "pictureUrl": "pictures/0086/0003_000b.png"
+  },
+  {
+    "name": "Micro Smart Energy Switch",
+    "id": "000c",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0003_000c.png"
+  },
+  {
+    "name": "Micro Smart Energy Illuminator",
+    "id": "000d",
+    "type": "0003",
+    "pictureUrl": "pictures/0086/0003_000d.png"
+  },
+  {
+    "name": "Micro Motor Controller",
+    "id": "000e",
+    "type": "0003",
+    "pictureUrl": "pictures/0086/0003_000e.png"
+  },
+  {
+    "name": "Micro Double Switch",
+    "id": "0011",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0003_0011.png"
+  },
+  {
+    "name": "Smart Switch (2nd Edition)",
+    "id": "0018",
+    "type": "0003",
+    "pictureUrl": "pictures/0086/0003_0018.png"
+  },
+  {
+    "name": "Micro Switch (2nd Edition)",
+    "id": "001a",
+    "type": "0003",
+    "pictureUrl": "pictures/0086/0003_001a.png"
+  },
+  {
+    "name": "Micro Smart Energy Illuminator G2",
+    "id": "001b",
+    "type": "0003",
+    "pictureUrl": "pictures/0086/0003_001b.png"
+  },
+  {
+    "name": "Micro Smart Energy Switch G2",
+    "id": "0012",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0003_0012.png"
+  },
+  {
+    "name": "Micro Smart Energy Dimmer v2",
+    "id": "0013",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0003_0013.png"
+  },
+  {
+    "name": "Smart Energy Switch Gen5",
+    "id": "004b",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Retransmit Switch CC"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0003_004b.png"
+  },
+  {
+    "name": "Heavy Duty Smart Switch Gen5",
+    "id": "004e",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Reports"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0003_004e.png"
+  },
+  {
+    "name": "Z-Wave Repeater",
+    "id": "0025",
+    "type": "0004",
+    "pictureUrl": "pictures/0086/0004_0025.png"
+  },
+  {
+    "name": "DSD31 Siren Gen5",
+    "id": "0050",
+    "type": "0004",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0004_0050.png"
+  },
+  {
+    "name": "Z-Stick Gen5",
+    "id": "005a",
+    "type": "0101",
+    "pictureUrl": "pictures/0086/0101_005a.png"
+  },
+  {
+    "name": "Recessed Door Sensor Gen5",
+    "id": "0059",
+    "type": "0102",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Battery"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0102_0059.png"
+  },
+  {
+    "name": "DoorBell Gen5",
+    "id": "0038",
+    "type": "0004",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "DoorBell Status"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Transmit"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0004_0038.png"
+  },
+  {
+    "name": "DoorBell Gen5",
+    "id": "0038",
+    "type": "0104",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "DoorBell Status"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Transmit"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0104_0038.png"
+  },
+  {
+    "name": "DoorBell Gen5",
+    "id": "0038",
+    "type": "0204",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "DoorBell Status"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Transmit"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0204_0038.png"
+  },
+  {
+    "name": "DoorBell Gen5",
+    "id": "0038",
+    "type": "0304",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "DoorBell Status"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Transmit"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0304_0038.png"
+  },
+  {
+    "name": "DoorBell Gen5",
+    "id": "0038",
+    "type": "0904",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "DoorBell Status"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Transmit"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0904_0038.png"
+  },
+  {
+    "name": "DoorBell Gen5",
+    "id": "0038",
+    "type": "1D04",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "DoorBell Status"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Transmit"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/1D04_0038.png"
+  },
+  {
+    "name": "DoorBell Gen5",
+    "id": "0038",
+    "type": "1A04",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "DoorBell Status"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Transmit"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/1A04_0038.png"
+  },
+  {
+    "name": "DoorBell Gen5",
+    "id": "0038",
+    "type": "0A04",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "DoorBell Status"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Transmit"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0A04_0038.png"
+  },
+  {
+    "name": "Dry Contact Sensor Gen5",
+    "id": "0061",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0002_0061.png"
+  },
+  {
+    "name": "Dry Contact Sensor Gen5",
+    "id": "0061",
+    "type": "0102",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0102_0061.png"
+  },
+  {
+    "name": "Dry Contact Sensor Gen5",
+    "id": "0061",
+    "type": "0202",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0202_0061.png"
+  },
+  {
+    "name": "Z-Stick Gen5",
+    "id": "005a",
+    "type": "0201",
+    "pictureUrl": "pictures/0086/0201_005a.png"
+  },
+  {
+    "name": "Recessed Door Sensor Gen5",
+    "id": "0059",
+    "type": "0202",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 5,
+          "label": "Battery"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0202_0059.png"
+  },
+  {
+    "name": "Smart Switch 6",
+    "id": "0060",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Retransmit Switch CC"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0003_0060.png"
+  },
+  {
+    "name": "Smart Switch 6",
+    "id": "0060",
+    "type": "0103",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Retransmit Switch CC"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0103_0060.png"
+  },
+  {
+    "name": "Smart Switch 6",
+    "id": "0060",
+    "type": "0203",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Retransmit Switch CC"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0203_0060.png"
+  },
+  {
+    "name": "MultiSensor 6",
+    "id": "0064",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0002_0064.png"
+  },
+  {
+    "name": "MultiSensor 6",
+    "id": "0064",
+    "type": "0102",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0102_0064.png"
+  },
+  {
+    "name": "MultiSensor 6",
+    "id": "0064",
+    "type": "0202",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0202_0064.png"
+  },
+  {
+    "name": "LED Bulb",
+    "id": "0062",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        },
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Retransmit"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0003_0062.png"
+  },
+  {
+    "name": "LED Bulb",
+    "id": "0062",
+    "type": "0103",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        },
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Retransmit"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0103_0062.png"
+  },
+  {
+    "name": "LED Bulb",
+    "id": "0062",
+    "type": "0203",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        },
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "Retransmit"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0203_0062.png"
+  },
+  {
+    "name": "Smart Dimmer 6",
+    "id": "0063",
+    "type": "0003",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Retransmit Switch CC"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0003_0063.png"
+  },
+  {
+    "name": "Smart Dimmer 6",
+    "id": "0063",
+    "type": "0103",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Retransmit Switch CC"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0103_0063.png"
+  },
+  {
+    "name": "Smart Dimmer 6",
+    "id": "0063",
+    "type": "0203",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Retransmit Switch CC"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/0203_0063.png"
+  },
+  {
+    "name": "Smart Dimmer 6",
+    "id": "0063",
+    "type": "1D03",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 5,
+          "label": "LifeLine"
+        },
+        {
+          "index": 2,
+          "max_associations": 5,
+          "label": "Retransmit Switch CC"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/0086/1D03_0063.png"
+  },
+  {
+    "name": "Door/Window Sensor 6",
+    "id": "0070",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "auto": true,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0002_0070.png"
+  },
+  {
+    "name": "Door/Window Sensor 6",
+    "id": "0070",
+    "type": "0102",
+    "associations": {
+      "groups": [
+        {
+          "auto": true,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0102_0070.png"
+  },
+  {
+    "name": "Door/Window Sensor 6",
+    "id": "0070",
+    "type": "0202",
+    "associations": {
+      "groups": [
+        {
+          "auto": true,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/0202_0070.png"
+  },
+  {
+    "name": "Door/Window Sensor 6",
+    "id": "0070",
+    "type": "1D02",
+    "associations": {
+      "groups": [
+        {
+          "auto": true,
+          "index": 1,
+          "max_associations": 5,
+          "label": "Lifeline"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/0086/1D02_0070.png"
+  }
+]

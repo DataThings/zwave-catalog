@@ -1,1 +1,14 @@
-[{"name":"ME-D101 Electric Power Measuring Instrument","id":"0001","type":"0001","pictureUrl":"pictures/0122/0001_0001.png"},{"name":"ZW-GW Smart Bridge","id":"0000","type":"8000","pictureUrl":"pictures/0122/8000_0000.png"}]
+[
+  {
+    "name": "ME-D101 Electric Power Measuring Instrument",
+    "id": "0001",
+    "type": "0001",
+    "pictureUrl": "pictures/0122/0001_0001.png"
+  },
+  {
+    "name": "ZW-GW Smart Bridge",
+    "id": "0000",
+    "type": "8000",
+    "pictureUrl": "pictures/0122/8000_0000.png"
+  }
+]

@@ -1,1 +1,195 @@
-{"commandClasses":[{"id":"112"},{"id":"133"},{"action":"remove","id":"32"},{"mapping":"endpoints","id":"96"}],"parameters":[{"parameterItems":[{"label":"Mono-stable switch type (push button)","value":"0"},{"label":"Bi-stable switch type","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":1,"label":"Input 1 switch type","type":"list","value":"1"},{"parameterItems":[{"label":"Mono-stable switch type (push button)","value":"0"},{"label":"Bi-stable switch type","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":2,"label":"Input 2 switch type","type":"list","value":"1"},{"parameterItems":[{"label":"ALL ON active, ALL OFF active","value":"255"},{"label":"ALL ON is not active ALL OFF is not active","value":"0"},{"label":"ALL ON is not active ALL OFF active","value":"1"},{"label":"ALL ON active ALL OFF is not active","value":"2"}],"instance":1,"min":0,"size":1,"max":255,"genre":"config","index":10,"label":"Activate / deactivate functions ALL ON/ALL OFF","type":"list","value":"255"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":11,"label":"Automatic turning Off relay Q1 after set time","type":"short","value":"0"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":12,"label":"Automatic turning Off relay Q2 after set time","type":"short","value":"0"},{"parameterItems":[{"label":"Flush 2 relays module saves its state before power failure (it returns to the last position saved before a power failure)","value":"0"},{"label":"Flush 2 relays module does not save the state after a power failure, it returns to off position.","value":"1"}],"instance":1,"min":0,"size":1,"max":1,"genre":"config","index":30,"label":"Saving the state of the 2 relays after a power failure","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":100,"genre":"config","index":40,"label":"Power reporting in Watts on power change for Q1","type":"byte","value":"1"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":100,"genre":"config","index":41,"label":"Power reporting in Watts on power change for Q2","type":"byte","value":"1"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":42,"label":"Power reporting in Watts by time interval for Q1","type":"short","value":"300"},{"parameterItems":[],"instance":1,"min":0,"max":65535,"genre":"config","index":43,"label":"Power reporting in Watts by time interval for Q2","type":"short","value":"300"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    },
+    {
+      "action": "remove",
+      "id": "32"
+    },
+    {
+      "mapping": "endpoints",
+      "id": "96"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "Mono-stable switch type (push button)",
+          "value": "0"
+        },
+        {
+          "label": "Bi-stable switch type",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 1,
+      "label": "Input 1 switch type",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Mono-stable switch type (push button)",
+          "value": "0"
+        },
+        {
+          "label": "Bi-stable switch type",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 2,
+      "label": "Input 2 switch type",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "ALL ON active, ALL OFF active",
+          "value": "255"
+        },
+        {
+          "label": "ALL ON is not active ALL OFF is not active",
+          "value": "0"
+        },
+        {
+          "label": "ALL ON is not active ALL OFF active",
+          "value": "1"
+        },
+        {
+          "label": "ALL ON active ALL OFF is not active",
+          "value": "2"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 10,
+      "label": "Activate / deactivate functions ALL ON/ALL OFF",
+      "type": "list",
+      "value": "255"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 11,
+      "label": "Automatic turning Off relay Q1 after set time",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 12,
+      "label": "Automatic turning Off relay Q2 after set time",
+      "type": "short",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Flush 2 relays module saves its state before power failure (it returns to the last position saved before a power failure)",
+          "value": "0"
+        },
+        {
+          "label": "Flush 2 relays module does not save the state after a power failure, it returns to off position.",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 1,
+      "genre": "config",
+      "index": 30,
+      "label": "Saving the state of the 2 relays after a power failure",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 100,
+      "genre": "config",
+      "index": 40,
+      "label": "Power reporting in Watts on power change for Q1",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 100,
+      "genre": "config",
+      "index": 41,
+      "label": "Power reporting in Watts on power change for Q2",
+      "type": "byte",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 42,
+      "label": "Power reporting in Watts by time interval for Q1",
+      "type": "short",
+      "value": "300"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 65535,
+      "genre": "config",
+      "index": 43,
+      "label": "Power reporting in Watts by time interval for Q2",
+      "type": "short",
+      "value": "300"
+    }
+  ],
+  "groups": {
+    
+  }
+}

@@ -1,1 +1,476 @@
-{"commandClasses":[{"action":"remove","id":"113"},{"action":"remove","id":"156"},{"getsupported":"false","id":"39"},{"id":"112"},{"id":"133"}],"parameters":[{"parameterItems":[{"label":"function activated","value":"0"},{"label":"function inactive","value":"1"}],"instance":1,"size":1,"genre":"config","index":1,"label":"Always on function","type":"list","value":"1"},{"parameterItems":[{"label":"Wall Plug does not memorize its state after a power failure","value":"0"},{"label":"Wall Plug memorizes its state after a power failure","value":"1"}],"instance":1,"size":1,"genre":"config","index":16,"label":"Remember device status after power failure","type":"list","value":"1"},{"parameterItems":[{"label":"ALARM GENERIC","value":"1"},{"label":"ALARM SMOKE","value":"2"},{"label":"ALARM CO","value":"4"},{"label":"ALARM CO2","value":"8"},{"label":"ALARM HEAT","value":"16"},{"label":"ALARM WATER","value":"32"},{"label":"ALARM ALL","value":"63"}],"instance":1,"min":1,"size":1,"max":63,"genre":"config","index":34,"label":"Reaction to alarms","type":"list","value":"63"},{"parameterItems":[{"label":"No reaction","value":"0"},{"label":"Turn on connected device","value":"1"},{"label":"Turn off connected device","value":"2"},{"label":"Cyclically change device state, each 1second","value":"3"}],"instance":1,"size":1,"genre":"config","index":35,"label":"Wall Plug's response to alarm frames","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":1,"size":2,"max":65536,"genre":"config","index":39,"label":"Alarm duration","type":"short","value":"600"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":100,"genre":"config","index":40,"label":"Immediate power report","type":"byte","value":"80"},{"parameterItems":[],"instance":1,"min":0,"size":1,"max":100,"genre":"config","index":42,"label":"Standard power load reporting","type":"byte","value":"15"},{"parameterItems":[],"instance":1,"min":1,"size":1,"max":255,"genre":"config","index":43,"label":"Power reporting frequency","type":"byte","value":"30"},{"parameterItems":[],"instance":1,"min":1,"size":1,"max":255,"genre":"config","index":45,"label":"Reporting changes in energy consumed by controlled devices","type":"byte","value":"10"},{"parameterItems":[],"instance":1,"size":2,"genre":"config","index":47,"label":"Time period between reports on power load and energy consumption.","type":"short","value":"3600"},{"parameterItems":[{"label":"function inactive","value":"0"},{"label":"function activated","value":"1"}],"instance":1,"size":1,"genre":"config","index":49,"label":"Metering energy consumed by the Wall Plug itself","type":"list","value":"0"},{"parameterItems":[],"instance":1,"min":0,"size":2,"max":25000,"genre":"config","index":50,"label":"DOWN value","type":"short","value":"300"},{"parameterItems":[],"instance":1,"min":1,"size":2,"max":25000,"genre":"config","index":51,"label":"UP value","type":"short","value":"500"},{"parameterItems":[{"label":"Function inactive","value":"0"},{"label":"Turn the associated devices on,Power below DOWN","value":"1"},{"label":"Turn the associated devices off,Power below DOWN","value":"2"},{"label":"Turn the associated devices on,Power above UP","value":"3"},{"label":"Turn the associated devices off,Power above UP","value":"4"},{"label":"1 and 4 combine","value":"5"},{"label":"2 and 3 combined","value":"6"}],"instance":1,"size":1,"genre":"config","index":52,"label":"Action in case of exceeding defined power values","type":"list","value":"6"},{"parameterItems":[],"instance":1,"min":1000,"size":2,"max":32000,"genre":"config","index":60,"label":"Power load, which when exceeded, makes the LED ring flash violet.","type":"short","value":"25000"},{"parameterItems":[{"label":"Depending on power consumption changes","value":"0"},{"label":"Using full spectrum of available colorus","value":"1"},{"label":"White illumination","value":"2"},{"label":"Red illumination","value":"3"},{"label":"Green illumination","value":"4"},{"label":"Blue illumination","value":"5"},{"label":"Yellow illumination","value":"6"},{"label":"Cyan illuminatio","value":"7"},{"label":"Magenta illumination","value":"8"},{"label":"illumination turned off completely","value":"9"}],"instance":1,"size":1,"genre":"config","index":61,"label":"LED ring illumination colour when controlled device is on","type":"list","value":"1"},{"parameterItems":[{"label":"Depending on the last measured power","value":"0"},{"label":"White illumination","value":"1"},{"label":"Red illumination","value":"2"},{"label":"Green illumination","value":"3"},{"label":"Blue illumination","value":"4"},{"label":"Yellow illumination","value":"5"},{"label":"Cyan illuminatio","value":"6"},{"label":"Magenta illumination","value":"7"},{"label":"illumination turned off completely","value":"8"}],"instance":1,"size":1,"genre":"config","index":62,"label":"LED ring illumination colour when controlled device is off","type":"list","value":"8"},{"parameterItems":[{"label":"No change in colour","value":"0"},{"label":"LED ring flashes red / blue / white","value":"1"},{"label":"White illumination","value":"2"},{"label":"Red illumination","value":"3"},{"label":"Green illumination","value":"4"},{"label":"Blue illumination","value":"5"},{"label":"Yellow illumination","value":"6"},{"label":"Cyan illuminatio","value":"7"},{"label":"Magenta illumination","value":"8"},{"label":"illumination turned off completely","value":"9"}],"instance":1,"size":1,"genre":"config","index":63,"label":"LED ring illumination colour at the Z-Wave network alarm detection. ","type":"list","value":"1"},{"parameterItems":[],"instance":1,"size":2,"genre":"config","index":70,"label":"Oveload safety switch","type":"short","value":"65535"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "action": "remove",
+      "id": "113"
+    },
+    {
+      "action": "remove",
+      "id": "156"
+    },
+    {
+      "getsupported": "false",
+      "id": "39"
+    },
+    {
+      "id": "112"
+    },
+    {
+      "id": "133"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        {
+          "label": "function activated",
+          "value": "0"
+        },
+        {
+          "label": "function inactive",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 1,
+      "label": "Always on function",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Wall Plug does not memorize its state after a power failure",
+          "value": "0"
+        },
+        {
+          "label": "Wall Plug memorizes its state after a power failure",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 16,
+      "label": "Remember device status after power failure",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "ALARM GENERIC",
+          "value": "1"
+        },
+        {
+          "label": "ALARM SMOKE",
+          "value": "2"
+        },
+        {
+          "label": "ALARM CO",
+          "value": "4"
+        },
+        {
+          "label": "ALARM CO2",
+          "value": "8"
+        },
+        {
+          "label": "ALARM HEAT",
+          "value": "16"
+        },
+        {
+          "label": "ALARM WATER",
+          "value": "32"
+        },
+        {
+          "label": "ALARM ALL",
+          "value": "63"
+        }
+      ],
+      "instance": 1,
+      "min": 1,
+      "size": 1,
+      "max": 63,
+      "genre": "config",
+      "index": 34,
+      "label": "Reaction to alarms",
+      "type": "list",
+      "value": "63"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No reaction",
+          "value": "0"
+        },
+        {
+          "label": "Turn on connected device",
+          "value": "1"
+        },
+        {
+          "label": "Turn off connected device",
+          "value": "2"
+        },
+        {
+          "label": "Cyclically change device state, each 1second",
+          "value": "3"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 35,
+      "label": "Wall Plug's response to alarm frames",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "size": 2,
+      "max": 65536,
+      "genre": "config",
+      "index": 39,
+      "label": "Alarm duration",
+      "type": "short",
+      "value": "600"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 100,
+      "genre": "config",
+      "index": 40,
+      "label": "Immediate power report",
+      "type": "byte",
+      "value": "80"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 1,
+      "max": 100,
+      "genre": "config",
+      "index": 42,
+      "label": "Standard power load reporting",
+      "type": "byte",
+      "value": "15"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 43,
+      "label": "Power reporting frequency",
+      "type": "byte",
+      "value": "30"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "size": 1,
+      "max": 255,
+      "genre": "config",
+      "index": 45,
+      "label": "Reporting changes in energy consumed by controlled devices",
+      "type": "byte",
+      "value": "10"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "size": 2,
+      "genre": "config",
+      "index": 47,
+      "label": "Time period between reports on power load and energy consumption.",
+      "type": "short",
+      "value": "3600"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "function inactive",
+          "value": "0"
+        },
+        {
+          "label": "function activated",
+          "value": "1"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 49,
+      "label": "Metering energy consumed by the Wall Plug itself",
+      "type": "list",
+      "value": "0"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "size": 2,
+      "max": 25000,
+      "genre": "config",
+      "index": 50,
+      "label": "DOWN value",
+      "type": "short",
+      "value": "300"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1,
+      "size": 2,
+      "max": 25000,
+      "genre": "config",
+      "index": 51,
+      "label": "UP value",
+      "type": "short",
+      "value": "500"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Function inactive",
+          "value": "0"
+        },
+        {
+          "label": "Turn the associated devices on,Power below DOWN",
+          "value": "1"
+        },
+        {
+          "label": "Turn the associated devices off,Power below DOWN",
+          "value": "2"
+        },
+        {
+          "label": "Turn the associated devices on,Power above UP",
+          "value": "3"
+        },
+        {
+          "label": "Turn the associated devices off,Power above UP",
+          "value": "4"
+        },
+        {
+          "label": "1 and 4 combine",
+          "value": "5"
+        },
+        {
+          "label": "2 and 3 combined",
+          "value": "6"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 52,
+      "label": "Action in case of exceeding defined power values",
+      "type": "list",
+      "value": "6"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 1000,
+      "size": 2,
+      "max": 32000,
+      "genre": "config",
+      "index": 60,
+      "label": "Power load, which when exceeded, makes the LED ring flash violet.",
+      "type": "short",
+      "value": "25000"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Depending on power consumption changes",
+          "value": "0"
+        },
+        {
+          "label": "Using full spectrum of available colorus",
+          "value": "1"
+        },
+        {
+          "label": "White illumination",
+          "value": "2"
+        },
+        {
+          "label": "Red illumination",
+          "value": "3"
+        },
+        {
+          "label": "Green illumination",
+          "value": "4"
+        },
+        {
+          "label": "Blue illumination",
+          "value": "5"
+        },
+        {
+          "label": "Yellow illumination",
+          "value": "6"
+        },
+        {
+          "label": "Cyan illuminatio",
+          "value": "7"
+        },
+        {
+          "label": "Magenta illumination",
+          "value": "8"
+        },
+        {
+          "label": "illumination turned off completely",
+          "value": "9"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 61,
+      "label": "LED ring illumination colour when controlled device is on",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "Depending on the last measured power",
+          "value": "0"
+        },
+        {
+          "label": "White illumination",
+          "value": "1"
+        },
+        {
+          "label": "Red illumination",
+          "value": "2"
+        },
+        {
+          "label": "Green illumination",
+          "value": "3"
+        },
+        {
+          "label": "Blue illumination",
+          "value": "4"
+        },
+        {
+          "label": "Yellow illumination",
+          "value": "5"
+        },
+        {
+          "label": "Cyan illuminatio",
+          "value": "6"
+        },
+        {
+          "label": "Magenta illumination",
+          "value": "7"
+        },
+        {
+          "label": "illumination turned off completely",
+          "value": "8"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 62,
+      "label": "LED ring illumination colour when controlled device is off",
+      "type": "list",
+      "value": "8"
+    },
+    {
+      "parameterItems": [
+        {
+          "label": "No change in colour",
+          "value": "0"
+        },
+        {
+          "label": "LED ring flashes red / blue / white",
+          "value": "1"
+        },
+        {
+          "label": "White illumination",
+          "value": "2"
+        },
+        {
+          "label": "Red illumination",
+          "value": "3"
+        },
+        {
+          "label": "Green illumination",
+          "value": "4"
+        },
+        {
+          "label": "Blue illumination",
+          "value": "5"
+        },
+        {
+          "label": "Yellow illumination",
+          "value": "6"
+        },
+        {
+          "label": "Cyan illuminatio",
+          "value": "7"
+        },
+        {
+          "label": "Magenta illumination",
+          "value": "8"
+        },
+        {
+          "label": "illumination turned off completely",
+          "value": "9"
+        }
+      ],
+      "instance": 1,
+      "size": 1,
+      "genre": "config",
+      "index": 63,
+      "label": "LED ring illumination colour at the Z-Wave network alarm detection. ",
+      "type": "list",
+      "value": "1"
+    },
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "size": 2,
+      "genre": "config",
+      "index": 70,
+      "label": "Oveload safety switch",
+      "type": "short",
+      "value": "65535"
+    }
+  ],
+  "groups": {
+    
+  }
+}

@@ -1,1 +1,171 @@
-[{"name":"PAN11-4 Smart Energy Plug In Switch","id":"0001","type":"0001","pictureUrl":"pictures/013c/0001_0001.png"},{"name":"PAN04-1 Double Relay Switch 2x1.5kW with Power Measurement","id":"0003","type":"0001","associations":{"groups":[{"index":1,"max_associations":1,"label":"Relay 1 and 2 together"},{"auto":false,"index":2,"max_associations":1,"label":"Relay 1"},{"auto":false,"index":3,"max_associations":1,"label":"Relay 2"}],"numGroups":3},"pictureUrl":"pictures/013c/0001_0003.png"},{"name":"PAN06-1 In Wall Dual Relay (1 Way) Switch Module","id":"0004","type":"0001","pictureUrl":"pictures/013c/0001_0004.png"},{"name":"PAN08-1 In Wall Roller Shutter Controller","id":"0006","type":"0001","associations":{"groups":[{"index":1,"max_associations":1,"label":"Group 1"}],"numGroups":1},"pictureUrl":"pictures/013c/0001_0006.png"},{"name":"PAN04-1 Double Relay Switch 2x1.5kW with Power Measurement","id":"0012","type":"0001","associations":{"groups":[{"index":1,"max_associations":1,"label":"Relay 1 and 2 together"},{"auto":false,"index":2,"max_associations":1,"label":"Relay 1"},{"auto":false,"index":3,"max_associations":1,"label":"Relay 2"}],"numGroups":3},"pictureUrl":"pictures/013c/0001_0012.png"},{"name":"PSM02-1 Slim Multi-Sensor","id":"0002","type":"0002","associations":{"groups":[{"index":1,"max_associations":7,"label":"Report message"},{"auto":true,"index":2,"max_associations":7,"label":"Light control"}],"numGroups":2},"pictureUrl":"pictures/013c/0002_0002.png"},{"name":"PST02-A 4 in 1 Multi-Sensor","id":"000c","type":"0002","associations":{"groups":[{"index":1,"max_associations":8,"label":"Reports"},{"index":2,"max_associations":8,"label":"Light Control"}],"numGroups":2},"pictureUrl":"pictures/013c/0002_000c.png"},{"name":"PST02-B PIR/Motion 3 in 1 Sensor","id":"000d","type":"0002","associations":{"groups":[{"index":1,"max_associations":8,"label":"Reports"},{"index":2,"max_associations":8,"label":"Light Control"}],"numGroups":2},"pictureUrl":"pictures/013c/0002_000d.png"},{"name":"PST02-C Door/Window 3 in 1 sensor","id":"000e","type":"0002","associations":{"groups":[{"index":1,"max_associations":8,"label":"Reports"},{"index":2,"max_associations":8,"label":"Light Control"}],"numGroups":2},"pictureUrl":"pictures/013c/0002_000e.png"}]
+[
+  {
+    "name": "PAN11-4 Smart Energy Plug In Switch",
+    "id": "0001",
+    "type": "0001",
+    "pictureUrl": "pictures/013c/0001_0001.png"
+  },
+  {
+    "name": "PAN04-1 Double Relay Switch 2x1.5kW with Power Measurement",
+    "id": "0003",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Relay 1 and 2 together"
+        },
+        {
+          "auto": false,
+          "index": 2,
+          "max_associations": 1,
+          "label": "Relay 1"
+        },
+        {
+          "auto": false,
+          "index": 3,
+          "max_associations": 1,
+          "label": "Relay 2"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/013c/0001_0003.png"
+  },
+  {
+    "name": "PAN06-1 In Wall Dual Relay (1 Way) Switch Module",
+    "id": "0004",
+    "type": "0001",
+    "pictureUrl": "pictures/013c/0001_0004.png"
+  },
+  {
+    "name": "PAN08-1 In Wall Roller Shutter Controller",
+    "id": "0006",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Group 1"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/013c/0001_0006.png"
+  },
+  {
+    "name": "PAN04-1 Double Relay Switch 2x1.5kW with Power Measurement",
+    "id": "0012",
+    "type": "0001",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Relay 1 and 2 together"
+        },
+        {
+          "auto": false,
+          "index": 2,
+          "max_associations": 1,
+          "label": "Relay 1"
+        },
+        {
+          "auto": false,
+          "index": 3,
+          "max_associations": 1,
+          "label": "Relay 2"
+        }
+      ],
+      "numGroups": 3
+    },
+    "pictureUrl": "pictures/013c/0001_0012.png"
+  },
+  {
+    "name": "PSM02-1 Slim Multi-Sensor",
+    "id": "0002",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 7,
+          "label": "Report message"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 7,
+          "label": "Light control"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/013c/0002_0002.png"
+  },
+  {
+    "name": "PST02-A 4 in 1 Multi-Sensor",
+    "id": "000c",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 8,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Light Control"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/013c/0002_000c.png"
+  },
+  {
+    "name": "PST02-B PIR/Motion 3 in 1 Sensor",
+    "id": "000d",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 8,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Light Control"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/013c/0002_000d.png"
+  },
+  {
+    "name": "PST02-C Door/Window 3 in 1 sensor",
+    "id": "000e",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 8,
+          "label": "Reports"
+        },
+        {
+          "index": 2,
+          "max_associations": 8,
+          "label": "Light Control"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/013c/0002_000e.png"
+  }
+]

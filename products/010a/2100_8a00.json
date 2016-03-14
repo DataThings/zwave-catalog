@@ -1,1 +1,15 @@
-{"commandClasses":[{"mapping":"endpoints","id":"96","ignoreUnsolicitedMultiChnCapReport":"true"}],"parameters":[],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "mapping": "endpoints",
+      "id": "96",
+      "ignoreUnsolicitedMultiChnCapReport": "true"
+    }
+  ],
+  "parameters": [
+    
+  ],
+  "groups": {
+    
+  }
+}

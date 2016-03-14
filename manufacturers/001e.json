@@ -1,1 +1,62 @@
-[{"name":"ZTroller","id":"0002","type":"0001","pictureUrl":"pictures/001e/0001_0002.png"},{"name":"HSM100 Wireless Multi-Sensor","id":"0001","type":"0002","associations":{"groups":[{"index":1,"max_associations":4,"label":"Motion"}],"numGroups":1},"pictureUrl":"pictures/001e/0002_0001.png"},{"name":"EZMotion+ 3-in-1 Sensor","id":"0002","type":"0002","associations":{"groups":[{"index":1,"max_associations":4,"label":"Motion"}],"numGroups":1},"pictureUrl":"pictures/001e/0002_0002.png"},{"name":"HSM200 Wireless Multi-Sensor","id":"0001","type":"0004","associations":{"groups":[{"index":1,"max_associations":1,"label":"Motion Notification"},{"auto":true,"index":2,"max_associations":4,"label":"Motion Control"}],"numGroups":2},"pictureUrl":"pictures/001e/0004_0001.png"}]
+[
+  {
+    "name": "ZTroller",
+    "id": "0002",
+    "type": "0001",
+    "pictureUrl": "pictures/001e/0001_0002.png"
+  },
+  {
+    "name": "HSM100 Wireless Multi-Sensor",
+    "id": "0001",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 4,
+          "label": "Motion"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/001e/0002_0001.png"
+  },
+  {
+    "name": "EZMotion+ 3-in-1 Sensor",
+    "id": "0002",
+    "type": "0002",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 4,
+          "label": "Motion"
+        }
+      ],
+      "numGroups": 1
+    },
+    "pictureUrl": "pictures/001e/0002_0002.png"
+  },
+  {
+    "name": "HSM200 Wireless Multi-Sensor",
+    "id": "0001",
+    "type": "0004",
+    "associations": {
+      "groups": [
+        {
+          "index": 1,
+          "max_associations": 1,
+          "label": "Motion Notification"
+        },
+        {
+          "auto": true,
+          "index": 2,
+          "max_associations": 4,
+          "label": "Motion Control"
+        }
+      ],
+      "numGroups": 2
+    },
+    "pictureUrl": "pictures/001e/0004_0001.png"
+  }
+]

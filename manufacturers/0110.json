@@ -1,1 +1,14 @@
-[{"name":"Nanogrid: FDN2nxx light switch - where n is 1, 2, 3 or 4 buttons","id":"0001","type":"2411","pictureUrl":"pictures/0110/2411_0001.png"},{"name":"Nanogrid: FDN2nxx light switch - where n is 1, 2, 3 or 4 buttons","id":"0031","type":"7333","pictureUrl":"pictures/0110/7333_0031.png"}]
+[
+  {
+    "name": "Nanogrid: FDN2nxx light switch - where n is 1, 2, 3 or 4 buttons",
+    "id": "0001",
+    "type": "2411",
+    "pictureUrl": "pictures/0110/2411_0001.png"
+  },
+  {
+    "name": "Nanogrid: FDN2nxx light switch - where n is 1, 2, 3 or 4 buttons",
+    "id": "0031",
+    "type": "7333",
+    "pictureUrl": "pictures/0110/7333_0031.png"
+  }
+]

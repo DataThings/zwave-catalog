@@ -1,1 +1,25 @@
-{"commandClasses":[{"id":"112"}],"parameters":[{"parameterItems":[],"instance":1,"min":0,"max":1,"genre":"config","index":1,"label":"LED behavior","type":"byte","value":"0"}],"groups":{}}
+{
+  "commandClasses": [
+    {
+      "id": "112"
+    }
+  ],
+  "parameters": [
+    {
+      "parameterItems": [
+        
+      ],
+      "instance": 1,
+      "min": 0,
+      "max": 1,
+      "genre": "config",
+      "index": 1,
+      "label": "LED behavior",
+      "type": "byte",
+      "value": "0"
+    }
+  ],
+  "groups": {
+    
+  }
+}
