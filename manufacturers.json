@@ -1,902 +1,1234 @@
 [
   {
-    "id": "0083",
-    "name": "2GIG Technologies, Inc."
+    "id": "0028",
+    "name": "2B Electronics"
   },
   {
-    "id": "0097",
-    "name": "Abilia AB"
+    "id": "009B",
+    "name": "2gig Technologies Inc."
   },
   {
-    "id": "000c",
-    "name": "Actiontec Electronics"
-  },
-  {
-    "id": "007a",
-    "name": "ADT Security Services Inc."
-  },
-  {
-    "id": "000d",
-    "name": "Advanced Control Technologies, Inc."
-  },
-  {
-    "id": "0086",
-    "name": "Aeotec"
-  },
-  {
-    "id": "015e",
-    "name": "Airline Mechanical Co., LTD."
-  },
-  {
-    "id": "00cd",
-    "name": "Alarm.com"
-  },
-  {
-    "id": "009b",
-    "name": "AMC"
-  },
-  {
-    "id": "0120",
-    "name": "American Standard"
-  },
-  {
-    "id": "0126",
-    "name": "Andersen"
-  },
-  {
-    "id": "01c1",
-    "name": "ASPIRE RF Wireless by Eaton Wiring"
-  },
-  {
-    "id": "019c",
-    "name": "BANDI"
-  },
-  {
-    "id": "000f",
-    "name": "BeNeXt B.V."
-  },
-  {
-    "id": "0142",
-    "name": "BFT SpA"
-  },
-  {
-    "id": "01c7",
-    "name": "Bosch"
-  },
-  {
-    "id": "00dc",
-    "name": "Buffalo"
-  },
-  {
-    "id": "0128",
-    "name": "Building 36"
-  },
-  {
-    "id": "0015",
-    "name": "BuLogics"
-  },
-  {
-    "id": "01dd",
-    "name": "Centurylink"
-  },
-  {
-    "id": "00dd",
-    "name": "Check-It"
-  },
-  {
-    "id": "00b7",
-    "name": "Chromagic"
-  },
-  {
-    "id": "012c",
-    "name": "Cisco Systems, Inc."
-  },
-  {
-    "id": "008e",
-    "name": "Climax Technology"
-  },
-  {
-    "id": "01e8",
-    "name": "Comfort"
-  },
-  {
-    "id": "0202",
-    "name": "Contec - intelligent housing"
-  },
-  {
-    "id": "0016",
-    "name": "ControlThink LC"
-  },
-  {
-    "id": "0201",
-    "name": "Danalock"
-  },
-  {
-    "id": "0003",
-    "name": "Danfoss"
-  },
-  {
-    "id": "015a",
-    "name": "Dawon DNS"
-  },
-  {
-    "id": "01d2",
-    "name": "Decora Z-Wave Controls"
-  },
-  {
-    "id": "0119",
-    "name": "devolo"
-  },
-  {
-    "id": "01bd",
-    "name": "Diehlcontrols"
-  },
-  {
-    "id": "01c4",
-    "name": "Dish"
-  },
-  {
-    "id": "0091",
-    "name": "D-Link Corporation"
-  },
-  {
-    "id": "01cc",
-    "name": "Dmp"
-  },
-  {
-    "id": "011d",
-    "name": "Domitech Products, LLC"
-  },
-  {
-    "id": "011c",
-    "name": "Dragon Tech Industrial, Ltd."
-  },
-  {
-    "id": "001e",
-    "name": "Duco"
-  },
-  {
-    "id": "01e9",
-    "name": "Dynaquip"
-  },
-  {
-    "id": "01b9",
-    "name": "Ebv"
-  },
-  {
-    "id": "00d0",
-    "name": "Ecolink Intelligent Technology"
-  },
-  {
-    "id": "0101",
-    "name": "EcoNet Controls"
-  },
-  {
-    "id": "0048",
-    "name": "EHK APS"
-  },
-  {
-    "id": "0020",
-    "name": "Electronic Solutions, Inc."
-  },
-  {
-    "id": "005a",
-    "name": "Elk Products, Inc."
-  },
-  {
-    "id": "00b4",
-    "name": "Eminent"
-  },
-  {
-    "id": "01db",
-    "name": "Emonitor"
-  },
-  {
-    "id": "00ed",
-    "name": "Enblink"
-  },
-  {
-    "id": "0140",
-    "name": "Enerwave Green Automation"
-  },
-  {
-    "id": "00df",
-    "name": "EUROtronic Technology GmbH"
-  },
-  {
-    "id": "01c6",
-    "name": "Everspring"
+    "id": "002A",
+    "name": "3e Technologies"
   },
   {
     "id": "0022",
-    "name": "Everspring Industry Co. LTD"
+    "name": "A-1 Components"
   },
   {
-    "id": "0098",
-    "name": "Evolve Guest Controls"
+    "id": "0001",
+    "name": "ACT - Advanced Control Technologies"
   },
   {
-    "id": "00c5",
-    "name": "Exhausto"
+    "id": "0101",
+    "name": "ADOX, Inc."
   },
   {
-    "id": "00cc",
-    "name": "Express Controls LLC"
-  },
-  {
-    "id": "0004",
-    "name": "FAKRO"
-  },
-  {
-    "id": "0149",
-    "name": "Fibar Group S.A."
-  },
-  {
-    "id": "00ab",
-    "name": "FIBARO"
-  },
-  {
-    "id": "00e3",
-    "name": "First Alert"
-  },
-  {
-    "id": "007d",
-    "name": "Flex-Control"
-  },
-  {
-    "id": "01df",
-    "name": "Followgood"
-  },
-  {
-    "id": "005c",
-    "name": "Forest Drapery Hardware"
-  },
-  {
-    "id": "01b6",
-    "name": "Fortrezz"
-  },
-  {
-    "id": "005d",
-    "name": "FortrezZ LLC"
-  },
-  {
-    "id": "00aa",
-    "name": "Frostdale"
-  },
-  {
-    "id": "0166",
-    "name": "GATEMAN"
-  },
-  {
-    "id": "0164",
-    "name": "GE"
-  },
-  {
-    "id": "01c5",
-    "name": "Gemalto"
-  },
-  {
-    "id": "013c",
-    "name": "GoControl"
-  },
-  {
-    "id": "0026",
-    "name": "Good Way Technology, Co., Ltd"
-  },
-  {
-    "id": "0093",
-    "name": "GreenWave Reality"
-  },
-  {
-    "id": "00cf",
-    "name": "HAI"
-  },
-  {
-    "id": "0130",
-    "name": "HEATIT"
-  },
-  {
-    "id": "0122",
-    "name": "Homelive"
-  },
-  {
-    "id": "0029",
-    "name": "Homemanageables, Inc."
-  },
-  {
-    "id": "008f",
-    "name": "HomeScenario, Inc."
-  },
-  {
-    "id": "018e",
-    "name": "HomeSeer"
-  },
-  {
-    "id": "00d1",
-    "name": "Honeywell"
-  },
-  {
-    "id": "01ca",
-    "name": "Horstmann"
-  },
-  {
-    "id": "01f0",
-    "name": "Hxs"
-  },
-  {
-    "id": "01e1",
-    "name": "I-Care"
-  },
-  {
-    "id": "01ac",
-    "name": "Icontrol"
-  },
-  {
-    "id": "002f",
-    "name": "iControl Networks"
-  },
-  {
-    "id": "01f6",
-    "name": "Igate"
-  },
-  {
-    "id": "0125",
-    "name": "Ingersoll Rand - Nexia Home Intelligence"
-  },
-  {
-    "id": "0005",
-    "name": "Ingersoll Rand Securities Technologies"
-  },
-  {
-    "id": "01b7",
-    "name": "Interlogix"
-  },
-  {
-    "id": "0099",
-    "name": "Intermatic Inc"
-  },
-  {
-    "id": "0159",
-    "name": "IoT@home"
-  },
-  {
-    "id": "01fb",
-    "name": "iSurpass"
-  },
-  {
-    "id": "01c0",
-    "name": "Iwatsu"
-  },
-  {
-    "id": "00c1",
-    "name": "Iwatsu Electric Co., Ltd."
-  },
-  {
-    "id": "0031",
-    "name": "Jasco Products Company"
-  },
-  {
-    "id": "01ba",
-    "name": "Jintaobao"
-  },
-  {
-    "id": "0032",
-    "name": "Kamstrup A/S"
-  },
-  {
-    "id": "01b2",
-    "name": "Kichler"
-  },
-  {
-    "id": "00ce",
-    "name": "Kichler Lighting"
-  },
-  {
-    "id": "01b3",
-    "name": "Kuju"
-  },
-  {
-    "id": "01f8",
-    "name": "KUMHO ELECTRIC, INC"
-  },
-  {
-    "id": "00ea",
-    "name": "Kwikset"
-  },
-  {
-    "id": "00f3",
-    "name": "Leak Gopher"
-  },
-  {
-    "id": "0006",
-    "name": "Leviton Manufacturing, Inc."
-  },
-  {
-    "id": "01bf",
-    "name": "Lguplus"
-  },
-  {
-    "id": "0123",
-    "name": "LG Uplus"
-  },
-  {
-    "id": "0100",
-    "name": "Linear"
-  },
-  {
-    "id": "01de",
-    "name": "Locstar"
-  },
-  {
-    "id": "0147",
-    "name": "Logitech"
-  },
-  {
-    "id": "01ed",
-    "name": "Lowes Iris"
-  },
-  {
-    "id": "00ca",
-    "name": "LS Control"
-  },
-  {
-    "id": "01aa",
-    "name": "Lyric"
-  },
-  {
-    "id": "013f",
-    "name": "M2M Solution"
-  },
-  {
-    "id": "0064",
-    "name": "Martin Renz GmbH"
-  },
-  {
-    "id": "01c9",
-    "name": "Mcohome"
-  },
-  {
-    "id": "0199",
-    "name": "Mercury"
-  },
-  {
-    "id": "0036",
-    "name": "Merten"
-  },
-  {
-    "id": "0198",
-    "name": "Milan"
-  },
-  {
-    "id": "00d7",
-    "name": "Miyakawa Electric Works LTD."
-  },
-  {
-    "id": "007c",
-    "name": "MK Electric"
-  },
-  {
-    "id": "01a6",
-    "name": "Modacom Co., Ltd"
-  },
-  {
-    "id": "01c8",
-    "name": "Monoprice"
-  },
-  {
-    "id": "0038",
-    "name": "Monster Cable"
-  },
-  {
-    "id": "01e7",
-    "name": "Motionco"
-  },
-  {
-    "id": "01f2",
-    "name": "Motorola"
-  },
-  {
-    "id": "01b4",
-    "name": "Myliveguard"
-  },
-  {
-    "id": "01dc",
-    "name": "Napco"
-  },
-  {
-    "id": "00d5",
-    "name": "Netgear"
-  },
-  {
-    "id": "0200",
-    "name": "Neusta Next GmbH"
-  },
-  {
-    "id": "01ea",
-    "name": "Nexia"
-  },
-  {
-    "id": "0109",
-    "name": "NodOn"
-  },
-  {
-    "id": "015b",
-    "name": "Nortek"
-  },
-  {
-    "id": "0039",
-    "name": "NorthQ APS"
-  },
-  {
-    "id": "01af",
-    "name": "Novatel"
-  },
-  {
-    "id": "01a5",
-    "name": "Novatel Wireless"
-  },
-  {
-    "id": "013d",
-    "name": "NuTone"
-  },
-  {
-    "id": "019b",
-    "name": "Oomi"
-  },
-  {
-    "id": "01f7",
-    "name": "permundo"
-  },
-  {
-    "id": "01e2",
-    "name": "Philio"
-  },
-  {
-    "id": "00db",
-    "name": "Philio Technology"
-  },
-  {
-    "id": "01a8",
-    "name": "Piper"
-  },
-  {
-    "id": "01e3",
-    "name": "Popp"
-  },
-  {
-    "id": "00f7",
-    "name": "Powerhouse Dynamics"
-  },
-  {
-    "id": "0067",
-    "name": "Prodrive B.V."
-  },
-  {
-    "id": "01d7",
-    "name": "Prowell"
-  },
-  {
-    "id": "01e4",
-    "name": "Qbox"
-  },
-  {
-    "id": "0084",
-    "name": "QEES ApS"
-  },
-  {
-    "id": "020a",
-    "name": "Qolsys Inc."
-  },
-  {
-    "id": "014b",
-    "name": "QUBINO"
-  },
-  {
-    "id": "00d4",
-    "name": "Quby"
-  },
-  {
-    "id": "0088",
-    "name": "Radio Thermostat Company of America"
-  },
-  {
-    "id": "0069",
-    "name": "RCS"
-  },
-  {
-    "id": "003e",
-    "name": "Reitz GmbH"
-  },
-  {
-    "id": "01a9",
-    "name": "Remotec"
-  },
-  {
-    "id": "0079",
-    "name": "Remotec Technology Ltd"
-  },
-  {
-    "id": "01b1",
-    "name": "Rtcoa"
-  },
-  {
-    "id": "0151",
-    "name": "Safetech Products"
-  },
-  {
-    "id": "0162",
-    "name": "SAGE by Hughes"
-  },
-  {
-    "id": "0148",
-    "name": "SAMSUNG SDS"
-  },
-  {
-    "id": "00d8",
-    "name": "Schlage"
-  },
-  {
-    "id": "0157",
-    "name": "Schwaiger Home"
-  },
-  {
-    "id": "01bb",
-    "name": "Secure"
-  },
-  {
-    "id": "002b",
-    "name": "Secure Controls"
-  },
-  {
-    "id": "00d3",
-    "name": "Secure Controls (UK)"
-  },
-  {
-    "id": "01cb",
-    "name": "Securifi"
-  },
-  {
-    "id": "0040",
-    "name": "Seluxit"
-  },
-  {
-    "id": "0191",
-    "name": "Sensative"
-  },
-  {
-    "id": "0190",
-    "name": "Sentek"
-  },
-  {
-    "id": "00e6",
-    "name": "Sercomm"
-  },
-  {
-    "id": "01fe",
-    "name": "Show Home"
-  },
-  {
-    "id": "0042",
-    "name": "SIEGENIA-AUBI KG"
-  },
-  {
-    "id": "0007",
-    "name": "Sigma Designs"
-  },
-  {
-    "id": "01e5",
-    "name": "Smart Alert"
-  },
-  {
-    "id": "0167",
-    "name": "SmartThings"
-  },
-  {
-    "id": "01bc",
-    "name": "Sola"
-  },
-  {
-    "id": "01e0",
-    "name": "Somfy"
-  },
-  {
-    "id": "0044",
-    "name": "Somfy Systems Inc."
-  },
-  {
-    "id": "01eb",
-    "name": "Stella Z"
-  },
-  {
-    "id": "015f",
-    "name": "Stelpro"
-  },
-  {
-    "id": "01cd",
-    "name": "Swiid"
-  },
-  {
-    "id": "0139",
-    "name": "Systech Corporation"
-  },
-  {
-    "id": "0145",
-    "name": "Talk-Z"
-  },
-  {
-    "id": "00c7",
-    "name": "Team Precision Public Co.,Ltd"
-  },
-  {
-    "id": "0161",
-    "name": "Technicolor"
-  },
-  {
-    "id": "01fc",
-    "name": "TELE System"
-  },
-  {
-    "id": "01b5",
-    "name": "Telguard"
-  },
-  {
-    "id": "016a",
-    "name": "Telldus"
-  },
-  {
-    "id": "01d6",
-    "name": "There"
+    "id": "0086",
+    "name": "AEON Labs"
   },
   {
     "id": "0129",
-    "name": "Thermo-Floor AS"
+    "name": "ASSA ABLOY"
   },
   {
-    "id": "009c",
-    "name": "Think Simple srl"
+    "id": "0134",
+    "name": "AT&T"
   },
   {
-    "id": "0143",
-    "name": "TIMEVALVE"
+    "id": "0117",
+    "name": "Abilia"
   },
   {
-    "id": "00c9",
-    "name": "TKB Control System Limited"
+    "id": "016C",
+    "name": "Advanced Optronic Devices Co.,Ltd"
   },
   {
-    "id": "01ab",
-    "name": "Tkb Home"
+    "id": "009E",
+    "name": "Adventure Interactive"
   },
   {
-    "id": "00d2",
-    "name": "Trane"
+    "id": "0111",
+    "name": "Airline Mechanical Co., Ltd."
   },
   {
-    "id": "006d",
-    "name": "TrickleStar"
+    "id": "0088",
+    "name": "Airvent SAM S.p.A."
   },
   {
-    "id": "01d8",
-    "name": "U-Fairy G. R."
+    "id": "0094",
+    "name": "Alarm.com"
   },
   {
-    "id": "0153",
-    "name": "U-Fairy G.R. IOT Tech Co. ltd"
+    "id": "0126",
+    "name": "Alertme"
   },
   {
-    "id": "01c3",
-    "name": "Universal Devices"
+    "id": "003B",
+    "name": "Allegion"
   },
   {
-    "id": "0008",
-    "name": "Universal Electronics Inc."
+    "id": "005A",
+    "name": "American Grid, Inc."
   },
   {
-    "id": "01be",
-    "name": "Universe Future"
+    "id": "0144",
+    "name": "Applied Micro Electronics \"AME\" BV"
   },
   {
-    "id": "015d",
-    "name": "Venstar"
+    "id": "0029",
+    "name": "Asia Heading"
   },
   {
-    "id": "01d3",
-    "name": "Vera"
+    "id": "013B",
+    "name": "AstraLink"
   },
   {
-    "id": "0112",
-    "name": "Vera Control, Ltd."
+    "id": "002B",
+    "name": "Atech"
   },
   {
-    "id": "01d4",
-    "name": "Veralite"
+    "id": "0155",
+    "name": "Avadesign Technology Co., Ltd."
   },
   {
-    "id": "00fb",
-    "name": "Vision"
+    "id": "0146",
+    "name": "Axesstel Inc"
   },
   {
-    "id": "00a4",
-    "name": "Vision-Elec Technology Co., Ltd."
+    "id": "014B",
+    "name": "BFT S.p.A."
   },
   {
-    "id": "00f5",
-    "name": "Vivint"
+    "id": "0138",
+    "name": "BRK Brands, Inc."
   },
   {
-    "id": "01ec",
-    "name": "Vizia Rf+"
+    "id": "0018",
+    "name": "Balboa Instruments"
   },
   {
-    "id": "0009",
-    "name": "Wayne-Dalton"
+    "id": "008A",
+    "name": "BeNext"
   },
   {
-    "id": "01d0",
-    "name": "Webehome"
+    "id": "002C",
+    "name": "BeSafer"
   },
   {
-    "id": "01da",
-    "name": "We.R"
+    "id": "0052",
+    "name": "Bit7 Inc."
   },
   {
-    "id": "0152",
-    "name": "Westinghouse"
+    "id": "0090",
+    "name": "Black & Decker"
+  },
+  {
+    "id": "0023",
+    "name": "Boca Devices"
+  },
+  {
+    "id": "015C",
+    "name": "Bosch Security Systems, Inc"
+  },
+  {
+    "id": "002D",
+    "name": "Broadband Energy Networks Inc."
+  },
+  {
+    "id": "0026",
+    "name": "BuLogics"
+  },
+  {
+    "id": "0145",
+    "name": "Buffalo Inc."
+  },
+  {
+    "id": "0190",
+    "name": "Building 36"
+  },
+  {
+    "id": "0169",
+    "name": "Bönig und Kallenbach oHG"
+  },
+  {
+    "id": "0166",
+    "name": "CBCC Sarl"
+  },
+  {
+    "id": "009C",
+    "name": "Cameo Communications Inc."
+  },
+  {
+    "id": "002E",
+    "name": "Carrier"
+  },
+  {
+    "id": "000B",
+    "name": "CasaWorks"
+  },
+  {
+    "id": "014E",
+    "name": "Check-It Solutions Inc."
+  },
+  {
+    "id": "0116",
+    "name": "Chromagic Technologies Corporation"
+  },
+  {
+    "id": "0082",
+    "name": "Cisco Consumer Business Group"
+  },
+  {
+    "id": "018E",
+    "name": "Climax Technology, Ltd."
+  },
+  {
+    "id": "0200",
+    "name": "Cloud Media"
+  },
+  {
+    "id": "002F",
+    "name": "Color Kinetics Incorporated"
+  },
+  {
+    "id": "0140",
+    "name": "Computime"
+  },
+  {
+    "id": "0179",
+    "name": "ConnectHome"
+  },
+  {
+    "id": "011B",
+    "name": "Connected Object"
+  },
+  {
+    "id": "0019",
+    "name": "ControlThink LC"
+  },
+  {
+    "id": "000F",
+    "name": "ConvergeX Ltd."
+  },
+  {
+    "id": "007D",
+    "name": "CoolGuard"
+  },
+  {
+    "id": "0079",
+    "name": "Cooper Lighting"
+  },
+  {
+    "id": "001A",
+    "name": "Cooper Wiring Devices"
+  },
+  {
+    "id": "009D",
+    "name": "Coventive Technologies Inc."
+  },
+  {
+    "id": "0067",
+    "name": "CyberTAN Technology, Inc."
+  },
+  {
+    "id": "0014",
+    "name": "Cyberhouse"
+  },
+  {
+    "id": "0030",
+    "name": "Cytech Technology Pre Ltd."
+  },
+  {
+    "id": "0108",
+    "name": "D-Link"
+  },
+  {
+    "id": "0127",
+    "name": "DMP (Digital Monitoring Products)"
+  },
+  {
+    "id": "017D",
+    "name": "DRACOR Inc."
+  },
+  {
+    "id": "0002",
+    "name": "Danfoss"
+  },
+  {
+    "id": "018C",
+    "name": "Dawon DNS"
+  },
+  {
+    "id": "013F",
+    "name": "Defacontrols BV"
+  },
+  {
+    "id": "0031",
+    "name": "Destiny Networks"
+  },
+  {
+    "id": "0175",
+    "name": "Devolo"
+  },
+  {
+    "id": "0103",
+    "name": "Diehl AKO"
+  },
+  {
+    "id": "0032",
+    "name": "Digital 5, Inc."
+  },
+  {
+    "id": "0177",
+    "name": "Domino sistemi d.o.o."
+  },
+  {
+    "id": "0184",
+    "name": "Dragon Tech Industrial, Ltd."
+  },
+  {
+    "id": "0132",
+    "name": "DynaQuip Controls"
+  },
+  {
+    "id": "001B",
+    "name": "ELK Products, Inc."
+  },
+  {
+    "id": "017C",
+    "name": "EbV"
+  },
+  {
+    "id": "016B",
+    "name": "Echostar"
+  },
+  {
+    "id": "0157",
+    "name": "EcoNet Controls"
+  },
+  {
+    "id": "014A",
+    "name": "Ecolink"
+  },
+  {
+    "id": "0087",
+    "name": "Eka Systems"
+  },
+  {
+    "id": "0034",
+    "name": "El-Gev Electronics LTD"
+  },
+  {
+    "id": "0033",
+    "name": "Electronic Solutions"
+  },
+  {
+    "id": "0035",
+    "name": "Embedit A/S"
+  },
+  {
+    "id": "014D",
+    "name": "Enblink Co. Ltd"
+  },
+  {
+    "id": "006F",
+    "name": "Erone"
+  },
+  {
+    "id": "0160",
+    "name": "Essence Security"
+  },
+  {
+    "id": "0148",
+    "name": "Eurotronics"
+  },
+  {
+    "id": "0060",
+    "name": "Everspring"
+  },
+  {
+    "id": "0113",
+    "name": "Evolve"
+  },
+  {
+    "id": "0036",
+    "name": "Exceptional Innovations"
+  },
+  {
+    "id": "0004",
+    "name": "Exhausto"
+  },
+  {
+    "id": "009F",
+    "name": "Exigent Sensors"
+  },
+  {
+    "id": "001E",
+    "name": "Express Controls"
+  },
+  {
+    "id": "0085",
+    "name": "Fakro"
+  },
+  {
+    "id": "016A",
+    "name": "Fantem"
+  },
+  {
+    "id": "010F",
+    "name": "Fibargroup"
+  },
+  {
+    "id": "018D",
+    "name": "Flextronics"
+  },
+  {
+    "id": "0024",
+    "name": "Flue Sentinel"
+  },
+  {
+    "id": "0037",
+    "name": "Foard Systems"
+  },
+  {
+    "id": "018F",
+    "name": "Focal Point Limited"
   },
   {
     "id": "0137",
-    "name": "wibutler"
+    "name": "FollowGood Technology Company Ltd."
   },
   {
-    "id": "00ff",
-    "name": "Widom"
+    "id": "0084",
+    "name": "FortrezZ LLC"
   },
   {
-    "id": "0105",
-    "name": "Wink"
-  },
-  {
-    "id": "01ef",
-    "name": "Wintop"
-  },
-  {
-    "id": "004f",
-    "name": "Wintop Electric"
-  },
-  {
-    "id": "020b",
-    "name": "Winytechnology"
-  },
-  {
-    "id": "00c6",
-    "name": "Wistron Corporation"
+    "id": "011D",
+    "name": "Foxconn"
   },
   {
     "id": "0110",
-    "name": "Xuan"
+    "name": "Frostdale"
   },
   {
-    "id": "009e",
-    "name": "Yale Locks & Hardware"
+    "id": "018A",
+    "name": "Globalchina-Tech"
   },
   {
-    "id": "00e5",
-    "name": "ZHOME"
+    "id": "0159",
+    "name": "Goap"
   },
   {
-    "id": "00fd",
-    "name": "Zipato"
+    "id": "0076",
+    "name": "Goggin Research"
   },
   {
-    "id": "00bb",
+    "id": "0068",
+    "name": "Good Way Technology Co., Ltd"
+  },
+  {
+    "id": "0099",
+    "name": "GreenWave Reality Inc."
+  },
+  {
+    "id": "018B",
+    "name": "Grib"
+  },
+  {
+    "id": "0158",
+    "name": "GuangZhou Zeewave Information Technology Co., Ltd."
+  },
+  {
+    "id": "016D",
+    "name": "Guangzhou Ruixiang M&E Co., Ltd"
+  },
+  {
+    "id": "0073",
+    "name": "Hawking Technologies Inc."
+  },
+  {
+    "id": "0017",
+    "name": "HiTech Automation"
+  },
+  {
+    "id": "0181",
+    "name": "Holion Electronic Engineering Co., Ltd"
+  },
+  {
+    "id": "013E",
+    "name": "Holtec Electronics BV"
+  },
+  {
+    "id": "000D",
+    "name": "Home Automated Living"
+  },
+  {
+    "id": "009A",
+    "name": "Home Automation Europe"
+  },
+  {
+    "id": "005B",
+    "name": "Home Automation Inc."
+  },
+  {
+    "id": "0038",
+    "name": "Home Director"
+  },
+  {
+    "id": "0162",
+    "name": "HomeScenario"
+  },
+  {
+    "id": "000C",
+    "name": "HomeSeer Technologies"
+  },
+  {
+    "id": "0070",
+    "name": "Homemanageables, Inc."
+  },
+  {
+    "id": "0050",
+    "name": "Homepro"
+  },
+  {
+    "id": "0039",
+    "name": "Honeywell"
+  },
+  {
+    "id": "0059",
+    "name": "Horstmann Controls Limited"
+  },
+  {
+    "id": "0180",
+    "name": "Huapin Information Technology Co.,Ltd"
+  },
+  {
+    "id": "007C",
+    "name": "Hunter Douglas"
+  },
+  {
+    "id": "0165",
+    "name": "ID-RF"
+  },
+  {
+    "id": "0077",
+    "name": "INNOVUS"
+  },
+  {
+    "id": "005F",
+    "name": "IQ-Group"
+  },
+  {
+    "id": "0123",
+    "name": "IWATSU"
+  },
+  {
+    "id": "0061",
+    "name": "Impact Technologies BV"
+  },
+  {
+    "id": "0056",
+    "name": "Impact Technologies and Products"
+  },
+  {
+    "id": "012B",
+    "name": "Infusion Development"
+  },
+  {
+    "id": "006C",
+    "name": "Ingersoll Rand (Schlage)"
+  },
+  {
+    "id": "011F",
+    "name": "Ingersoll Rand (was Ecolink)"
+  },
+  {
+    "id": "003A",
+    "name": "Inlon Srl"
+  },
+  {
+    "id": "0141",
+    "name": "Innoband Technologies, Inc"
+  },
+  {
+    "id": "0100",
+    "name": "Insignia"
+  },
+  {
+    "id": "0006",
+    "name": "Intel"
+  },
+  {
+    "id": "001C",
+    "name": "IntelliCon"
+  },
+  {
+    "id": "0072",
+    "name": "Interactive Electronics Systems (IES)"
+  },
+  {
+    "id": "0005",
+    "name": "Intermatic"
+  },
+  {
+    "id": "0013",
+    "name": "Internet Dom"
+  },
+  {
+    "id": "0164",
+    "name": "JSW Pacific Corporation"
+  },
+  {
+    "id": "0063",
+    "name": "Jasco Products"
+  },
+  {
+    "id": "015A",
+    "name": "Jin Tao Bao"
+  },
+  {
+    "id": "0091",
+    "name": "Kamstrup A/S"
+  },
+  {
+    "id": "006A",
+    "name": "Kellendonk Elektronik"
+  },
+  {
+    "id": "0114",
+    "name": "Kichler"
+  },
+  {
+    "id": "0174",
+    "name": "Kopera Development Inc. "
+  },
+  {
+    "id": "0187",
+    "name": "LEVION Technologies Gmbh"
+  },
+  {
+    "id": "015B",
+    "name": "LG Electronics"
+  },
+  {
+    "id": "0071",
+    "name": "LS Control"
+  },
+  {
+    "id": "0062",
+    "name": "LVI Produkter AB"
+  },
+  {
+    "id": "0051",
+    "name": "Lagotek Corporation"
+  },
+  {
+    "id": "0173",
+    "name": "Leak Intelligence, LLC"
+  },
+  {
+    "id": "001D",
+    "name": "Leviton"
+  },
+  {
+    "id": "0015",
+    "name": "Lexel"
+  },
+  {
+    "id": "003C",
+    "name": "Lifestyle Networks"
+  },
+  {
+    "id": "014F",
+    "name": "Linear Corp"
+  },
+  {
+    "id": "017A",
+    "name": "Liveguard Ltd."
+  },
+  {
+    "id": "013A",
+    "name": "Living Style Enterprises, Ltd."
+  },
+  {
+    "id": "015E",
+    "name": "Locstar Technology Co., Ltd"
+  },
+  {
+    "id": "007F",
+    "name": "Logitech"
+  },
+  {
+    "id": "0025",
+    "name": "Loudwater Technologies, LLC"
+  },
+  {
+    "id": "008F",
+    "name": "MB Turn Key Design"
+  },
+  {
+    "id": "0112",
+    "name": "MITSUMI"
+  },
+  {
+    "id": "0122",
+    "name": "MSK - Miyakawa Seisakusho"
+  },
+  {
+    "id": "0083",
+    "name": "MTC Maintronic Germany"
+  },
+  {
+    "id": "006E",
+    "name": "Manodo / KTC"
+  },
+  {
+    "id": "003D",
+    "name": "Marmitek BV"
+  },
+  {
+    "id": "003E",
+    "name": "Martec Access Products"
+  },
+  {
+    "id": "0092",
+    "name": "Martin Renz GmbH"
+  },
+  {
+    "id": "015F",
+    "name": "McoHome Technology Co., Ltd"
+  },
+  {
+    "id": "0027",
+    "name": "Meedio, LLC"
+  },
+  {
+    "id": "0107",
+    "name": "MegaChips"
+  },
+  {
+    "id": "007A",
+    "name": "Merten"
+  },
+  {
+    "id": "008D",
+    "name": "Modstrøm"
+  },
+  {
+    "id": "000E",
+    "name": "Mohito Networks"
+  },
+  {
+    "id": "007E",
+    "name": "Monster Cable"
+  },
+  {
+    "id": "0125",
+    "name": "Motion Control Systems"
+  },
+  {
+    "id": "003F",
+    "name": "Motorola"
+  },
+  {
+    "id": "016E",
+    "name": "Nanjing Easthouse Electrical Co., Ltd."
+  },
+  {
+    "id": "0121",
+    "name": "Napco Security Technologies, Inc."
+  },
+  {
+    "id": "006D",
+    "name": "Nefit"
+  },
+  {
+    "id": "0189",
+    "name": "Ness Corporation Pty Ltd"
+  },
+  {
+    "id": "0133",
+    "name": "Netgear"
+  },
+  {
+    "id": "0178",
+    "name": "Nexia Home Intelligence"
+  },
+  {
+    "id": "0075",
+    "name": "NextEnergy"
+  },
+  {
+    "id": "0185",
+    "name": "Ningbo Sentek Electronics Co., Ltd"
+  },
+  {
+    "id": "0096",
+    "name": "NorthQ"
+  },
+  {
+    "id": "FFFF",
+    "name": "Not defined or un-defined"
+  },
+  {
+    "id": "0040",
+    "name": "Novar Electrical Devices and Systems (EDS)"
+  },
+  {
+    "id": "0119",
+    "name": "Omnima Limited"
+  },
+  {
+    "id": "014C",
+    "name": "OnSite Pro"
+  },
+  {
+    "id": "0041",
+    "name": "OpenPeak Inc."
+  },
+  {
+    "id": "0104",
+    "name": "Panasonic Electric Works Co., Ltd."
+  },
+  {
+    "id": "0172",
+    "name": "PassivSystems Limited"
+  },
+  {
+    "id": "013D",
+    "name": "Pella"
+  },
+  {
+    "id": "013C",
+    "name": "Philio Technology Corp"
+  },
+  {
+    "id": "0150",
+    "name": "Physical Graph Corporation"
+  },
+  {
+    "id": "007B",
+    "name": "PiTech"
+  },
+  {
+    "id": "010E",
+    "name": "Poly-control"
+  },
+  {
+    "id": "0154",
+    "name": "Popp & Co"
+  },
+  {
+    "id": "0074",
+    "name": "PowerLinx"
+  },
+  {
+    "id": "0016",
+    "name": "PowerLynx"
+  },
+  {
+    "id": "0170",
+    "name": "Powerhouse Dynamics"
+  },
+  {
+    "id": "0042",
+    "name": "Pragmatic Consulting Inc."
+  },
+  {
+    "id": "0128",
+    "name": "Prodrive Technologies"
+  },
+  {
+    "id": "0161",
+    "name": "Promixis, LLC"
+  },
+  {
+    "id": "005D",
+    "name": "Pulse Technologies (Aspalis)"
+  },
+  {
+    "id": "0095",
+    "name": "Qees"
+  },
+  {
+    "id": "012A",
+    "name": "Qolsys"
+  },
+  {
+    "id": "0130",
+    "name": "Quby"
+  },
+  {
+    "id": "0163",
+    "name": "Queenlock Ind. Co., Ltd."
+  },
+  {
+    "id": "0147",
+    "name": "R-import Ltd."
+  },
+  {
+    "id": "0065",
+    "name": "RS Scene Automation"
+  },
+  {
+    "id": "0142",
+    "name": "Rademacher Geräte-Elektronik GmbH & Co. KG"
+  },
+  {
+    "id": "0098",
+    "name": "Radio Thermostat Company of America (RTC)"
+  },
+  {
+    "id": "008E",
+    "name": "Raritan"
+  },
+  {
+    "id": "0064",
+    "name": "Reitz-Group.de"
+  },
+  {
+    "id": "5254",
+    "name": "Remotec"
+  },
+  {
+    "id": "0010",
+    "name": "Residential Control Systems, Inc. (RCS)"
+  },
+  {
+    "id": "0153",
+    "name": "Revolv Inc"
+  },
+  {
+    "id": "012C",
+    "name": "SANAV"
+  },
+  {
+    "id": "0081",
+    "name": "SIEGENIA-AUBI KG"
+  },
+  {
+    "id": "0102",
+    "name": "SMK Manufacturing Inc."
+  },
+  {
+    "id": "0168",
+    "name": "STRATTEC Security Corporation"
+  },
+  {
+    "id": "0093",
+    "name": "San Shih Electrical Enterprise Co., Ltd."
+  },
+  {
+    "id": "001F",
+    "name": "Scientia Technologies, Inc."
+  },
+  {
+    "id": "011E",
+    "name": "Secure Wireless"
+  },
+  {
+    "id": "0167",
+    "name": "SecureNet Technologies"
+  },
+  {
+    "id": "0182",
+    "name": "Securifi Ltd."
+  },
+  {
+    "id": "0069",
+    "name": "Seluxit"
+  },
+  {
+    "id": "0043",
+    "name": "Senmatic A/S"
+  },
+  {
+    "id": "0044",
+    "name": "Sequoia Technology LTD"
+  },
+  {
+    "id": "0151",
+    "name": "Sercomm Corp"
+  },
+  {
+    "id": "010B",
+    "name": "Sharp"
+  },
+  {
+    "id": "0000",
+    "name": "Sigma Designs (Former Zensys)"
+  },
+  {
+    "id": "0045",
+    "name": "Sine Wireless"
+  },
+  {
+    "id": "0046",
+    "name": "Smart Products, Inc."
+  },
+  {
+    "id": "0047",
+    "name": "Somfy"
+  },
+  {
+    "id": "0124",
+    "name": "Square Connect"
+  },
+  {
+    "id": "0105",
+    "name": "Sumitomo"
+  },
+  {
+    "id": "0054",
+    "name": "Superna"
+  },
+  {
+    "id": "0009",
+    "name": "Sylvania"
+  },
+  {
+    "id": "0136",
+    "name": "Systech Corporation"
+  },
+  {
+    "id": "0118",
+    "name": "TKB Home"
+  },
+  {
+    "id": "011C",
+    "name": "TKH Group / Eminent"
+  },
+  {
+    "id": "0186",
+    "name": "Team Digital Limited"
+  },
+  {
+    "id": "0089",
+    "name": "Team Precision PCL"
+  },
+  {
+    "id": "000A",
+    "name": "Techniku"
+  },
+  {
+    "id": "012F",
+    "name": "Tecom Co., Ltd."
+  },
+  {
+    "id": "0012",
+    "name": "Tell It Online"
+  },
+  {
+    "id": "0176",
+    "name": "Telldus Technologies AB"
+  },
+  {
+    "id": "0048",
+    "name": "Telsey"
+  },
+  {
+    "id": "017E",
+    "name": "Telular"
+  },
+  {
+    "id": "005C",
+    "name": "Terra Optima B.V. (tidligere Primair Services)"
+  },
+  {
+    "id": "010C",
+    "name": "There Corporation"
+  },
+  {
+    "id": "008B",
+    "name": "Trane Corporation"
+  },
+  {
+    "id": "0066",
+    "name": "TrickleStar"
+  },
+  {
+    "id": "006B",
+    "name": "Tricklestar Ltd. (former Empower Controls Ltd.)"
+  },
+  {
+    "id": "0055",
+    "name": "Tridium"
+  },
+  {
+    "id": "0049",
+    "name": "Twisthink"
+  },
+  {
+    "id": "0152",
+    "name": "UFairy G.R. Tech "
+  },
+  {
+    "id": "0020",
+    "name": "Universal Electronics Inc."
+  },
+  {
+    "id": "0183",
+    "name": "Universe Future"
+  },
+  {
+    "id": "010A",
+    "name": "VDA"
+  },
+  {
+    "id": "008C",
+    "name": "Vera Control"
+  },
+  {
+    "id": "0080",
+    "name": "Vero Duco"
+  },
+  {
+    "id": "005E",
+    "name": "ViewSonic Corporation"
+  },
+  {
+    "id": "0053",
+    "name": "Viewsonic"
+  },
+  {
+    "id": "0007",
+    "name": "Vimar CRS"
+  },
+  {
+    "id": "0188",
+    "name": "Vipa-Star"
+  },
+  {
+    "id": "0109",
+    "name": "Vision Security"
+  },
+  {
+    "id": "004A",
+    "name": "Visualize"
+  },
+  {
+    "id": "0058",
+    "name": "Vitelec"
+  },
+  {
+    "id": "0156",
+    "name": "Vivint"
+  },
+  {
+    "id": "017B",
+    "name": "Vs-Safety AS"
+  },
+  {
+    "id": "004B",
+    "name": "Watt Stopper"
+  },
+  {
+    "id": "0008",
+    "name": "Wayne Dalton"
+  },
+  {
+    "id": "0171",
+    "name": "WeBeHome AB"
+  },
+  {
+    "id": "011A",
+    "name": "Wenzhou MTLC Electric Appliances Co.,Ltd."
+  },
+  {
+    "id": "0057",
+    "name": "Whirlpool"
+  },
+  {
+    "id": "015D",
+    "name": "Willis Electric Co., Ltd."
+  },
+  {
+    "id": "012D",
+    "name": "Wilshine Holding Co., Ltd"
+  },
+  {
+    "id": "017F",
+    "name": "Wink Inc."
+  },
+  {
+    "id": "0097",
+    "name": "Wintop"
+  },
+  {
+    "id": "004C",
+    "name": "Woodward Labs"
+  },
+  {
+    "id": "0003",
+    "name": "Wr@p"
+  },
+  {
+    "id": "012E",
+    "name": "Wuhan NWD Technology Co., Ltd."
+  },
+  {
+    "id": "004D",
+    "name": "Xanboo"
+  },
+  {
+    "id": "004F",
+    "name": "Z-Wave Technologia"
+  },
+  {
+    "id": "0115",
     "name": "Z-Wave.Me"
   },
   {
-    "id": "01f5",
-    "name": "Z-Wave To Glydea"
+    "id": "004E",
+    "name": "Zdata, LLC."
   },
   {
-    "id": "00be",
+    "id": "016F",
+    "name": "Zhejiang Jiuxing Electric Co Ltd"
+  },
+  {
+    "id": "0139",
+    "name": "Zhome"
+  },
+  {
+    "id": "0131",
+    "name": "Zipato"
+  },
+  {
+    "id": "0120",
+    "name": "Zonoff"
+  },
+  {
+    "id": "0135",
     "name": "ZyXEL"
+  },
+  {
+    "id": "0021",
+    "name": "Zykronix"
+  },
+  {
+    "id": "0078",
+    "name": "anyCOMM Corporation"
+  },
+  {
+    "id": "010D",
+    "name": "e-Home AUTOMATION"
+  },
+  {
+    "id": "0011",
+    "name": "iCOM Technology b.v."
+  },
+  {
+    "id": "0106",
+    "name": "iControl"
+  },
+  {
+    "id": "0143",
+    "name": "myStrom"
+  },
+  {
+    "id": "0149",
+    "name": "wiDom"
   }
 ]
